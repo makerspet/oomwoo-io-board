@@ -79,6 +79,8 @@ Compute module headers should expose
 - a few TBD GPIOs
   - MCU GPIO to reset CPU
 
+This board should be designed using an open-source PCB tool (KiCad seems like a good choice).
+
 ## License
 
 [Apache License 2.0](LICENSE).

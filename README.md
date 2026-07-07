@@ -59,6 +59,7 @@ Consumer vacuums place CPU and MCU on the same PCB board. Since OOMWOO has to be
 - USB power for charging; USB for serial shell, etc.
 - audio encoder/decoder, audio amp, mics (if any)
 - SD card for hacking, cheap large storage
+- connect IMU FSYNC to MCU to synchronize MCU timestamps with IMU data streaming to CPU
 
 Consumer vacuums usually don't have a CPU fan/heatsink because the vacuum's suction fan can (indirectly) cool the CPU/MCU PCB. Therefore, no CPU fan on this I/O board.
 
@@ -67,6 +68,16 @@ As far as compute - currently it seems best to use a Raspberry Pi CM4/CM5 comput
 - CN4/CM5 have lower profile/height vs a full Raspberry Pi 4/5, important to keep vacuum cleaner slim
 - there are plenty of 3rd party compute modules pin-compatible with CM4/CM5, making the compute swappable, hackable
   - 3rd party compute modules with NPUs are especially interesting because we need NPU for real-time camera-based obstacle detection
+
+Compute module headers should expose
+- 2x MIPI camera I/O
+- 1x serial for CPU-MCU comms
+- 1x serial for CPU-LiDAR comms
+- 1x SPI (or I2C) for CPU-IMU comms
+- audio (digital?) I/O
+- power from I/O board to CM
+- a few TBD GPIOs
+  - MCU GPIO to reset CPU
 
 ## License
 

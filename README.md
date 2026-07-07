@@ -48,6 +48,7 @@ MCU overarching constrait is to ensure robot safety. This is necesary to pass CE
 Consumer vacuums place CPU and MCU on the same PCB board. Since OOMWOO has to be hackable, it seems best to separate I/O from the compute. Therefore, this I/O board needs to have
 - MCU and programming header
   - likely STM32G070RBT6 because it has 56 GPIOs, 16 ADC channels, costs $1 at JLCPCB, has LQFP package for easy PCBA - a rare combination
+  - see tentative [GPIO budget](https://github.com/makerspet/oomwoo-io-board/blob/main/docs/GPIO.md)
 - all vacuum motor drivers (with connectors), driven by the MCU
   - cliff, side proximity, docking, bumper, carpet, water tank full/empty, dust bin present, motor overcurrent, motor encoders
 - MCU connected to all sensors (except those handled by CPU like LiDAR serial, MIPI cameras I/O, IMU); sensor connectors

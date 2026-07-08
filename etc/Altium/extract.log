@@ -1,0 +1,37 @@
+#
+# multi-layer_stackup_baseview - basic fields for the LAYER view for multi-zone designs
+#
+LAYER
+
+  LAYER_SORT
+  LAYER_STACKUP_NAME
+  LAYER_STACKUP_TYPE
+  LAYER_SUBCLASS
+  LAYER_CONDUCTOR
+  LAYER_MATERIAL
+  LAYER_THICKNESS
+  # LAYER_TYPE
+  LAYER_FUNCTION_TYPE
+  # LAYER_ARTWORK
+  # LAYER_USE
+
+  # LAYER_DIELECTRIC_CONSTANT
+  # LAYER_ELECTRICAL_CONDUCTIVITY
+  # LAYER_SHIELD_LAYER
+  # LAYER_THERMAL_CONDUCTIVITY
+  # LAYER_LOSS_TANGENT
+  # LAYER_FREQUENCY_DEPENDENT_FILE
+
+  # If there are multiple layer stackups in the design and LAYER_STACKUP_NAME field
+  # is specified, the layers for each of the layer stackups will be exported, so there
+  # is one record in the output for each layer used in each layer stackup.  The stackup
+  # name will be given as the LAYER_STACKUP_NAME field value to indicate which stackup
+  # that layer has been listed for.
+  # LAYER_SORT will show the stackups in stackup order, which is the order from left
+  # to right that they are shown in the Cross-section Editor.  Within each
+  # stackup's set of layer records, the individual layers will be shown in layer cross-
+  # section order.
+
+  # Warning: If there are multiple layer stackups in the design, then unless
+  # LAYER_STACKUP_NAME field is specified, only the Primary stackup layers will be exported
+END

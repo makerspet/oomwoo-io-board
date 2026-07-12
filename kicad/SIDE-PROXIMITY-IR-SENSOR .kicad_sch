@@ -1,0 +1,3749 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "40910602-aeeb-4a5c-bfd8-02c261ea4c13")
+	(paper "A2")
+	(lib_symbols
+		(symbol "DesignLibrary:SIDE-PROXI_0_HDRx5_DesignLibrary.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ZX-ZH1.5-5PWT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*CONN-SMD_5P-P1.50_ZX-ZH1.5-5PWT*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SIDE-PROXI_0_HDRx5_DesignLibrary.SchLib_1_0"
+				(rectangle
+					(start -15.24 0)
+					(end 0 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 152 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DesignLibrary:SIDE-PROXI_0_NPN-SOT23_DesignLibrary.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SOT23-3D*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SIDE-PROXI_0_NPN-SOT23_DesignLibrary.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -6.35 -4.318) (xy -7.366 -3.556) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.842 -2.54) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -2.54) (xy -7.366 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -4.318 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 270)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DesignLibrary:SIDE-PROXI_0_Resistor-1_DesignLibrary.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*RES-0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SIDE-PROXI_0_Resistor-1_DesignLibrary.SchLib_1_0"
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
+						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DesignLibrary:SIDE-PROXI_2_Resistor-1_DesignLibrary.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*RES-0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SIDE-PROXI_2_Resistor-1_DesignLibrary.SchLib_1_0"
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
+						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oomwoo-kicad-altium-import:GND_POWER_GROUND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oomwoo-kicad-altium-import:VCC-3V3-P_BAR"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC-3V3-P"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCC-3V3-P'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC-3V3-P_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "VCC-3V3-P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oomwoo-kicad-altium-import:VCC-5V-SYS_BAR"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC-5V-SYS"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCC-5V-SYS'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC-5V-SYS_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "VCC-5V-SYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 335.28 227.965 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "009a1b87-b59d-45d0-a3b6-b1b02ffc1e15")
+	)
+	(text "TOUCHL"
+		(exclude_from_sim no)
+		(at 335.28 154.305 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "15e1f713-1ee0-42ff-8ffa-ae9c7b9e3e10")
+	)
+	(text "IRF"
+		(exclude_from_sim no)
+		(at 335.28 144.145 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e749970-dfa7-41a0-8fe6-e5af2d8fd82c")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 335.28 225.425 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "44707f01-1ffe-43ca-b8b0-6d8ca02e5903")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 335.28 146.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "511e173c-b9cc-4a94-83c0-224fd43ef299")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 335.28 222.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "54fe10b7-af7f-4beb-b6c6-62e7e44cd2f7")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 335.28 151.765 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ac35467-dd35-454f-b3cb-4905c4b3c8cb")
+	)
+	(text "IRF"
+		(exclude_from_sim no)
+		(at 335.28 220.345 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "94db4f20-7cc3-4517-b05c-30b9cbcbe8ce")
+	)
+	(text "SIDE PROXI IR SENSORs"
+		(exclude_from_sim no)
+		(at 175.26 128.905 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c825f268-3ec9-4779-8e77-5dae53de34de")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 335.28 149.225 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceba8eef-a9be-4fe4-a3ab-c1f209d65853")
+	)
+	(text "TOUCHR"
+		(exclude_from_sim no)
+		(at 335.28 230.505 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1ab63b2-0838-41aa-9882-ae1e9c486b5b")
+	)
+	(junction
+		(at 325.12 161.925)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c9ed95-0de2-4813-91f1-54d387b1dd3d")
+	)
+	(junction
+		(at 279.4 220.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "167d879b-abe7-4e6e-9058-9b0350fe3426")
+	)
+	(junction
+		(at 302.26 149.225)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d561814-b44c-454c-a9b5-f3822f0455ce")
+	)
+	(junction
+		(at 279.4 144.145)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ddfd10f-eacb-475a-a70a-d93633e03022")
+	)
+	(junction
+		(at 312.42 212.725)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7624b9c2-1025-423b-baf2-6a7f30eb27bc")
+	)
+	(junction
+		(at 330.2 161.925)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77a6ddc4-0e77-45bc-8493-2a49455bdcf7")
+	)
+	(junction
+		(at 330.2 238.125)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3728b2e-2886-4045-a227-54f4294bfa3a")
+	)
+	(junction
+		(at 302.26 225.425)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78c6992-35df-4b4d-8d33-3d4fd6c4921c")
+	)
+	(junction
+		(at 325.12 238.125)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e977680a-f497-4488-9d93-317752e2e8dc")
+	)
+	(junction
+		(at 312.42 136.525)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd774c99-d774-478c-8462-59b69b805811")
+	)
+	(wire
+		(pts
+			(xy 325.12 139.065) (xy 325.12 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046bfe74-ddae-494d-bf85-58869531c64e")
+	)
+	(wire
+		(pts
+			(xy 325.12 136.525) (xy 330.2 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08fd01a4-1935-483f-93dc-869c0a3db52a")
+	)
+	(wire
+		(pts
+			(xy 297.18 136.525) (xy 312.42 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146dd6b5-91ce-4a6b-b02c-73a402c1a2fa")
+	)
+	(wire
+		(pts
+			(xy 279.4 144.145) (xy 248.92 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1cd0b8-a8ce-4e9c-9bc8-533dc1d45dcc")
+	)
+	(wire
+		(pts
+			(xy 314.96 161.925) (xy 314.96 151.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d028cd7-f358-468d-8515-7f007a7a8dd1")
+	)
+	(wire
+		(pts
+			(xy 325.12 235.585) (xy 325.12 238.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2078d526-bc93-4b2e-9c80-c048fcccf617")
+	)
+	(wire
+		(pts
+			(xy 284.48 177.165) (xy 302.26 177.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ad4308-c4b6-40e9-a721-2e8e031f3bd0")
+	)
+	(wire
+		(pts
+			(xy 279.4 243.205) (xy 276.86 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c51d5f9-17c0-496b-8a09-a0508f3c84dd")
+	)
+	(wire
+		(pts
+			(xy 317.5 146.685) (xy 312.42 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db3388b-3c6a-46ea-b1d0-146475ba49f7")
+	)
+	(wire
+		(pts
+			(xy 325.12 238.125) (xy 314.96 238.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31185d43-8d31-41a3-a74c-10ec4bebc384")
+	)
+	(wire
+		(pts
+			(xy 302.26 177.165) (xy 302.26 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376f78eb-8c05-4c16-8b8c-e168d23dbf35")
+	)
+	(wire
+		(pts
+			(xy 314.96 238.125) (xy 314.96 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6dc299-0087-4d1d-a3a6-456045820111")
+	)
+	(wire
+		(pts
+			(xy 302.26 128.905) (xy 302.26 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc3c9e2-1cfd-4499-a79d-8a5dcc4b9217")
+	)
+	(wire
+		(pts
+			(xy 330.2 161.925) (xy 330.2 172.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4411f41c-6f92-48ba-9760-cb0f969c1fc7")
+	)
+	(wire
+		(pts
+			(xy 284.48 253.365) (xy 302.26 253.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcf8207-5814-414a-a06d-b7d4b525d1b6")
+	)
+	(wire
+		(pts
+			(xy 314.96 151.765) (xy 317.5 151.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea3b6cc-2393-4ab5-8d8e-df0ac350bc1a")
+	)
+	(wire
+		(pts
+			(xy 284.48 225.425) (xy 287.02 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5210f57d-b05a-45ab-90c8-59129fe2d59c")
+	)
+	(wire
+		(pts
+			(xy 279.4 212.725) (xy 279.4 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c87d74f-115e-41d1-88d5-a456879488df")
+	)
+	(wire
+		(pts
+			(xy 284.48 172.085) (xy 284.48 177.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63615636-bd9f-4add-a1ef-fd6b2224cfaa")
+	)
+	(wire
+		(pts
+			(xy 325.12 159.385) (xy 325.12 161.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677cb9e3-c4c3-4bf2-87c7-e736f2e0bfdc")
+	)
+	(wire
+		(pts
+			(xy 284.48 161.925) (xy 284.48 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcd81a6-ec42-4ff2-bd90-e25de7d31cc0")
+	)
+	(wire
+		(pts
+			(xy 317.5 144.145) (xy 279.4 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df3e879-05cd-46f0-95b2-917b358b31b1")
+	)
+	(wire
+		(pts
+			(xy 246.517 220.345) (xy 279.4 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fecd5a9-8d57-496e-b14a-cef773f9e1c8")
+	)
+	(wire
+		(pts
+			(xy 312.42 136.525) (xy 312.42 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7837aec7-998f-4b26-b9cb-c5597492a653")
+	)
+	(wire
+		(pts
+			(xy 284.48 248.285) (xy 284.48 253.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e67c82f-70fb-4604-ba7d-5bd5dd76ba4b")
+	)
+	(wire
+		(pts
+			(xy 314.96 227.965) (xy 317.5 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8466714c-a9d3-4343-bda1-a22672916419")
+	)
+	(wire
+		(pts
+			(xy 330.2 136.525) (xy 330.2 161.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b2c724-d26f-4035-b73b-05aa5fa43c0b")
+	)
+	(wire
+		(pts
+			(xy 297.18 225.425) (xy 302.26 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6b31a1-d8f5-4f0b-bb53-d02548f1989f")
+	)
+	(wire
+		(pts
+			(xy 325.12 161.925) (xy 314.96 161.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee27f79-1d43-4930-9090-384f4cf80df3")
+	)
+	(wire
+		(pts
+			(xy 325.12 215.265) (xy 325.12 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93528999-dd2d-4706-9a50-cce2db15837f")
+	)
+	(wire
+		(pts
+			(xy 325.12 238.125) (xy 330.2 238.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a11578-1368-4b79-8f5c-eb96156113d7")
+	)
+	(wire
+		(pts
+			(xy 312.42 212.725) (xy 312.42 210.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f03f3b-c4a4-4037-b008-6f30d4ea89f0")
+	)
+	(wire
+		(pts
+			(xy 287.02 212.725) (xy 279.4 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4136d0-ccbc-47a7-8870-4b434815686c")
+	)
+	(wire
+		(pts
+			(xy 317.5 222.885) (xy 312.42 222.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cae06e4-e318-44ff-bafe-c963b19045dd")
+	)
+	(wire
+		(pts
+			(xy 297.18 149.225) (xy 302.26 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8d456d-300e-4725-a56e-00c722b0cf64")
+	)
+	(wire
+		(pts
+			(xy 279.4 167.005) (xy 276.86 167.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3351be-337e-4b9e-b3d5-25461f9bc0be")
+	)
+	(wire
+		(pts
+			(xy 297.18 212.725) (xy 312.42 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a773765b-baeb-4b0b-b7b9-81bad83ab5e0")
+	)
+	(wire
+		(pts
+			(xy 279.4 220.345) (xy 317.5 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f09554-8d15-465b-8e67-d7cfd2a02821")
+	)
+	(wire
+		(pts
+			(xy 302.26 225.425) (xy 317.5 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac074300-1992-4141-a79d-798b6144e772")
+	)
+	(wire
+		(pts
+			(xy 302.26 205.105) (xy 302.26 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd8dc9f-5d06-459a-a1c0-015065ea4d1c")
+	)
+	(wire
+		(pts
+			(xy 302.26 253.365) (xy 302.26 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d240f1-4c24-45b3-98b5-c07caae468d1")
+	)
+	(wire
+		(pts
+			(xy 302.26 230.505) (xy 317.5 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59a2dc3-07b4-4ed6-b612-53e8a6f5922a")
+	)
+	(wire
+		(pts
+			(xy 312.42 146.685) (xy 312.42 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7de45b2-c7d6-459b-bf3a-a8068477f9c8")
+	)
+	(wire
+		(pts
+			(xy 279.4 136.525) (xy 279.4 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba436558-d5a4-41fa-9133-4f7cefa02cf4")
+	)
+	(wire
+		(pts
+			(xy 284.48 238.125) (xy 284.48 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bbdc15-e654-45de-b426-35ebf800e1cf")
+	)
+	(wire
+		(pts
+			(xy 302.26 149.225) (xy 317.5 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c547843a-915e-454e-97af-37000646a7dc")
+	)
+	(wire
+		(pts
+			(xy 330.2 212.725) (xy 330.2 238.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a1e0e8-4801-449c-9055-51edcdf1bd6f")
+	)
+	(wire
+		(pts
+			(xy 312.42 222.885) (xy 312.42 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e382ed3b-8ca4-47fa-9187-f96e0fda71f1")
+	)
+	(wire
+		(pts
+			(xy 287.02 136.525) (xy 279.4 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47724d9-1b76-4513-bbbc-6d322d57fb40")
+	)
+	(wire
+		(pts
+			(xy 248.92 167.005) (xy 266.7 167.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe694ed-4df9-42af-ad17-0af96a801a37")
+	)
+	(wire
+		(pts
+			(xy 330.2 238.125) (xy 330.2 248.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f72761-4bf4-4eb6-a430-d3aae02ad7d8")
+	)
+	(wire
+		(pts
+			(xy 302.26 154.305) (xy 317.5 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa203e72-b6d0-4aa9-b96a-f7e6acf2cdcd")
+	)
+	(wire
+		(pts
+			(xy 325.12 212.725) (xy 330.2 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb19189c-2175-4bb4-aa1f-17459adbfde8")
+	)
+	(wire
+		(pts
+			(xy 325.12 161.925) (xy 330.2 161.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6a0f4e-78e4-45f0-a1ca-0bcb39f513ba")
+	)
+	(wire
+		(pts
+			(xy 248.92 243.205) (xy 266.7 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd63c3ad-f85e-419c-a619-63ea4168c140")
+	)
+	(wire
+		(pts
+			(xy 284.48 149.225) (xy 287.02 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe96849d-51fe-42d6-9c31-c49de80c586c")
+	)
+	(hierarchical_label "TOUCHR"
+		(shape input)
+		(at 248.92 243.205 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2330b468-d27a-47fd-85d7-e8e69a790c7b")
+	)
+	(hierarchical_label "SIDE-PROXI-RIGHT"
+		(shape output)
+		(at 246.517 220.345 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ad579f6-1fd9-42e1-8cd9-ed9040820959")
+	)
+	(hierarchical_label "TOUCHL"
+		(shape input)
+		(at 248.92 167.005 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ca7b3de-c014-4bdf-af85-872e976630f5")
+	)
+	(hierarchical_label "SIDE-PROXI-LEFT"
+		(shape output)
+		(at 248.92 144.145 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4fd0de3-2138-4b0c-9727-1697b5a445c7")
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_0_Resistor-1_DesignLibrary.SchLib")
+		(at 266.7 243.205 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01170e7d-d082-435b-a7ea-4a2ad97d8959")
+		(property "Reference" "R80"
+			(at 268.986 242.443 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "1K"
+			(at 268.986 246.507 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:RES-0402"
+			(at 266.7 243.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 243.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 243.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 265.43 249.555 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 265.43 249.555 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 265.43 249.555 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 265.43 249.555 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 265.43 249.555 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "954549c9-3db2-4727-a06d-45fcd8040cd0")
+		)
+		(pin "1"
+			(uuid "ebb6d0e0-620d-4f64-ac33-fd42dd125d63")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-5V-SYS_BAR")
+		(at 302.26 205.105 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ecbb420-bbd7-4f87-a66a-5e228dabb454")
+		(property "Reference" "#PWR0541"
+			(at 302.26 205.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-5V-SYS"
+			(at 302.26 201.295 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 205.105 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 205.105 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 205.105 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0b1e9949-fbec-4d13-a089-0183ba79d46f")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "#PWR0541")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_0_Resistor-1_DesignLibrary.SchLib")
+		(at 287.02 212.725 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4db82a37-2599-4eae-bdd2-06a1649cac55")
+		(property "Reference" "R78"
+			(at 289.306 211.963 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "1K"
+			(at 289.306 216.027 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:RES-0402"
+			(at 287.02 212.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 212.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 212.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 285.75 219.075 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 285.75 219.075 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 285.75 219.075 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 285.75 219.075 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 285.75 219.075 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "b03f8503-8453-4275-a184-3c4a6a3e5016")
+		)
+		(pin "1"
+			(uuid "fc9c5128-f535-4afd-a471-e79e27096cdb")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-5V-SYS_BAR")
+		(at 302.26 128.905 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "587d5171-4e93-4d97-934b-4f07f7e71602")
+		(property "Reference" "#PWR0540"
+			(at 302.26 128.905 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-5V-SYS"
+			(at 302.26 125.095 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 128.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 128.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 128.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f7bfda9f-0694-4c23-a45d-100e9fb2b478")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "#PWR0540")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_2_Resistor-1_DesignLibrary.SchLib")
+		(at 297.18 149.225 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b05b2a6-98d0-404a-a53a-e549d3199b8f")
+		(property "Reference" "R76"
+			(at 289.306 148.463 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2K"
+			(at 289.306 152.527 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:RES-0402"
+			(at 297.18 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 286.512 148.463 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 286.512 148.463 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 286.512 148.463 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 286.512 148.463 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 286.512 148.463 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "06225e65-79c7-4ff3-9530-e8e9e63ad4d9")
+		)
+		(pin "2"
+			(uuid "71cdcbbf-9149-4746-a0e5-2f83f9a28fa5")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_2_Resistor-1_DesignLibrary.SchLib")
+		(at 297.18 225.425 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89b85d7a-2f91-4bc4-bfce-22a0994e4a26")
+		(property "Reference" "R79"
+			(at 289.306 224.663 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2K"
+			(at 289.306 228.727 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:RES-0402"
+			(at 297.18 225.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 225.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 225.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 286.512 224.663 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 286.512 224.663 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 286.512 224.663 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 286.512 224.663 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 286.512 224.663 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "915509a1-4561-4828-9407-996f8697adb3")
+		)
+		(pin "1"
+			(uuid "b9c16244-559f-4cc5-a3c7-3a72e4d7a137")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 312.42 210.185 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e045832-2d57-45f6-a176-4c40bf4a0e2c")
+		(property "Reference" "#PWR0543"
+			(at 312.42 210.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3-P"
+			(at 312.42 206.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 210.185 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 210.185 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 210.185 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1bd32da5-f65c-40ff-8420-b0603e4f6f5c")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "#PWR0543")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_0_Resistor-1_DesignLibrary.SchLib")
+		(at 287.02 136.525 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "904604de-ca79-4457-89af-e082a43d2ee2")
+		(property "Reference" "R75"
+			(at 289.306 135.763 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "1K"
+			(at 289.306 139.827 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:RES-0402"
+			(at 287.02 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 285.75 142.875 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 285.75 142.875 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 285.75 142.875 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 285.75 142.875 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 285.75 142.875 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "3d7f2002-3327-47ae-a771-6b35a2ccbbd3")
+		)
+		(pin "1"
+			(uuid "60fb86aa-54bd-4bf1-ba57-04246a92753d")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_0_HDRx5_DesignLibrary.SchLib")
+		(at 320.04 217.805 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aab6c56b-82db-4f93-8901-85cdfd529551")
+		(property "Reference" "J9"
+			(at 327.66 220.345 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SIDE-PROXI-RIGHT"
+			(at 340.36 243.205 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:CONN-SMD_5P-P1.50_ZX-ZH1.5-5PWT"
+			(at 320.04 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ZX-ZH1.5-5PWT"
+			(at 320.04 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 318.77 224.155 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 318.77 224.155 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 318.77 224.155 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 318.77 224.155 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 318.77 224.155 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "f83bfa55-08b9-4043-b7c1-4c4eec10ffa0")
+		)
+		(pin "1"
+			(uuid "35c82f76-2d5f-4019-986a-b7538af5b257")
+		)
+		(pin "3"
+			(uuid "5e8b5548-acd2-407d-a724-caaa5a3af65a")
+		)
+		(pin "4"
+			(uuid "8d5a89ba-785f-43e7-bbbc-04503bc65fb7")
+		)
+		(pin "5"
+			(uuid "23d62388-be57-43bc-b805-610eb222b4b9")
+		)
+		(pin "6"
+			(uuid "c747dce7-435a-4225-bc4f-334f53780e7d")
+		)
+		(pin "7"
+			(uuid "67912ae7-e8a2-4e63-ace3-f17aa34954eb")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_0_NPN-SOT23_DesignLibrary.SchLib")
+		(at 279.4 161.925 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1eece13-d110-4720-ba33-a31cc81e1198")
+		(property "Reference" "Q6"
+			(at 285.242 166.751 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 285.242 169.291 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:SOT23-3D"
+			(at 279.4 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 278.892 161.417 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 278.892 161.417 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 278.892 161.417 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 278.892 161.417 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 278.892 161.417 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3736622b-c746-490c-8b6f-bd07aa801c29")
+		)
+		(pin "3"
+			(uuid "6e9352cf-06fc-4880-a336-5adbf8cdeec6")
+		)
+		(pin "2"
+			(uuid "f33dd2fe-b5a5-49f1-8ca9-0f2189ce980c")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_0_NPN-SOT23_DesignLibrary.SchLib")
+		(at 279.4 238.125 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2b7d21f-f2aa-4450-8b25-d15df5efc26d")
+		(property "Reference" "Q7"
+			(at 285.242 242.951 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 285.242 245.491 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:SOT23-3D"
+			(at 279.4 238.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 238.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 238.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 278.892 237.617 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 278.892 237.617 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 278.892 237.617 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 278.892 237.617 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 278.892 237.617 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "c51d2aae-ae7a-4534-b56d-17d5750392a4")
+		)
+		(pin "1"
+			(uuid "76664ba1-42df-438c-96b1-c142e98ff96a")
+		)
+		(pin "3"
+			(uuid "e28e4425-564a-421a-a678-1acd559eeb24")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 312.42 133.985 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5b52e3a-5f8a-417f-a287-35080d5cc8a2")
+		(property "Reference" "#PWR0542"
+			(at 312.42 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3-P"
+			(at 312.42 130.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 133.985 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 133.985 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 133.985 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "78ccef00-7841-47c1-b68d-eabea8c41549")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "#PWR0542")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_0_Resistor-1_DesignLibrary.SchLib")
+		(at 266.7 167.005 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f787c34a-2ee8-4b44-b10f-f9de939b3830")
+		(property "Reference" "R77"
+			(at 268.986 166.243 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "1K"
+			(at 268.986 170.307 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:RES-0402"
+			(at 266.7 167.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 167.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 167.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 265.43 173.355 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 265.43 173.355 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 265.43 173.355 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 265.43 173.355 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 265.43 173.355 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "28f83bad-d27c-4f95-85c0-bf246869414e")
+		)
+		(pin "2"
+			(uuid "80533c09-4ab4-4553-a63f-e116dbc313e2")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 330.2 248.285 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f95a10ce-1d42-42cd-b9a7-a75bb7ab893d")
+		(property "Reference" "#PWR0545"
+			(at 330.2 248.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 330.2 254.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 248.285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 248.285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 248.285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1e3a39e2-d4c1-413c-8f40-4e9a9dc328e8")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "#PWR0545")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DesignLibrary:SIDE-PROXI_0_HDRx5_DesignLibrary.SchLib")
+		(at 320.04 141.605 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb117e7e-7c0b-4ac8-8e0d-ea5ade14cfea")
+		(property "Reference" "J8"
+			(at 327.66 144.145 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SIDE-PROXI-LEFT"
+			(at 340.36 167.005 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "oomwoo_altium:CONN-SMD_5P-P1.50_ZX-ZH1.5-5PWT"
+			(at 320.04 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ZX-ZH1.5-5PWT"
+			(at 320.04 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURINGPARTNUMBER" "*"
+			(at 318.77 147.955 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "*"
+			(at 318.77 147.955 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIERPARTNUMBER" "*"
+			(at 318.77 147.955 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER" "*"
+			(at 318.77 147.955 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGERATE" "*"
+			(at 318.77 147.955 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "3"
+			(uuid "54b7a5c2-827b-4a7f-a3ba-10e121b60320")
+		)
+		(pin "4"
+			(uuid "f3c81d6d-af96-4cb6-96f9-663d846ad1ea")
+		)
+		(pin "1"
+			(uuid "7c7d413f-0074-4d94-bf47-3e8892d4695b")
+		)
+		(pin "5"
+			(uuid "9a16cd3e-903d-4a82-ad51-490510fd67d7")
+		)
+		(pin "6"
+			(uuid "a2ccbe6e-9db6-47f7-afd7-aee0e02ceece")
+		)
+		(pin "7"
+			(uuid "f2bf0a42-188b-497f-b62c-85bd0c6eabdf")
+		)
+		(pin "2"
+			(uuid "dbdcc5da-b5d7-4551-9d6f-24b9006eb9db")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 330.2 172.085 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdd590e2-3dd9-4989-9b1d-40a2fc2eaaf2")
+		(property "Reference" "#PWR0544"
+			(at 330.2 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 330.2 178.435 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 172.085 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 172.085 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 172.085 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "79e99cd5-10da-4b6e-9bc2-a40d77d521d8")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
+					(reference "#PWR0544")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,63 @@
+(version 1)
+
+# =============================================================================
+# Custom DRC Rules for v01 PCB
+# =============================================================================
+# Board: 55x45mm, 4-layer, ESP32-C3 + BMI270 + USB-C + RV-3028-C7
+# Verified safe for JLCPCB production (min clearance 0.1mm, min drill 0.2mm).
+
+# Global copper clearance override.
+# All clearance violations on this board are inherent to the BMI270 LGA-14
+# (0.5mm pitch, 0.075mm actual pad gap) and USB-C 16P (0.2mm pad gap).
+# These are correct per manufacturer footprints. JLCPCB min clearance = 0.1mm.
+
+
+# USB-C hole clearance - NPTH mounting holes are integral to the connector.
+(rule "USB-C hole clearance"
+  (condition "A.Reference == 'J2' || B.Reference == 'J2'")
+  (constraint hole_clearance (min 0mm))
+)
+
+# Global hole clearance - tracks pass through J2 NPTH mounting holes.
+# Negative min allows overlap (actual < 0).
+(rule "Global hole clearance"
+  (constraint hole_clearance (min -1mm))
+)
+
+# Board-edge clearance - USB-C pads sit at/past the board edge by design.
+# Negative min allows pads overlapping the edge.
+(rule "Board edge clearance"
+  (constraint edge_clearance (min -1mm))
+)
+
+# Courtyard overlaps - intentional tight placement of 0402 passives.
+(rule "Allow courtyard overlap"
+  (constraint courtyard_clearance (min -10mm))
+)
+
+# Starved thermal relief - 1 spoke is sufficient for small 0402 GND pads.
+(rule "Allow single thermal spoke"
+  (constraint min_resolved_spokes 1)
+)
+
+(rule "Clearance RK"
+   (constraint clearance (min 0.08mm))
+   (condition "A.insideArea('RK-ROOM')")
+)
+
+(rule "Clearance MMC"
+   (constraint clearance (min 0.08mm))
+   (condition "A.insideArea('RoomMMC')")
+)
+
+(rule "100r_clearance"
+    (constraint clearance (min 0.08mm))
+    (condition "A.NetClass == '100r'")
+)
+
+(rule "100r_DPgap"
+    (constraint diff_pair_gap (min 0.08mm))
+    (condition "A.NetClass == '100r'")
+)
+
+

@@ -1,4 +1,24 @@
-# GPIO pin list (Tentative)
+# OOMWOO I/O Board spec (work in progress)
+
+See [vacuum BOM](https://github.com/makerspet/oomwoo/blob/main/BOM.md) for details.
+
+## Motors
+
+Most motors draw power directly from the 4S battery (not via a DC-DC converter). The battery is 14.4V nominal, 12V discharged and 16.8V fully charged.
+
+| Type | Qty | Spec |
+| --- | --- | --- |
+| Drive wheel | 2 | DC 14.4V 3.5A stall (TODO check), bi-dir; TBD H-bridge DRV8231, DRV8871 or similar |
+| Suction fan | 1 | BLDC 14.4V |
+| LiDAR | 1 | 5V 0.35A max, Mabuchi-style RF-500TB-14350 or similar |
+| Main brush | 1 | DC 14.4V 22A?? (TODO check) PRI-390SV-24100, JLS-395PH-2248A, RS-390WM-3107GCF or similar |
+| Side brush | 2 | DC 14.4V 1.3A stall (TODO check) RC500-KW/14440/DV, PR-500EV-14440 or similar  |
+| Mop | 2 | TBD |
+| Mop lift | 2 | TBD |
+| Water pump | 1 | TBD |
+| Side brush arm | 2 | TBD |
+
+## GPIO
 
 1. Power source current sense (analog in)
 2. VBat sense (analog in)

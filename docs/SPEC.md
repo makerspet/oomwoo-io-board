@@ -22,12 +22,44 @@ Most motors draw power directly from the 4S battery (not via a DC-DC converter).
 
 - USB-C PD, request 20 V minimum (to step it down to 4S battery)
 - optional PPS
-- target 45W (does not support charging + Raspberry Pi running simultaneously)
-  - 65W desired if possible (supports charing + Raspberry Pi running simultaneously)
+- 65W minimum with system power-path charger (a charger IC with a SYS rail)
+  - support the vacuum charing and Raspberry Pi running simultaneously
+  - assume Raspberry Pi is always on (to handle user access over Wi-Fi at any time)
+  - Pi 5 worst case ~25 W (5 V/5 A) + housekeeping ≈ up to ~25–30 W
+  - Healthy charge ~40 W (~0.5C into the 75 Wh pack)
+  - ~65–70 W total
 - cap charge at ~0.5C regardless of charging adapter power
 - the two dock contacts are the
 - if only a 5V, 9V or 15V source is attached (no 20V/PPS), either charge slowly (optional) through a boost path or cleanly refuse and signal "insufficient charger" rather than misbehaving
 - assume dock contacts feeding a fixed 20V+ DC; the dock will likely have its own PD sink, converting the dock's brick to 20V DC fixed.
+
+### Power path
+
+Standard capability of power-path charger ICs - TI bq25 family and similar.
+
+```
+USB-C 20V ─► [PD sink] ─► [power-path charger] ─┬─► SYS rail ─► 14.4→5V buck ─► Pi (always-on)
+                                                └─► charges 4S pack
+Battery ────────────────────────────────────────┘ (supplements SYS if input insufficient)
+```
+
+- Docked: the Pi runs from the input via SYS; the battery charges from the surplus; once full, charge current → 0 and the Pi keeps running off input — no needless battery cycling while docked (also a longevity win).
+- Undocked: SYS seamlessly falls back to the battery — the Pi never browns out during the handoff. This is exactly what makes "pause → return to charge → resume" and "app connects anytime" work cleanly.
+- Input-limited: if only a weak brick is attached, the battery supplements SYS so the Pi stays up, and charge current backs off. Graceful degradation for free.
+
+Details
+
+1. 65 W = 20 V / 3.25 A → e-marked cable required. Above 3 A / 60 W, USB-C needs a 5 A e-marked cable. Unavoidable at 65 W (20 V is PD's max fixed voltage) — just document it. 65 W bricks ship with an e-marked cable anyway.
+2. Dynamic power management (VIN/IIN-DPM): the charger must throttle charge current to keep total draw within the negotiated PD budget, prioritizing the Pi/SYS load. Standard on power-path chargers.
+3. Cap charge current at ~0.5C (~2.6 A into the pack) for cell life, regardless of surplus — don't let a big brick fast-charge the cells.
+4. Two DC inputs, one charger: the robot's own USB-C port and the dock contacts both present ~20 V DC → OR them into the charger's VBUS with priority/ideal-diode selection (both are the same voltage, so it's clean).
+5. Dock side: dock has its own PD sink + 65 W brick, passes ~20 V to the contacts. At 20 V, 65 W ≈ 3.25 A over the contacts → size the pogo/spring contacts for ~4 A with margin.
+
+Net spec
+
+1. USB-C PD, 65 W minimum (20 V / 3.25 A), on both the robot port and the dock (each with its own PD sink); e-marked cable expected.
+2. Power-path 4S charger with a SYS rail feeding the Pi's 5 V buck, so the Pi is always-on from input when docked and from battery when not, with seamless handoff and battery-supplement under load.
+3. DPM + 0.5C charge-current cap; OR the two DC inputs into one VBUS; dock contacts rated ~4 A.
 
 ## GPIO
 

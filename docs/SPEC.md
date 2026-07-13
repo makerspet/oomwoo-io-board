@@ -8,11 +8,11 @@ Most motors draw power directly from the 4S battery (not via a DC-DC converter).
 
 | Type | Qty | Spec |
 | --- | --- | --- |
-| Drive wheel | 2 | DC 14.4V 3.5A stall (TODO check), bi-dir; TBD H-bridge DRV8231, DRV8871 or similar |
-| Suction fan | 1 | BLDC 14.4V |
-| LiDAR | 1 | 5V 0.35A max, Mabuchi-style RF-500TB-14350 or similar |
-| Main brush | 1 | DC 14.4V 22A?? (TODO check) PRI-390SV-24100, JLS-395PH-2248A, RS-390WM-3107GCF or similar |
-| Side brush | 2 | DC 14.4V 1.3A stall (TODO check) RC500-KW/14440/DV, PR-500EV-14440 or similar  |
+| Drive wheel | 2 | DC 14.4V 3.5A stall (TODO check), H-bridge DRV8231, DRV8871 or similar |
+| Suction fan | 1 | BLDC 14.4V 10A (TODO check) high-side load switch P-FET, PWM input to fan, FG feedback to STM32 |
+| LiDAR | 1 | 5V 0.35A max, Mabuchi-style RF-500TB-14350 or similar, low-side load switch N-FET |
+| Main brush | 1 | DC 14.4V 22A?? (TODO check) PRI-390SV-24100, JLS-395PH-2248A, RS-390WM-3107GCF or similar (bridge or FET TBD) |
+| Side brush | 2 | DC 14.4V 1.3A stall (TODO check) RC500-KW/14440/DV, PR-500EV-14440 or similar (bridge or FET TBD) |
 | Mop | 2 | TBD |
 | Mop lift | 2 | TBD |
 | Water pump | 1 | TBD |

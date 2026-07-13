@@ -18,6 +18,17 @@ Most motors draw power directly from the 4S battery (not via a DC-DC converter).
 | Water pump | 1 | TBD |
 | Side brush arm | 2 | TBD |
 
+## Charging
+
+- USB-C PD, request 20 V minimum (to step it down to 4S battery)
+- optional PPS
+- target 45W (does not support charging + Raspberry Pi running simultaneously)
+  - 65W desired if possible (supports charing + Raspberry Pi running simultaneously)
+- cap charge at ~0.5C regardless of charging adapter power
+- the two dock contacts are the
+- if only a 5V, 9V or 15V source is attached (no 20V/PPS), either charge slowly (optional) through a boost path or cleanly refuse and signal "insufficient charger" rather than misbehaving
+- assume dock contacts feeding a fixed 20V+ DC; the dock will likely have its own PD sink, converting the dock's brick to 20V DC fixed.
+
 ## GPIO
 
 1. Power source current sense (analog in)

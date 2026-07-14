@@ -20,6 +20,8 @@ Most motors draw power directly from the 4S battery (not via a DC-DC converter).
 
 ## Charging
 
+View [BRR-2P4S-5200FL battery datasheet](https://images.thdstatic.com/catalog/pdfImages/55/55d2f7f6-2ed9-44ed-ab4e-fb20d231c897.pdf) as a sample.
+
 - USB-C PD, request 20 V minimum (to step it down to 4S battery)
 - optional PPS
 - 65W minimum with system power-path charger (a charger IC with a SYS rail)

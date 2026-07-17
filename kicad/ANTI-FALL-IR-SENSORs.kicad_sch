@@ -800,6 +800,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "What sensor is used for fall detection?"
+		(exclude_from_sim no)
+		(at 262.255 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad032d2b-1593-418a-9347-f3a28f2fd888")
+	)
 	(text "ANTI FALL SENSORs"
 		(exclude_from_sim no)
 		(at 144.145 130.81 0)

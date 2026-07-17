@@ -1,4 +1,10 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "oomwoo_symbols") (type "Altium") (uri "${KIPRJMOD}/Libs/Controller-RK3562.SCHLIB") (options "") (descr ""))
+	(lib (name "JLCImport") (type "KiCad") (uri "${KIPRJMOD}/JLCImport.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS25730DREFR") (type "KiCad") (uri "${KIPRJMOD}/Libs/LIB_TPS25730DREFR/TPS25730DREFR.kicad_sym") (options "") (descr ""))
+	(lib (name "TVS2200DRVR") (type "KiCad") (uri "${KIPRJMOD}/Libs/LIB_TVS2200DRVR/TVS2200DRVR.kicad_sym") (options "") (descr ""))
+	(lib (name "TPD2EUSB30DRTR") (type "KiCad") (uri "${KIPRJMOD}/Libs/TPD2EUSB30DRTR/TPD2EUSB30DRTR.kicad_sym") (options "") (descr ""))
+	(lib (name "USB4215-03-A_REVA") (type "KiCad") (uri "${KIPRJMOD}/Libs/USB4215-03-A_REVA/USB4215-03-A_REVA.kicad_sym") (options "") (descr ""))
+	(lib (name "CSD17581Q3A") (type "KiCad") (uri "${KIPRJMOD}/Libs/CSD17581Q3A/CSD17581Q3A.kicad_sym") (options "") (descr ""))
 )

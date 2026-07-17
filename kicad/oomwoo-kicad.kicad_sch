@@ -5706,6 +5706,52 @@
 		)
 	)
 	(sheet
+		(at 44.45 346.71)
+		(size 40.64 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ef1147df-ce85-4822-98ae-5614ce438d97")
+		(property "Sheetname" "BATTERY-CHARGER"
+			(at 44.45 345.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery-Charger.kicad_sch"
+			(at 44.45 372.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 45.085 101.854)
 		(size 60.96 22.86)
 		(exclude_from_sim no)

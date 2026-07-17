@@ -4493,6 +4493,16 @@
 		)
 		(uuid "bf2540eb-9d80-44f9-a0a4-c3dc4bcc734e")
 	)
+	(text "Isn't Diode reversed?"
+		(exclude_from_sim no)
+		(at 202.565 273.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c70d87d0-fe41-4477-b4b1-a21276cb82c6")
+	)
 	(text "M-"
 		(exclude_from_sim no)
 		(at 344.17 232.41 0)
@@ -4557,6 +4567,16 @@
 			(justify left bottom)
 		)
 		(uuid "e555a399-f32a-4196-ac98-adc2364d34ee")
+	)
+	(text "Isn't Diode reversed?"
+		(exclude_from_sim no)
+		(at 198.755 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2ffab1b-0887-4089-bafa-1565efbe22bd")
 	)
 	(junction
 		(at 217.17 262.89)

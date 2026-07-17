@@ -510,7 +510,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -725,14 +724,10 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1089,17 +1084,9 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
@@ -1109,7 +1096,7 @@
         "uuid": "dbcfb655-8d45-4808-9a74-2a0eb03372e8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D29,#PWR1,#PWR7-8,#PWR44-45,#PWR59-60,J1,#FLG13,R9,R12,R37",
     "variants": []
   },
   "sheets": [
@@ -1240,6 +1227,10 @@
     [
       "7b57c0fa-4a35-4109-8672-3c36267bf8ff",
       "IMU"
+    ],
+    [
+      "ef1147df-ce85-4822-98ae-5614ce438d97",
+      "BATTERY-CHARGER"
     ]
   ],
   "text_variables": {

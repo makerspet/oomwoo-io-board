@@ -1255,6 +1255,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Isn't Diode reversed?"
+		(exclude_from_sim no)
+		(at 254 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51c0c2a0-755e-4637-abc7-1df730d86afd")
+	)
+	(text "Isn't Diode reversed?"
+		(exclude_from_sim no)
+		(at 257.175 249.555 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9760b942-7903-45f0-9a50-08d43b6998c6")
+	)
 	(text "SIDE BRUSH MOTOR CONTROL"
 		(exclude_from_sim no)
 		(at 154.305 111.125 0)

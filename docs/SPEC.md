@@ -48,13 +48,13 @@ View [BRR-2P4S-5200FL battery datasheet](https://images.thdstatic.com/catalog/pd
 - USB-C PD, request 20 V minimum (to step it down to 4S battery)
 - optional PPS
 - 65W minimum with system power-path charger (a charger IC with a SYS rail)
-  - support the vacuum charing and Raspberry Pi running simultaneously
+  - support the vacuum charging and Raspberry Pi running simultaneously
   - assume Raspberry Pi is always on (to handle user access over Wi-Fi at any time)
   - Pi 5 worst case ~25 W (5 V/5 A) + housekeeping ≈ up to ~25–30 W
   - Healthy charge ~40 W (~0.5C into the 75 Wh pack)
   - ~65–70 W total
 - cap charge at ~0.5C regardless of charging adapter power
-- the two dock contacts are the
+- TODO: clarify whether the two dock contacts are power-only, or whether dock presence needs a separate sense signal.
 - if only a 5V, 9V or 15V source is attached (no 20V/PPS), either charge slowly (optional) through a boost path or cleanly refuse and signal "insufficient charger" rather than misbehaving
 - assume dock contacts feeding a fixed 20V+ DC; the dock will likely have its own PD sink, converting the dock's brick to 20V DC fixed.
 
@@ -148,3 +148,5 @@ Net spec
 58. Side proximity IR LED right PWM (digital out)
 59. Wheel drop sensor left (digital in)
 60. Wheel drop sensor right (digital in)
+
+TODO before layout/fabrication: confirm whether GPIO entries 36 and 46 are intentionally separate bumper inputs or a duplicate label.

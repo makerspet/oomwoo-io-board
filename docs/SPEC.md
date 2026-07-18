@@ -22,18 +22,33 @@ Most motors draw power directly from the 4S battery (not via a DC-DC converter).
 Motor pinouts
 
 ```
-Roborock S5 Max wheel assembly
-JST ZH 1.25mm male 7p (needs f)
-[''''''']
-wheel-drop-switch on, wheel-drop-switch com, orange hall TBD, blue hall TBD, brown hall TBD, MOT, MOT
+Roborock S5 Max wheel assembly - JST ZH 1.5mm male 7p (needs f)
+['''''''] wheel-drop-switch on, wheel-drop-switch com, orange hall TBD, blue hall TBD, brown hall TBD, MOT, MOT
 
-BL24131607 suction fan
-PH2.0 female 5p (needs m)
+BL24131607 suction fan DC 14.4V - JST PH2.0 female 5p (needs m)
 ['''''] ID FG SP - +
 
-20N704R990F suction fan
-[''''] ph2.0 female needs m 4p
-Pinout TBD
+20N704R990F suction fan -  JST PH2.0 female 4p (needs m)
+[''''] Pinout TBD
+
+20N704R990F suction fan DC 15V - JST PH2.0 female 4p (needs m)
+[''''] Pinout TBD
+
+MSD-D suction fan - JST PH2.0 female 4p (needs m)
+[''''] Pinout TBD
+
+20N709U020 suction fan - JST PH2.0 female 4p (needs m)
+[''''] Pinout TBD
+
+22N704V160 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (not PH)
+
+BL27302101 suction fan DC 14.4V - 6-pin 2mm pitch with latch female (not PH)
+
+BL24131616 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (not PH)
+
+MSD-C-3 suction fan - 4-pin like PH, but looser vertically
+
+MSD-G-V1 suction fan - 2x2 3mm pitch with latch female
 ```
 
 ## Compute + Camera
@@ -44,6 +59,10 @@ Pinout TBD
 ## Charging
 
 View [BRR-2P4S-5200FL battery datasheet](https://images.thdstatic.com/catalog/pdfImages/55/55d2f7f6-2ed9-44ed-ab4e-fb20d231c897.pdf) as a sample.
+
+```
+Battery XJT-2P4S-5200 - 4-pin 3mm pitch with latch male
+```
 
 - USB-C PD, request 20 V minimum (to step it down to 4S battery)
 - optional PPS
@@ -85,6 +104,18 @@ Net spec
 1. USB-C PD, 65 W minimum (20 V / 3.25 A), on both the robot port and the dock (each with its own PD sink); e-marked cable expected.
 2. Power-path 4S charger with a SYS rail feeding the Pi's 5 V buck, so the Pi is always-on from input when docked and from battery when not, with seamless handoff and battery-supplement under load.
 3. DPM + 0.5C charge-current cap; OR the two DC inputs into one VBUS; dock contacts rated ~4 A.
+
+## LiDAR pinouts
+
+```
+X-WPFTB-V2.6.2 PCB marking - JST GH 1.25mm 4-pin female (needs m)
+
+D-WPFTBCD-V1.0.1 PCB marking - JST GH 1.25mm 4-pin female (needs m)
+
+LDROBOT LD14P lookalike - JST GH 1.25mm 4-pin female (needs m)
+
+Mystery mini - JST GH 1.25mm 5-pin female (needs m)
+```
 
 ## GPIO
 

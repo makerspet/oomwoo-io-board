@@ -61,21 +61,47 @@ MSD-G-V1 suction fan - 2x2 3mm pitch with latch female
 View [BRR-2P4S-5200FL battery datasheet](https://images.thdstatic.com/catalog/pdfImages/55/55d2f7f6-2ed9-44ed-ab4e-fb20d231c897.pdf) as a sample.
 
 ```
-Battery XJT-2P4S-5200 - 4-pin 3mm pitch with latch male
+Battery BRR-2P4S-5200 14.4V nominal - 4-pin 3mm pitch with latch male LHE MX3.0 (C3001-H04), Molex Micro-Fit 3.0
+[o66o] 4321 BAT+ 10.7K/NTC 0.62M/ID GND
 ```
 
-- USB-C PD, request 20 V minimum (to step it down to 4S battery)
-- optional PPS
-- 65W minimum with system power-path charger (a charger IC with a SYS rail)
+### Robot
+
+- the robot has 2 power inputs: USB-C and dock
+  - robot receives 20-24V fixed DC from the dock
+  - USB-C power use PD, request 20-24 V minimum (to step it down to 4S battery)
+  - optional PPS
+  - if a low-power USB-C 5V, 9V or 15V brick source is attached (no 20V/PPS), either charge slowly (optional) through a boost path or cleanly refuse and signal "insufficient charger" rather than misbehaving
+- robot requires 65W minimum input (from the dock) with system power-path charger (a charger IC with a SYS rail)
   - support the vacuum charging and Raspberry Pi running simultaneously
   - assume Raspberry Pi is always on (to handle user access over Wi-Fi at any time)
   - Pi 5 worst case ~25 W (5 V/5 A) + housekeeping ≈ up to ~25–30 W
   - Healthy charge ~40 W (~0.5C into the 75 Wh pack)
   - ~65–70 W total
 - cap charge at ~0.5C regardless of charging adapter power
-- TODO: clarify whether the two dock contacts are power-only, or whether dock presence needs a separate sense signal.
-- if only a 5V, 9V or 15V source is attached (no 20V/PPS), either charge slowly (optional) through a boost path or cleanly refuse and signal "insufficient charger" rather than misbehaving
-- assume dock contacts feeding a fixed 20V+ DC; the dock will likely have its own PD sink, converting the dock's brick to 20V DC fixed.
+
+### Dock
+
+- the dock is powered from an external certified 24/25.2 V DC brick (~200–350 W)
+  - use external brick for safety, the dock enclosure only ever sees 24 V DC
+  - reuse a 25.2 V stick-vac motor for auto-empty, e.g. Dreame M10-E-4 25.2 V/310 W
+- the dock has only 2 contacts: DOCK+ and GND
+  - dock contacts feed a fixed 24V+ DC
+  - the dock detects load/robot presence, energizes DOCK+ only when robot is detected (reliably, after a couple of seconds)
+  - dock contacts are spring loaded, gold-coated pogo pins ≥4 A, placed rear-vertical, above water line
+- ambient fan(s) for mop drying
+  - no hot mop dry for now
+- 2x water pumps: clean-feed + dirty-evacuate
+  - diaphragm, 12–24 V
+- dock PCB
+  - ESP32 (WiFi + BLE + control)
+  - Pump/fan drivers (brushed DC)
+  - IR beacon LEDs + driver
+  - robot/load presence-detect + charging contact energize FET
+  - Level sensors (float/capacitive) clean-low, dirty-full
+  - high-side FET for auto-empty blower
+  - fuse, DC inlet, TVS
+  - buck DC-DC 24V to 5V, 3.3V for ESP32, sensors
 
 ### Power path
 

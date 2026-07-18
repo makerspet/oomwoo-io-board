@@ -48,7 +48,7 @@ BL24131616 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (not PH)
 
 MSD-C-3 suction fan - 4-pin like PH, but looser vertically
 
-MSD-G-V1 suction fan - 2x2 3mm pitch with latch female
+MSD-G-V1 suction fan - LHE MX3.0 2x2 (4-pin) 3mm pitch with latch male (aka Molex Micro-Fit 3.0)
 ```
 
 ## Compute + Camera

@@ -19,9 +19,6 @@ vacuum's controller + I/O board
 
 Status: early reference schematic. NOT validated. Do NOT fabricate from it as-is.
 
-Part of the [oomwoo](https://github.com/makerspet/oomwoo) project — an open-source, ROS 2,
-3D-printable robot vacuum you build yourself.
-
 Get [MCU firmware](https://github.com/makerspet/oomwoo-io-firmware/).
 
 ## Architecture notes

@@ -151,8 +151,8 @@ Mystery mini - JST GH 1.25mm 5-pin female (needs m)
 
 ## Pump
 
-- 12V DC motor, peristaltic
-- ensure 12V is stabilized, DC-DC converter for regulated flow. Don't use unregulated 14.4V battery.
+- 6V DC motor, peristaltic; ~0.6A rated, 1A max
+- make DC settable by replacing resistors
 
 ## GPIO
 

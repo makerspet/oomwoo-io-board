@@ -928,7 +928,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oomwoo-kicad-altium-import:VCC-5V-SYS_BAR"
+		(symbol "oomwoo-kicad-altium-import:VCC-5V-REG_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -946,7 +946,7 @@
 					)
 				)
 			)
-			(property "Value" "VCC-5V-SYS"
+			(property "Value" "VCC-5V-REG"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -978,7 +978,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name 'VCC-5V-SYS'"
+			(property "Description" "Power symbol creates a global label with name 'VCC-5V-REG'"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1000,7 +1000,7 @@
 					)
 				)
 			)
-			(symbol "VCC-5V-SYS_BAR_0_0"
+			(symbol "VCC-5V-REG_BAR_0_0"
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy 1.27 -2.54)
@@ -1029,7 +1029,7 @@
 					(at 0 0 0)
 					(length 0)
 					(hide yes)
-					(name "VCC-5V-SYS"
+					(name "VCC-5V-REG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2008,7 +2008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC-5V-SYS_BAR")
+		(lib_id "oomwoo-kicad-altium-import:VCC-5V-REG_BAR")
 		(at 302.26 205.105 180)
 		(unit 1)
 		(body_style 1)
@@ -2017,8 +2017,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2ecbb420-bbd7-4f87-a66a-5e228dabb454")
-		(property "Reference" "#PWR0541"
+		(uuid "42c2af54-8a18-4a9e-bb0e-64524b72007f")
+		(property "Reference" "#PWR067"
 			(at 302.26 205.105 0)
 			(hide yes)
 			(show_name no)
@@ -2029,7 +2029,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC-5V-SYS"
+		(property "Value" "VCC-5V-REG"
 			(at 302.26 201.295 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2070,12 +2070,12 @@
 			)
 		)
 		(pin ""
-			(uuid "0b1e9949-fbec-4d13-a089-0183ba79d46f")
+			(uuid "2ac8c4cb-7d06-40b8-a996-be6f5fdb4585")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
-					(reference "#PWR0541")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2223,7 +2223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC-5V-SYS_BAR")
+		(lib_id "oomwoo-kicad-altium-import:VCC-5V-REG_BAR")
 		(at 302.26 128.905 180)
 		(unit 1)
 		(body_style 1)
@@ -2232,8 +2232,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "587d5171-4e93-4d97-934b-4f07f7e71602")
-		(property "Reference" "#PWR0540"
+		(uuid "54f6b2dc-bb29-4ae6-b53a-492f055a710f")
+		(property "Reference" "#PWR066"
 			(at 302.26 128.905 0)
 			(hide yes)
 			(show_name no)
@@ -2244,7 +2244,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC-5V-SYS"
+		(property "Value" "VCC-5V-REG"
 			(at 302.26 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2285,12 +2285,12 @@
 			)
 		)
 		(pin ""
-			(uuid "f7bfda9f-0694-4c23-a45d-100e9fb2b478")
+			(uuid "e8aea356-4d9d-432f-9bfa-0f3048f28197")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/5e1370fc-da76-42ab-8a06-17e0cb799727"
-					(reference "#PWR0540")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)

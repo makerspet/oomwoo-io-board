@@ -2119,6 +2119,271 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:S7B-ZR_LF_SN"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S7B-ZR_LF_SN"
+				(at 0 -12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:S7B-ZR_LF_SN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212131309_JST-S7B-ZR-LF-SN_C5306723.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-25℃~+85℃ 1 1.5mm 12mm 1A 1x7P 3.7mm 50V 6mm 7 7P Brass Glass fiber reinforced PA66 Right Angle Tin UL94V-0 White ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5306723"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "S7B-ZR(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C5306723 CONN-TH_7P-P1.50_JST_S7B-ZR JST S7B-ZR(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S7B-ZR_LF_SN_0_1"
+				(circle
+					(center -1.27 8.89)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -10.16) (xy 2.1311 -10.1503) (xy 2.2264 -10.1214) (xy 2.3142 -10.0744) (xy 2.3912 -10.0112)
+						(xy 2.4544 -9.9343) (xy 2.5013 -9.8464) (xy 2.5302 -9.7511) (xy 2.54 -9.652) (xy 2.5302 9.7511)
+						(xy 2.5013 9.8464) (xy 2.4544 9.9343) (xy 2.3912 10.0112) (xy 2.3142 10.0744) (xy 2.2264 10.1214)
+						(xy 2.1311 10.1503) (xy 2.032 10.16) (xy -2.1311 10.1503) (xy -2.2264 10.1214) (xy -2.3142 10.0744)
+						(xy -2.3912 10.0112) (xy -2.4544 9.9343) (xy -2.5013 9.8464) (xy -2.5302 9.7511) (xy -2.54 9.652)
+						(xy -2.5302 -9.7511) (xy -2.5013 -9.8464) (xy -2.4544 -9.9343) (xy -2.3912 -10.0112) (xy -2.3142 -10.0744)
+						(xy -2.2264 -10.1214) (xy -2.1311 -10.1503) (xy -2.032 -10.16) (xy 2.032 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_1"
 			(pin_numbers
 				(hide yes)
@@ -4060,7 +4325,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oomwoo-kicad-altium-import:VCC-5V-SYS_BAR"
+		(symbol "oomwoo-kicad-altium-import:VCC-5V-REG_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4078,7 +4343,7 @@
 					)
 				)
 			)
-			(property "Value" "VCC-5V-SYS"
+			(property "Value" "VCC-5V-REG"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4110,7 +4375,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name 'VCC-5V-SYS'"
+			(property "Description" "Power symbol creates a global label with name 'VCC-5V-REG'"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4132,7 +4397,7 @@
 					)
 				)
 			)
-			(symbol "VCC-5V-SYS_BAR_0_0"
+			(symbol "VCC-5V-REG_BAR_0_0"
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy 1.27 -2.54)
@@ -4161,7 +4426,7 @@
 					(at 0 0 0)
 					(length 0)
 					(hide yes)
-					(name "VCC-5V-SYS"
+					(name "VCC-5V-REG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4467,6 +4732,16 @@
 		)
 		(uuid "81e96b9e-c997-422b-8ec2-a612368ff076")
 	)
+	(text "Waiting for the pinout"
+		(exclude_from_sim no)
+		(at 500.38 146.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "95bb6204-10ca-4b7e-9f5a-405fa4eaf552")
+	)
 	(text "M+"
 		(exclude_from_sim no)
 		(at 344.17 143.51 0)
@@ -4492,16 +4767,6 @@
 			(justify left bottom)
 		)
 		(uuid "bf2540eb-9d80-44f9-a0a4-c3dc4bcc734e")
-	)
-	(text "Isn't Diode reversed?"
-		(exclude_from_sim no)
-		(at 202.565 273.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c70d87d0-fe41-4477-b4b1-a21276cb82c6")
 	)
 	(text "M-"
 		(exclude_from_sim no)
@@ -4568,15 +4833,15 @@
 		)
 		(uuid "e555a399-f32a-4196-ac98-adc2364d34ee")
 	)
-	(text "Isn't Diode reversed?"
+	(text "Waiting for the pinout"
 		(exclude_from_sim no)
-		(at 198.755 186.69 0)
+		(at 501.015 241.935 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "f2ffab1b-0887-4089-bafa-1565efbe22bd")
+		(uuid "f58bbd05-197f-4936-8324-b595c2448ac4")
 	)
 	(junction
 		(at 217.17 262.89)
@@ -4687,12 +4952,6 @@
 		(uuid "c424846f-907e-4f9c-abbc-055441c87df7")
 	)
 	(junction
-		(at 410.21 126.5428)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "caac432d-14aa-4b8a-bfff-106ca722cd4a")
-	)
-	(junction
 		(at 382.27 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4721,6 +4980,62 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecd66952-e48f-43f6-9499-5ab77d247cf7")
+	)
+	(no_connect
+		(at 469.9 234.95)
+		(uuid "08a7833e-9c58-4ad0-95b4-a0a0e9cf578b")
+	)
+	(no_connect
+		(at 471.17 142.875)
+		(uuid "10693544-357c-4232-b762-57a73b70e1fa")
+	)
+	(no_connect
+		(at 469.9 229.87)
+		(uuid "34ea40dd-d94a-4ffb-b2f1-9a5bcfa53895")
+	)
+	(no_connect
+		(at 469.9 237.49)
+		(uuid "39e7c422-17e9-4bd6-99ac-77d5cc9cc64b")
+	)
+	(no_connect
+		(at 469.9 232.41)
+		(uuid "46487b8b-7a12-4f62-af7e-574fa59832db")
+	)
+	(no_connect
+		(at 471.17 132.715)
+		(uuid "6a342c47-3cf8-4395-90ef-e4e977d9caee")
+	)
+	(no_connect
+		(at 471.17 137.795)
+		(uuid "9066e189-0eb1-4f1a-8e29-65373252318f")
+	)
+	(no_connect
+		(at 471.17 140.335)
+		(uuid "a3985a12-e040-4926-a020-24cfa6a25ec2")
+	)
+	(no_connect
+		(at 469.9 240.03)
+		(uuid "c0edc971-3f12-47ac-a461-dedd42231cf1")
+	)
+	(no_connect
+		(at 471.17 130.175)
+		(uuid "c3433863-a89e-415e-b44f-a43c5d668c53")
+	)
+	(no_connect
+		(at 469.9 224.79)
+		(uuid "c8eec41c-2ba2-4441-b0f2-55c837ef6544")
+	)
+	(no_connect
+		(at 469.9 227.33)
+		(uuid "d04d759f-f1e2-4075-ba45-444f5fd37a96")
+	)
+	(no_connect
+		(at 471.17 145.415)
+		(uuid "f89b3e12-f510-40fc-85d3-6f42347ef463")
+	)
+	(no_connect
+		(at 471.17 135.255)
+		(uuid "f8ab19a2-ed77-4eae-bd2f-9184299a81bd")
 	)
 	(wire
 		(pts
@@ -5004,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 123.19) (xy 410.21 126.5428)
+			(xy 410.21 123.19) (xy 410.21 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5901,16 +6216,6 @@
 			(type default)
 		)
 		(uuid "e1909f92-76ce-4e23-86f9-4d69c5dadc3f")
-	)
-	(wire
-		(pts
-			(xy 410.21 126.5428) (xy 410.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2732395-03f2-41c3-9e5f-8ed795384cb6")
 	)
 	(wire
 		(pts
@@ -8124,85 +8429,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 410.21 126.5428 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "344e6121-8ed3-45b1-b6af-f7ae04509728")
-		(property "Reference" "#FLG01"
-			(at 412.115 126.5428 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 414.02 126.5427 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 410.21 126.5428 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 410.21 126.5428 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 410.21 126.5428 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "308f6918-ab9e-4026-bbe0-8fda12f6d273")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DesignLibrary:WHEEL MOTOR_3_DIODE-1_DesignLibrary.SchLib")
 		(at 219.71 267.97 0)
 		(unit 1)
@@ -9002,80 +9228,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "R98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC-5V-SYS_BAR")
-		(at 410.21 123.19 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4b776118-1878-4830-bebf-6fcf00f918c7")
-		(property "Reference" "#PWR0584"
-			(at 410.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC-5V-SYS"
-			(at 410.21 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 410.21 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 410.21 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 410.21 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "6fe3f9f5-d005-4992-a109-2f9ddca866b8")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0584")
 					(unit 1)
 				)
 			)
@@ -11631,6 +11783,136 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:S7B-ZR_LF_SN")
+		(at 476.25 137.795 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1b18a34-4bf9-4105-9784-ab43516505c3")
+		(property "Reference" "U1"
+			(at 480.06 136.5249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WHEEL-MOTOR-RIGHT"
+			(at 480.06 139.0649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:S7B-ZR_LF_SN"
+			(at 476.25 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212131309_JST-S7B-ZR-LF-SN_C5306723.pdf"
+			(at 476.25 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 12mm 1A 1x7P 3.7mm 50V 6mm 7 7P Brass Glass fiber reinforced PA66 Right Angle Tin UL94V-0 White ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
+			(at 476.25 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5306723"
+			(at 476.25 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 476.25 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "S7B-ZR(LF)(SN)"
+			(at 476.25 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "96cadcd0-5997-47a0-a132-c9f9f93d94d9")
+		)
+		(pin "1"
+			(uuid "89f5868c-a667-4bf1-b0da-67da3302753a")
+		)
+		(pin "2"
+			(uuid "b7050f7c-c56b-4610-8607-9907b705cd83")
+		)
+		(pin "3"
+			(uuid "508aac22-1620-4fd7-b7ad-f001ba0c7593")
+		)
+		(pin "4"
+			(uuid "f8d0c0cb-f182-4fbd-a296-ff04feece3d2")
+		)
+		(pin "5"
+			(uuid "e9a4d03d-adf1-4485-8fee-5aa515fd203c")
+		)
+		(pin "6"
+			(uuid "97442315-ec04-40d9-950e-986659cf5136")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_8")
 		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
 		(at 293.37 278.13 90)
@@ -11907,6 +12189,80 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-5V-REG_BAR")
+		(at 410.21 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca24337a-e9ed-471d-ad0f-f13f3b7b2ebb")
+		(property "Reference" "#PWR069"
+			(at 410.21 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-5V-REG"
+			(at 410.21 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 410.21 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 410.21 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 410.21 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "7b3fbb44-6695-4bbf-a906-1155b7c6c807")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12199,6 +12555,136 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "#PWR0572")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:S7B-ZR_LF_SN")
+		(at 474.98 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1a682ab-0446-4fa8-8caf-a334e439fc0e")
+		(property "Reference" "U2"
+			(at 478.79 231.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WHEEL-MOTOR-LEFT"
+			(at 478.79 233.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:S7B-ZR_LF_SN"
+			(at 474.98 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212131309_JST-S7B-ZR-LF-SN_C5306723.pdf"
+			(at 474.98 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 12mm 1A 1x7P 3.7mm 50V 6mm 7 7P Brass Glass fiber reinforced PA66 Right Angle Tin UL94V-0 White ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
+			(at 474.98 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5306723"
+			(at 474.98 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 474.98 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "S7B-ZR(LF)(SN)"
+			(at 474.98 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "88e5ef89-8102-4d65-bda6-4930f95722f1")
+		)
+		(pin "1"
+			(uuid "6d09148e-8891-473a-9083-edefa9ee8648")
+		)
+		(pin "2"
+			(uuid "9dca1f5f-ec8a-4a27-9c25-f6d2ad585f90")
+		)
+		(pin "3"
+			(uuid "f3243e2f-7e33-41ae-a868-18d2dd511b11")
+		)
+		(pin "4"
+			(uuid "42981f25-f25c-4f7a-9766-1dcb0f9d9335")
+		)
+		(pin "5"
+			(uuid "26bf307b-f2ca-4bb8-9016-e5e066d9e452")
+		)
+		(pin "6"
+			(uuid "aa89086a-a712-4ab9-b11a-94bbde546981")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
+					(reference "U2")
 					(unit 1)
 				)
 			)

@@ -1096,7 +1096,7 @@
         "uuid": "dbcfb655-8d45-4808-9a74-2a0eb03372e8"
       }
     ],
-    "used_designators": "D29,#PWR1,#PWR7-8,#PWR44-45,#PWR59-60,J1,#FLG13,R9,R12,R37",
+    "used_designators": "U1-3,U6,U8-11,L1,L6,#PWR2-3,#PWR5,#PWR9,#PWR12-13,#PWR17,#PWR22,#PWR27-30,#PWR32-33,#PWR35,#PWR38-51,#PWR53-57,#PWR59-60,#PWR63-72,#PWR626-632,#PWR695-699,#PWR735,#PWR743,#FLG4-6,#FLG17,R1-9,R12-13,R15-16,R30,R42-43,R141-142,C1-9,C23,C28-29,C36,C38,C40,C42,C44,C46,CAM1,CN1,Module1,CONSOLE1,D1-4,D30,PWR_BTN1,SDCARD1,Q1,Q19,Q21,J2,MIPI1-2",
     "variants": []
   },
   "sheets": [
@@ -1107,66 +1107,6 @@
     [
       "35c833ed-33c3-4a72-8fc9-e035e67a6b75",
       "POWER"
-    ],
-    [
-      "0bd4e5aa-a520-4742-8e13-a2cd7334fb68",
-      "RK3562"
-    ],
-    [
-      "09667f20-aa58-40d9-8640-35445f4397d4",
-      "RK3562-POWER"
-    ],
-    [
-      "aa7a4140-8c5c-4e69-8c57-4590a316cb13",
-      "RK3562-DDR-PHY"
-    ],
-    [
-      "debcdd0c-2b46-43ae-8f11-b909b8df109f",
-      "RK3562-PMUIO-OSC-PLL"
-    ],
-    [
-      "706ac6bc-1208-4a74-9890-f185ba1abe6f",
-      "RK3562-VCCIO1"
-    ],
-    [
-      "9bd1c83d-2d65-4de8-8f45-a04a1e5cd89d",
-      "RK3562-VCCIO2-VCCIO3"
-    ],
-    [
-      "b0d92a59-ff04-4a05-af90-d7ec18c50388",
-      "RK3562-VCCIO4"
-    ],
-    [
-      "bfdec35d-6f45-443a-9e14-c0b71bbcb78a",
-      "RK3562-VCCIO5"
-    ],
-    [
-      "d65cb6ac-7a0f-4846-92cf-59c3b6b0347c",
-      "RK3562-VCCIO6"
-    ],
-    [
-      "6fd7fdf8-ebe9-4222-96b2-25dca968350e",
-      "RK3562-USB-PCIe-PHY"
-    ],
-    [
-      "efaa7f6b-006b-401d-9ab5-7c393c0d97bd",
-      "DRAM-LPDDR4"
-    ],
-    [
-      "7c9fc120-8cdd-4113-bd27-c6e5feb8243f",
-      "eMMC"
-    ],
-    [
-      "cf100851-ea36-4b83-9bb0-e447bafafc1e",
-      "SD_TF CARD"
-    ],
-    [
-      "166842d1-31e6-41f6-ad71-d08d7af5c573",
-      "RK-POWER-SUPPLY"
-    ],
-    [
-      "2d5ed2b7-cdd1-449a-b9c9-50d95a761908",
-      "RK-PERIPHERAL-POWER"
     ],
     [
       "b88b5b7c-8a96-4ab1-bf88-0f5091fe1e2a",
@@ -1221,16 +1161,20 @@
       "MCU-STM32"
     ],
     [
-      "d3901c8d-0eaa-426f-b665-29697d9dcd2a",
-      "WIFI-BT"
-    ],
-    [
       "7b57c0fa-4a35-4109-8672-3c36267bf8ff",
       "IMU"
     ],
     [
       "ef1147df-ce85-4822-98ae-5614ce438d97",
       "BATTERY-CHARGER"
+    ],
+    [
+      "e9095513-3c34-4c9e-b88d-b0637a4ecc78",
+      "CM5-GPIO"
+    ],
+    [
+      "2d8a25d6-58b7-409a-a3b1-0c610bb70760",
+      "CM5-HIGHSPEED"
     ]
   ],
   "text_variables": {

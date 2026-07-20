@@ -1,7 +1,7 @@
 # OOMWOO I/O Board (STM32G070 based)
 
 
-**Current plan - the I/O board will (likely) accept CM4/CM5 Raspberry Pi compute module (and other compatible 3rd party compute modules).**
+**Current plan: the I/O board will likely accept a CM4/CM5 Raspberry Pi Compute Module (and other compatible third-party compute modules).**
 
 
 Schematic (PDF) for the [OOMWOO](https://github.com/makerspet/oomwoo) open-source robot
@@ -19,7 +19,7 @@ Consumer vacuums typically split compute into CPU and MCU. The MCU ([real exampl
 - all sensors except below - IR cliff, IR side proximity, IR docking, wheel drop, bumper (IR or micro-switches), motor encoders, ultrasonic carpet sensor
 - all push buttons
 - 2D LiDAR motor RPM
-- power - battery charging, motors power on/of
+- power - battery charging, motors power on/off
 - all safety sensors - overcurrent for all motors (cheap vacuums ignore overcurrent sensing)
 
 I/O board also provides audio encoders/decoders, amp, speaker (connector), mics (if any).
@@ -29,11 +29,11 @@ CPU receives
 - IMU (sometimes IMU gets forwarded via MCU) over SPI/I2C
 - cameras (2x MIPI for visual obstacle avoidance)
 
-MCU (and CPU)) are usually always active. This allows the user to start cleaning at any time (especially via app remotely). Exceptions:
+MCU (and CPU) are usually always active. This allows the user to start cleaning at any time (especially via app remotely). Exceptions:
 - no power (battery dead and no dock power)
 - user explicitly shut down the vacuum by long-pressing the power button
 
-MCU overarching constrait is to ensure robot safety. This is necesary to pass CE mark tests. Here is how MCU ensures safety:
+The MCU's overarching constraint is to ensure robot safety. This is necessary to pass CE mark tests. Here is how MCU ensures safety:
 - MCU firmware uses FreeRTOS or similar, static memory allocation, watchdog, guaranteed reaction time
 - MCU acts as watchdog for CPU, resets CPU if CPU becomes unresponsive
 - MCU connects to CPU over serial using a custom serial protocol ([concrete example](https://github.com/codetiger/VacuumRobot)). No micro-ROS to reduce dependencies, prevent bugs from updated 3rd party libraries slipping into safety-critical MCU firmware.
@@ -48,7 +48,7 @@ MCU overarching constrait is to ensure robot safety. This is necesary to pass CE
 Consumer vacuums place CPU and MCU on the same PCB board. Since OOMWOO has to be hackable, it seems best to separate I/O from the compute. Therefore, this I/O board needs to have
 - MCU and programming header
   - likely STM32G070RBT6 because it has 56 GPIOs, 16 ADC channels, costs $1 at JLCPCB, has LQFP package for easy PCBA - a rare combination
-  - see tentative [GPIO budget](https://github.com/makerspet/oomwoo-io-board/blob/main/docs/GPIO.md)
+  - see tentative [I/O board spec](https://github.com/makerspet/oomwoo-io-board/blob/main/docs/SPEC.md)
 - all vacuum motor drivers (with connectors), driven by the MCU
   - cliff, side proximity, docking, bumper, carpet, water tank full/empty, dust bin present, motor overcurrent, motor encoders
 - MCU connected to all sensors (except those handled by CPU like LiDAR serial, MIPI cameras I/O, IMU); sensor connectors
@@ -65,7 +65,7 @@ Consumer vacuums usually don't have a CPU fan/heatsink because the vacuum's suct
 
 As far as compute - currently it seems best to use a Raspberry Pi CM4/CM5 compute module. Why?
 - CM4/CM5 modules cost a bit less than a full Raspberry Pi 4/5
-- CN4/CM5 have lower profile/height vs a full Raspberry Pi 4/5, important to keep vacuum cleaner slim
+- CM4/CM5 have lower profile/height vs a full Raspberry Pi 4/5, important to keep vacuum cleaner slim
 - there are plenty of 3rd party compute modules pin-compatible with CM4/CM5, making the compute swappable, hackable
   - 3rd party compute modules with NPUs are especially interesting because we need NPU for real-time camera-based obstacle detection
 

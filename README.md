@@ -1,8 +1,7 @@
 # OOMWOO I/O Board (STM32G070 based)
 
 
-**Current plan: the I/O board will likely accept a CM4/CM5 Raspberry Pi Compute Module (and other compatible third-party compute modules).**
-
+STM32G473VCT6 based, accepts a CM4/CM5 Raspberry Pi Compute Module (and other compatible CM4/CM5 third-party compute modules).
 
 Schematic (PDF) for the [OOMWOO](https://github.com/makerspet/oomwoo) open-source robot
 vacuum's controller + I/O board
@@ -11,6 +10,8 @@ Status: early reference schematic. NOT validated. Do NOT fabricate from it as-is
 
 Part of the [oomwoo](https://github.com/makerspet/oomwoo) project — an open-source, ROS 2,
 3D-printable robot vacuum you build yourself.
+
+Get [MCU firmware](https://github.com/makerspet/oomwoo-io-firmware/).
 
 ## Architecture notes
 

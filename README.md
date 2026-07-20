@@ -4,7 +4,7 @@
 
 *Open-source robot vacuum you build yourself.*
 
-I/O + power carrier · STM32G473 · CM4 / CM5 socket · Motor drivers · Sensors · 4S charging · Safety MCU · KiCad · JLCPCB
+Raspberry Pi CM4/CM5 socket · STM32G473 MCU · Motor drivers · Sensors · 2x MIPI cameras · 4S charging · KiCad
 
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 ![Status](https://img.shields.io/badge/status-schematic%20WIP-orange)

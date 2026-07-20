@@ -56,6 +56,12 @@ MSD-G-V1 suction fan - LHE MX3.0 2x2 (4-pin) 3mm pitch with latch male (aka Mole
 - 2x 15-pin ArduCam-style connectors for OV5647
 - TODO add USB to I/O board
 
+Undecided TODO 
+- maybe provision an M.2 slot, route a PICe lane, populate later - to experiment with NPU accelerator(s) like Hailo
+- USB-C 3.0+, CM5 only - to experiment with accelerator(s) like Coral TPU
+- Keep the compute socket able to take an integrated-NPU module too (Radxa CM5) or premium-upgradeable (CM5 + M.2 Hailo).
+- Flag it to the PCB contractor as a design item: M.2 E-key (WiFi) + an M.2 M-key/PCIe (NPU or NVMe), PCIe lane routing, and the thermal path for a few-watt accelerator in a suction-cooled enclosure
+
 ## Charging
 
 View [BRR-2P4S-5200FL battery datasheet](https://images.thdstatic.com/catalog/pdfImages/55/55d2f7f6-2ed9-44ed-ab4e-fb20d231c897.pdf) as a sample.

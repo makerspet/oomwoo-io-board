@@ -1,5 +1,16 @@
-# OOMWOO I/O Board (STM32G070 based)
+<div align="center">
 
+# OOMWOO I/O Board
+
+*Open-source robot vacuum you build yourself.*
+
+I/O + power carrier · STM32G473 · CM4 / CM5 socket · Motor drivers · Sensors · 4S charging · Safety MCU · KiCad · JLCPCB
+
+![License](https://img.shields.io/badge/license-Apache--2.0-blue)
+![Status](https://img.shields.io/badge/status-schematic%20WIP-orange)
+[![Part of OOMWOO](https://img.shields.io/badge/part%20of-OOMWOO-5eead4)](https://github.com/makerspet/oomwoo)
+
+</div>
 
 STM32G473VCT6 based, accepts a CM4/CM5 Raspberry Pi Compute Module (and other compatible CM4/CM5 third-party compute modules).
 

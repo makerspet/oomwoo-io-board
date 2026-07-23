@@ -41,3 +41,20 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# ERC/DRC reports
+*.rpt
+
+# Gerber / drill fabrication outputs
+*.gbr
+*.gbrjob
+*.drl
+
+# Schematic / PCB exports (regenerated on every PR by .github/workflows/ci.yaml)
+/oomwoo-kicad-schematic*.pdf
+/oomwoo-kicad-pcb*.png
+/oomwoo-kicad-*.step
+/gerbers/
+/drill/
+/kicad/PDF/
+/kicad/oomwoo-kicad-BATTERY-CHARGER.pdf

@@ -1,0 +1,94 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    name: Export outputs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - id: sha
+        run: echo "short=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions-for-kicad/kicad-actions@v2-k10.0
+        with:
+          schematic_file_name: kicad/oomwoo-kicad.kicad_sch
+          schematic_output_pdf: true
+          schematic_output_pdf_file_name: oomwoo-kicad-schematic-${{ steps.sha.outputs.short }}.pdf
+          schematic_output_bom: true
+          schematic_output_bom_file_name: oomwoo-kicad-bom-${{ steps.sha.outputs.short }}.csv
+          pcb_file_name: kicad/oomwoo-kicad.kicad_pcb
+          pcb_output_image: true
+          pcb_output_image_file_name: oomwoo-kicad-pcb-${{ steps.sha.outputs.short }}.png
+          pcb_output_gerbers_and_drill: true
+          pcb_output_layers: "F.Cu,GND.Cu,PWR.Cu,B.Cu,F.Mask,B.Mask,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,Edge.Cuts"
+          pcb_output_pos: true
+          pcb_output_pos_format: csv
+          pcb_output_pos_file_name: oomwoo-kicad-pos-${{ steps.sha.outputs.short }}.csv
+          pcb_output_step: true
+          pcb_output_step_file_name: oomwoo-kicad-${{ steps.sha.outputs.short }}.step
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: oomwoo-kicad-${{ steps.sha.outputs.short }}
+          path: |
+            oomwoo-kicad-schematic-${{ steps.sha.outputs.short }}.pdf
+            oomwoo-kicad-pcb-${{ steps.sha.outputs.short }}.png
+            oomwoo-kicad-${{ steps.sha.outputs.short }}.step
+            oomwoo-kicad-bom-${{ steps.sha.outputs.short }}.csv
+            oomwoo-kicad-pos-${{ steps.sha.outputs.short }}.csv
+            gerbers/
+          if-no-files-found: error
+
+  erc:
+    name: ERC
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - id: sha
+        run: echo "short=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions-for-kicad/kicad-actions@v2-k10.0
+        continue-on-error: true # TODO: revise and enforce rules
+        with:
+          schematic_file_name: kicad/oomwoo-kicad.kicad_sch
+          run_erc: true
+          erc_output_file_name: oomwoo-kicad-erc-${{ steps.sha.outputs.short }}.rpt
+
+      - uses: actions/upload-artifact@v7
+        with:
+          path: oomwoo-kicad-erc-${{ steps.sha.outputs.short }}.rpt
+          archive: false
+          if-no-files-found: error
+
+  drc:
+    name: DRC
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - id: sha
+        run: echo "short=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions-for-kicad/kicad-actions@v2-k10.0
+        continue-on-error: true # TODO: revise and enforce rules
+        with:
+          pcb_file_name: kicad/oomwoo-kicad.kicad_pcb
+          run_drc: true
+          drc_output_file_name: oomwoo-kicad-drc-${{ steps.sha.outputs.short }}.rpt
+
+      - uses: actions/upload-artifact@v7
+        with:
+          path: oomwoo-kicad-drc-${{ steps.sha.outputs.short }}.rpt
+          archive: false
+          if-no-files-found: error

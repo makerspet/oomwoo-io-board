@@ -1499,16 +1499,6 @@
 		)
 		(uuid "6779086f-8ad8-4f80-801c-5d8d71ec84da")
 	)
-	(text "Isn't D17 reversed?"
-		(exclude_from_sim no)
-		(at 242.57 223.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "931e8560-7502-47f8-bda0-943d5d6ee4b2")
-	)
 	(junction
 		(at 257.175 211.455)
 		(diameter 0)
@@ -2444,7 +2434,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 274.955 211.455 0)
 			(hide yes)
 			(show_name no)
@@ -2659,7 +2649,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254.635 178.435 0)
 			(hide yes)
 			(show_name no)
@@ -2800,7 +2790,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 282.575 224.155 0)
 			(hide yes)
 			(show_name no)
@@ -3014,7 +3004,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 262.255 165.735 0)
 			(hide yes)
 			(show_name no)

@@ -3267,6 +3267,12 @@
 		(uuid "43c7754a-7b58-493a-9c48-138037471984")
 	)
 	(junction
+		(at 388.62 312.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a8571e7-ee95-4e09-bea5-b7e51a823d62")
+	)
+	(junction
 		(at 333.375 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3307,6 +3313,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73ecfb37-b749-480d-aa4c-de82c8e24688")
+	)
+	(junction
+		(at 388.62 287.655)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76adea90-74ea-4798-a11d-beff6af0be82")
 	)
 	(junction
 		(at 429.895 179.705)
@@ -3375,6 +3387,12 @@
 		(uuid "e62d52cf-6094-49e0-ab33-344974bfab2f")
 	)
 	(junction
+		(at 388.62 323.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f379520e-bb58-4473-adde-5dd8983a9736")
+	)
+	(junction
 		(at 452.755 306.705)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3439,6 +3457,16 @@
 			(type default)
 		)
 		(uuid "08072f78-28ed-4135-a974-921fee5823cf")
+	)
+	(wire
+		(pts
+			(xy 377.825 321.945) (xy 377.825 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084a2118-4d55-4248-86ea-c1233322e082")
 	)
 	(wire
 		(pts
@@ -3832,6 +3860,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 287.655) (xy 388.62 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf20d18-144b-4b51-93db-c51e3d8eeaf4")
+	)
+	(wire
+		(pts
 			(xy 434.975 272.415) (xy 441.96 272.415)
 		)
 		(stroke
@@ -4062,6 +4100,26 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 312.42) (xy 388.62 316.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9533ed98-989c-4185-8ea9-6a5d87e08f81")
+	)
+	(wire
+		(pts
+			(xy 377.825 312.42) (xy 388.62 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9803663e-7ba4-40d2-a369-ff6658645364")
+	)
+	(wire
+		(pts
 			(xy 333.375 167.005) (xy 346.075 167.005)
 		)
 		(stroke
@@ -4169,6 +4227,16 @@
 			(type default)
 		)
 		(uuid "abaf5634-016e-4631-a1ba-e65aa4811f63")
+	)
+	(wire
+		(pts
+			(xy 377.825 323.85) (xy 388.62 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac282cdb-d45f-4ae0-a63e-003e23c1f03c")
 	)
 	(wire
 		(pts
@@ -4302,6 +4370,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.825 316.865) (xy 377.825 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c558e608-120d-4fc4-83dd-a4046e28763b")
+	)
+	(wire
+		(pts
 			(xy 418.465 292.735) (xy 418.465 306.705)
 		)
 		(stroke
@@ -4402,6 +4480,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 323.85) (xy 388.62 325.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da45e923-7dde-453f-a268-1c1dd5a82727")
+	)
+	(wire
+		(pts
 			(xy 495.935 174.625) (xy 501.015 174.625)
 		)
 		(stroke
@@ -4429,6 +4517,16 @@
 			(type default)
 		)
 		(uuid "dc364405-e8ef-4770-8fed-b7d9b4211ee7")
+	)
+	(wire
+		(pts
+			(xy 388.62 321.945) (xy 388.62 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc64fa67-f491-4401-8765-e6b232a8c075")
 	)
 	(wire
 		(pts
@@ -5462,7 +5560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 382.524 295.656 90)
 			(hide yes)
 			(show_name no)
@@ -5505,6 +5603,88 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 377.825 319.405 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3551cacc-2153-413d-9780-544b7fba5faf")
+		(property "Reference" "C11"
+			(at 381 318.1412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/10V"
+			(at 381 320.6812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 377.825 319.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.825 319.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 377.825 319.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4b7760a-3151-46c4-9c5c-113fbd1bd259")
+		)
+		(pin "2"
+			(uuid "73fa3c45-d890-414a-a8b0-35f4021b99da")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5580,6 +5760,88 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR0630")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 388.62 319.405 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "428de25a-2b43-4b15-a79a-16bf627dd2b3")
+		(property "Reference" "C10"
+			(at 391.795 318.1412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/10V"
+			(at 391.795 320.6812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 388.62 319.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 319.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 388.62 319.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc2fe57e-b8d1-4e0a-a83f-b2a1479f95bf")
+		)
+		(pin "2"
+			(uuid "9ce23d0b-7fb8-4ddc-b7e7-128c55d31fcc")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5832,7 +6094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 327.279 163.576 90)
 			(hide yes)
 			(show_name no)
@@ -6060,7 +6322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 340.614 284.734 90)
 			(hide yes)
 			(show_name no)
@@ -6195,10 +6457,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "774dbb66-e7e6-4ccf-9493-8abe2b8cb7dc")
 		(property "Reference" "C8"
-			(at 335.915 159.3788 0)
+			(at 335.915 158.115 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6208,8 +6469,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33n"
-			(at 335.915 156.8388 0)
+		(property "Value" "33nF/10V"
+			(at 328.93 154.305 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6219,7 +6480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 333.375 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -6436,8 +6697,8 @@
 				)
 			)
 		)
-		(property "Value" "10u"
-			(at 349.885 173.355 90)
+		(property "Value" "10uF/10V"
+			(at 353.695 173.355 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6446,7 +6707,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 349.885 167.005 0)
 			(hide yes)
 			(show_name no)
@@ -7143,7 +7404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.864 197.739 90)
 			(hide yes)
 			(show_name no)
@@ -7224,7 +7485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 345.059 172.466 90)
 			(hide yes)
 			(show_name no)
@@ -7443,8 +7704,8 @@
 				)
 			)
 		)
-		(property "Value" "10u"
-			(at 349.885 156.21 90)
+		(property "Value" "10uF/10V"
+			(at 357.505 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7453,7 +7714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 349.885 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8166,7 +8427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 327.279 165.989 90)
 			(hide yes)
 			(show_name no)
@@ -8245,7 +8506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 376.174 276.479 90)
 			(hide yes)
 			(show_name no)
@@ -8327,7 +8588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 345.059 157.099 90)
 			(hide yes)
 			(show_name no)
@@ -8385,10 +8646,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbe9b12b-a83e-4b5f-85af-22737362c109")
 		(property "Reference" "C6"
-			(at 335.915 170.1862 0)
+			(at 335.28 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8398,8 +8658,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33n"
-			(at 335.915 172.7262 0)
+		(property "Value" "33nF/10V"
+			(at 329.565 175.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8409,7 +8669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 333.375 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8458,6 +8718,82 @@
 		)
 	)
 	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 388.62 325.755 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e497c60b-559e-485c-ade8-cbc0bfccd26d")
+		(property "Reference" "#PWR0633"
+			(at 388.62 325.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 388.62 332.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 325.755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 325.755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 388.62 325.755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "195ccf6f-97c3-4c8d-8f2a-6cb71b631e17")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
+					(reference "#PWR0633")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 166.37 198.12 0)
 		(unit 1)
@@ -8480,7 +8816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF/10V"
 			(at 169.545 199.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,7 +8827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 198.12 0)
 			(hide yes)
 			(show_name no)

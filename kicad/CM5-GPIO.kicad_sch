@@ -9692,7 +9692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF / 50V"
+		(property "Value" "100nF/10V"
 			(at 245.11 197.993 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10260,7 +10260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF / 50V"
+		(property "Value" "100nF/10V"
 			(at 231.14 198.755 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11987,7 +11987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/16V"
+		(property "Value" "10uF/10V"
 			(at 312.928 307.467 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12068,7 +12068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uf/10V"
 			(at 355.346 175.133 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12380,7 +12380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 231.394 118.364 90)
 			(hide yes)
 			(show_name no)
@@ -12772,7 +12772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 354.33 201.295 0)
 			(hide yes)
 			(show_name no)

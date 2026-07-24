@@ -4803,6 +4803,12 @@
 		(uuid "e23ce4e6-dde3-4161-87a4-752928bc25ac")
 	)
 	(junction
+		(at 187.96 257.175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e32fa882-6b8f-45bb-a6f9-b00be8049ad8")
+	)
+	(junction
 		(at 171.45 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5866,6 +5872,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 257.175) (xy 187.96 257.429)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89ea366-a196-40b2-8864-e799881751f4")
+	)
+	(wire
+		(pts
 			(xy 88.9 93.98) (xy 101.6 93.98)
 		)
 		(stroke
@@ -6116,7 +6132,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 254.889) (xy 187.96 257.429)
+			(xy 187.96 254.889) (xy 187.96 257.175)
 		)
 		(stroke
 			(width 0)
@@ -6638,7 +6654,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 277.749 0)
 			(hide yes)
 			(show_name no)
@@ -7372,7 +7388,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 400.685 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7513,7 +7529,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 382.905 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -7654,7 +7670,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 451.485 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8011,7 +8027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 246.38 186.055 0)
 			(hide yes)
 			(show_name no)
@@ -8226,7 +8242,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 245.745 259.715 0)
 			(hide yes)
 			(show_name no)
@@ -8572,7 +8588,7 @@
 			)
 		)
 		(property "Value" "2.2uH"
-			(at 137.16 186.309 90)
+			(at 132.08 184.785 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8797,7 +8813,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 204.089 0)
 			(hide yes)
 			(show_name no)
@@ -8927,8 +8943,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "22uF"
-			(at 160.02 193.929 0)
+		(property "Value" "22uF/10V"
+			(at 155.575 194.945 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8938,7 +8954,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.48 193.929 0)
 			(hide yes)
 			(show_name no)
@@ -9021,6 +9037,7 @@
 		)
 		(property "VOLTAGERATE" "10V"
 			(at 160.02 196.469 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9078,7 +9095,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 367.665 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -9423,7 +9440,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF/10V"
 			(at 53.34 196.469 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9434,7 +9451,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 50.8 196.469 0)
 			(hide yes)
 			(show_name no)
@@ -9648,7 +9665,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 280.289 0)
 			(hide yes)
 			(show_name no)
@@ -9779,7 +9796,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/16V"
+		(property "Value" "22uF/10V"
 			(at 173.99 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,7 +9974,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 451.485 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10166,7 +10183,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF/10V"
 			(at 160.02 267.589 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10177,7 +10194,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.48 267.589 0)
 			(hide yes)
 			(show_name no)
@@ -10395,7 +10412,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 188.849 0)
 			(hide yes)
 			(show_name no)
@@ -10673,7 +10690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF/16V"
+		(property "Value" "47pF/10V"
 			(at 137.16 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10766,7 +10783,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/10V"
 			(at 170.18 193.929 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10777,7 +10794,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 193.929 0)
 			(hide yes)
 			(show_name no)
@@ -10860,6 +10877,7 @@
 		)
 		(property "VOLTAGERATE" "10V"
 			(at 170.18 196.469 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10991,7 +11009,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.24 267.589 0)
 			(hide yes)
 			(show_name no)
@@ -11468,7 +11486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCImport:CL21A106KBYQNNE"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11745,7 +11763,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 446.405 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -11876,7 +11894,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/10V"
 			(at 170.18 267.589 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +11905,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 267.589 0)
 			(hide yes)
 			(show_name no)
@@ -12306,7 +12324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/16V"
+		(property "Value" "22uF/10V"
 			(at 190.5 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12371,6 +12389,85 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/35c833ed-33c3-4a72-8fc9-e035e67a6b75"
 					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 187.96 257.175 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c242d4f0-3d6c-42bc-8c94-d07caf65e63a")
+		(property "Reference" "#FLG016"
+			(at 189.865 257.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 191.135 257.1749 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 257.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 257.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 187.96 257.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "142b329f-8779-4151-ba70-26cacfd28cc3")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/35c833ed-33c3-4a72-8fc9-e035e67a6b75"
+					(reference "#FLG016")
 					(unit 1)
 				)
 			)
@@ -12545,7 +12642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF/50V"
 			(at 92.71 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12902,7 +12999,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "20pF/10V"
 			(at 142.24 196.469 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12913,7 +13010,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.24 193.929 0)
 			(hide yes)
 			(show_name no)
@@ -12996,6 +13093,7 @@
 		)
 		(property "VOLTAGERATE" "50V"
 			(at 142.24 199.009 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13053,7 +13151,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 262.509 0)
 			(hide yes)
 			(show_name no)
@@ -13407,7 +13505,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF/10V"
 			(at 53.34 270.129 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13418,7 +13516,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 50.8 270.129 0)
 			(hide yes)
 			(show_name no)
@@ -14061,7 +14159,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF/50V"
 			(at 129.54 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14197,7 +14295,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 441.325 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -14818,7 +14916,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 206.629 0)
 			(hide yes)
 			(show_name no)

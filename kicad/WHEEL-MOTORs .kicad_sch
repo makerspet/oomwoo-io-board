@@ -698,185 +698,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DesignLibrary:WHEEL MOTOR_0_mirrored_NPN-SOT23_DesignLibrary.SchLib"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SOT23-3D*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_0_mirrored_NPN-SOT23_DesignLibrary.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -6.35 -4.318) (xy -7.366 -3.556) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width -0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.842 -2.54) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -2.54) (xy -7.366 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -4.318 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 270)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DesignLibrary:WHEEL MOTOR_1_Capacitor-1_DesignLibrary.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -1031,287 +852,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DesignLibrary:WHEEL MOTOR_1_P-MOS-SOT23_DesignLibrary.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SOT23-3D*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_1_P-MOS-SOT23_DesignLibrary.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -7.366 -2.54) (xy -6.35 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.858 -5.08) (xy -6.858 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -6.604) (xy -5.715 -7.112) (xy -5.715 -7.112) (xy -5.715 -8.128) (xy -5.715 -8.128)
-						(xy -5.715 -8.636)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -7.62) (xy -4.445 -8.382) (xy -4.445 -8.382) (xy -4.445 -6.858) (xy -4.445 -6.858)
-						(xy -5.715 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 -2.54) (xy -4.572 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -1.27) (xy -5.08 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -5.08 -5.08) (xy -5.08 -5.08) (xy -7.62 -5.08) (xy -7.62 -5.08) (xy -7.62 -7.62)
-						(xy -7.62 -7.62) (xy -5.842 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -4.572 -3.556) (xy -4.572 -3.556) (xy -5.588 -3.556) (xy -5.588 -3.556) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 -2.54) (xy -3.302 -5.08) (xy -3.302 -5.08) (xy -2.54 -5.08) (xy -2.54 -5.08) (xy -2.54 -7.62)
-						(xy -2.54 -7.62) (xy -4.318 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -2.032) (xy -7.366 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -2.54) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 270)
-					(length 1.27)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2119,271 +1659,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:S7B-ZR_LF_SN"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 12.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "S7B-ZR_LF_SN"
-				(at 0 -12.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:S7B-ZR_LF_SN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212131309_JST-S7B-ZR-LF-SN_C5306723.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-25℃~+85℃ 1 1.5mm 12mm 1A 1x7P 3.7mm 50V 6mm 7 7P Brass Glass fiber reinforced PA66 Right Angle Tin UL94V-0 White ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C5306723"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "S7B-ZR(LF)(SN)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C5306723 CONN-TH_7P-P1.50_JST_S7B-ZR JST S7B-ZR(LF)(SN)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "S7B-ZR_LF_SN_0_1"
-				(circle
-					(center -1.27 8.89)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -10.16) (xy 2.1311 -10.1503) (xy 2.2264 -10.1214) (xy 2.3142 -10.0744) (xy 2.3912 -10.0112)
-						(xy 2.4544 -9.9343) (xy 2.5013 -9.8464) (xy 2.5302 -9.7511) (xy 2.54 -9.652) (xy 2.5302 9.7511)
-						(xy 2.5013 9.8464) (xy 2.4544 9.9343) (xy 2.3912 10.0112) (xy 2.3142 10.0744) (xy 2.2264 10.1214)
-						(xy 2.1311 10.1503) (xy 2.032 10.16) (xy -2.1311 10.1503) (xy -2.2264 10.1214) (xy -2.3142 10.0744)
-						(xy -2.3912 10.0112) (xy -2.4544 9.9343) (xy -2.5013 9.8464) (xy -2.5302 9.7511) (xy -2.54 9.652)
-						(xy -2.5302 -9.7511) (xy -2.5013 -9.8464) (xy -2.4544 -9.9343) (xy -2.3912 -10.0112) (xy -2.3142 -10.0744)
-						(xy -2.2264 -10.1214) (xy -2.1311 -10.1503) (xy -2.032 -10.16) (xy 2.032 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 7.62 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -7.62 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_1"
 			(pin_numbers
 				(hide yes)
@@ -2461,135 +1736,6 @@
 				)
 			)
 			(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_1_1_0"
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
-						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_10"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RES-0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_10_1_0"
 				(polyline
 					(pts
 						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
@@ -3803,135 +2949,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_9"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RES-0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_9_1_0"
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
-						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oomwoo-kicad-altium-import:BAT-VCC_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -4444,240 +3461,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oomwoo-kicad-altium-import:VCC-5V-WHEEL_BAR"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VCC-5V-WHEEL"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'VCC-5V-WHEEL'"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-5V-WHEEL_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "VCC-5V-WHEEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "A"
 		(exclude_from_sim no)
@@ -4707,7 +3490,7 @@
 	)
 	(text "WHEEL MOTOR CONTROL"
 		(exclude_from_sim no)
-		(at 173.99 123.19 0)
+		(at 172.72 91.44 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -4731,16 +3514,6 @@
 			(justify left bottom)
 		)
 		(uuid "81e96b9e-c997-422b-8ec2-a612368ff076")
-	)
-	(text "Waiting for the pinout"
-		(exclude_from_sim no)
-		(at 500.38 146.685 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "95bb6204-10ca-4b7e-9f5a-405fa4eaf552")
 	)
 	(text "M+"
 		(exclude_from_sim no)
@@ -4833,16 +3606,6 @@
 		)
 		(uuid "e555a399-f32a-4196-ac98-adc2364d34ee")
 	)
-	(text "Waiting for the pinout"
-		(exclude_from_sim no)
-		(at 501.015 241.935 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f58bbd05-197f-4936-8324-b595c2448ac4")
-	)
 	(junction
 		(at 217.17 262.89)
 		(diameter 0)
@@ -4854,12 +3617,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1631b6c0-f8e0-42e4-bbb4-24240abaaf38")
-	)
-	(junction
-		(at 382.27 141.7828)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f72c15e-98c3-43ca-b441-e82a10e05d4e")
 	)
 	(junction
 		(at 311.15 270.51)
@@ -4910,12 +3667,6 @@
 		(uuid "7e0dd404-af51-47f6-b6ce-bc1eddf66117")
 	)
 	(junction
-		(at 377.19 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aaebbbd4-b72f-44e0-8c00-66b99069d7ae")
-	)
-	(junction
 		(at 341.63 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4928,12 +3679,6 @@
 		(uuid "b18ffe6c-fa51-405c-9164-b9974c76f86d")
 	)
 	(junction
-		(at 410.21 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7e76a36-28e4-4766-960a-f8123fb1aa63")
-	)
-	(junction
 		(at 356.87 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4944,12 +3689,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c37c7f9b-3f08-463b-b006-8c0f0fe11020")
-	)
-	(junction
-		(at 392.43 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c424846f-907e-4f9c-abbc-055441c87df7")
 	)
 	(junction
 		(at 382.27 130.81)
@@ -4980,72 +3719,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecd66952-e48f-43f6-9499-5ab77d247cf7")
-	)
-	(no_connect
-		(at 469.9 234.95)
-		(uuid "08a7833e-9c58-4ad0-95b4-a0a0e9cf578b")
-	)
-	(no_connect
-		(at 471.17 142.875)
-		(uuid "10693544-357c-4232-b762-57a73b70e1fa")
-	)
-	(no_connect
-		(at 469.9 229.87)
-		(uuid "34ea40dd-d94a-4ffb-b2f1-9a5bcfa53895")
-	)
-	(no_connect
-		(at 469.9 237.49)
-		(uuid "39e7c422-17e9-4bd6-99ac-77d5cc9cc64b")
-	)
-	(no_connect
-		(at 469.9 232.41)
-		(uuid "46487b8b-7a12-4f62-af7e-574fa59832db")
-	)
-	(no_connect
-		(at 471.17 132.715)
-		(uuid "6a342c47-3cf8-4395-90ef-e4e977d9caee")
-	)
-	(no_connect
-		(at 471.17 137.795)
-		(uuid "9066e189-0eb1-4f1a-8e29-65373252318f")
-	)
-	(no_connect
-		(at 471.17 140.335)
-		(uuid "a3985a12-e040-4926-a020-24cfa6a25ec2")
-	)
-	(no_connect
-		(at 469.9 240.03)
-		(uuid "c0edc971-3f12-47ac-a461-dedd42231cf1")
-	)
-	(no_connect
-		(at 471.17 130.175)
-		(uuid "c3433863-a89e-415e-b44f-a43c5d668c53")
-	)
-	(no_connect
-		(at 469.9 224.79)
-		(uuid "c8eec41c-2ba2-4441-b0f2-55c837ef6544")
-	)
-	(no_connect
-		(at 469.9 227.33)
-		(uuid "d04d759f-f1e2-4075-ba45-444f5fd37a96")
-	)
-	(no_connect
-		(at 471.17 145.415)
-		(uuid "f89b3e12-f510-40fc-85d3-6f42347ef463")
-	)
-	(no_connect
-		(at 471.17 135.255)
-		(uuid "f8ab19a2-ed77-4eae-bd2f-9184299a81bd")
-	)
-	(wire
-		(pts
-			(xy 392.43 153.67) (xy 392.43 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030b2c13-1938-4acc-a08f-797eb27bf3ef")
 	)
 	(wire
 		(pts
@@ -5079,16 +3752,6 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 130.81) (xy 397.51 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07a0e545-27e5-46c3-8c7c-199bd049d387")
-	)
-	(wire
-		(pts
 			(xy 336.55 161.29) (xy 341.63 161.29)
 		)
 		(stroke
@@ -5119,7 +3782,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 217.17) (xy 382.27 141.7828)
+			(xy 382.27 130.81) (xy 382.27 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5179,16 +3842,6 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 148.59) (xy 397.51 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3b7d87-ec3b-48c3-857a-4f79ff7b54d2")
-	)
-	(wire
-		(pts
 			(xy 311.15 270.51) (xy 303.53 270.51)
 		)
 		(stroke
@@ -5226,16 +3879,6 @@
 			(type default)
 		)
 		(uuid "27c10e9b-76f8-4149-8592-c2d32f471472")
-	)
-	(wire
-		(pts
-			(xy 417.83 148.59) (xy 415.29 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2832deec-d159-4433-a086-3d648a19fecf")
 	)
 	(wire
 		(pts
@@ -5539,16 +4182,6 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 135.89) (xy 392.43 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6977fd7d-7bd1-48ea-8823-4bcff30f65b1")
-	)
-	(wire
-		(pts
 			(xy 262.89 229.87) (xy 328.93 229.87)
 		)
 		(stroke
@@ -5606,16 +4239,6 @@
 			(type default)
 		)
 		(uuid "75b32464-9eaa-49ee-ac5d-16b55541ffd5")
-	)
-	(wire
-		(pts
-			(xy 397.51 138.43) (xy 392.43 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7643c0ad-bb24-40cb-9a88-57e6aa5ce200")
 	)
 	(wire
 		(pts
@@ -5809,16 +4432,6 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 138.43) (xy 392.43 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f054f6e-8e52-4f72-af03-b84320bd6f90")
-	)
-	(wire
-		(pts
 			(xy 311.15 278.13) (xy 311.15 270.51)
 		)
 		(stroke
@@ -5826,16 +4439,6 @@
 			(type default)
 		)
 		(uuid "9f11446b-4541-4a4f-8758-c2f703b6fe9b")
-	)
-	(wire
-		(pts
-			(xy 382.27 141.7828) (xy 382.27 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00fbb1b-b17e-4196-8b90-3dfb88129879")
 	)
 	(wire
 		(pts
@@ -5849,23 +4452,13 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 130.81) (xy 377.19 130.81)
+			(xy 372.11 130.81) (xy 382.27 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a20bf4a5-3232-4113-8386-3c4e35e1cb91")
-	)
-	(wire
-		(pts
-			(xy 407.67 138.43) (xy 410.21 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a36ccad1-e54d-42c9-a67f-5dee970a536b")
 	)
 	(wire
 		(pts
@@ -5909,16 +4502,6 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 138.43) (xy 410.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a878201a-c217-483a-aaa9-b29d1368017a")
-	)
-	(wire
-		(pts
 			(xy 290.83 181.61) (xy 283.21 181.61)
 		)
 		(stroke
@@ -5959,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 130.81) (xy 382.27 130.81)
+			(xy 382.27 130.81) (xy 410.21 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6086,16 +4669,6 @@
 			(type default)
 		)
 		(uuid "c943a6ca-f70b-492f-96ed-0ed3c9e22e74")
-	)
-	(wire
-		(pts
-			(xy 377.19 130.81) (xy 372.11 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca55f2b7-02c0-4c94-aa83-0a0875020691")
 	)
 	(wire
 		(pts
@@ -6341,17 +4914,6 @@
 		)
 		(uuid "3dfb02c2-8091-4bf4-a386-b876fe4e379f")
 	)
-	(hierarchical_label "WHEEL-M-EN-V"
-		(shape input)
-		(at 417.83 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4ab9dc7d-ad46-495e-bf71-941f5016bb1a")
-	)
 	(hierarchical_label "WHEEL-M-LEFT-ENCODE-A"
 		(shape output)
 		(at 276.168 278.13 180)
@@ -6429,7 +4991,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 270.51 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6834,80 +5396,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC-5V-WHEEL_BAR")
-		(at 377.19 130.81 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0cc4bd30-e0e8-4631-b33c-03c2a3ade5ea")
-		(property "Reference" "#PWR0582"
-			(at 377.19 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC-5V-WHEEL"
-			(at 377.19 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 377.19 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 377.19 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "8bd14995-c519-424a-b242-1775505a6378")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0582")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DesignLibrary:WHEEL MOTOR_0_DRV8870_DesignLibrary.SchLib")
 		(at 240.03 138.43 90)
 		(unit 1)
@@ -7103,7 +5591,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 290.83 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7319,7 +5807,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 214.63 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -7460,7 +5948,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 356.87 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7675,7 +6163,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 222.25 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -7778,151 +6266,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "R109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_mirrored_NPN-SOT23_DesignLibrary.SchLib")
-		(at 397.51 143.51 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d2d4b6c-a37c-43ff-9883-dc1674acc12d")
-		(property "Reference" "Q13"
-			(at 398.018 145.796 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 398.018 148.336 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oomwoo_altium:SOT23-3D"
-			(at 397.51 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 397.51 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 391.668 143.002 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 391.668 143.002 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 391.668 143.002 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 391.668 143.002 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 391.668 143.002 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "2c26e8f6-a72c-42f2-9bec-c9b39de83670")
-		)
-		(pin "3"
-			(uuid "75524bac-27b7-44a6-8885-c303b945719b")
-		)
-		(pin "2"
-			(uuid "205e9f8f-680a-439b-9423-b56e39fa1b5d")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -8069,150 +6412,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_1_P-MOS-SOT23_DesignLibrary.SchLib")
-		(at 387.35 135.89 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32ba2138-7e13-4fc6-983d-e3ec470c3354")
-		(property "Reference" "Q12"
-			(at 389.636 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "AO3401"
-			(at 397.51 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "oomwoo_altium:SOT23-3D"
-			(at 387.35 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 387.35 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 386.842 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 386.842 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 386.842 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 386.842 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 386.842 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "ca3c7dd0-9cbf-4244-8a2f-cf892ecca8c2")
-		)
-		(pin "3"
-			(uuid "ad7fea11-8fe3-42ac-bfb3-2d0961edcfcf")
-		)
-		(pin "2"
-			(uuid "562c1a6b-4446-4401-a775-987dec82586a")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DesignLibrary:WHEEL MOTOR_1_Resistor-1_DesignLibrary.SchLib")
 		(at 273.05 247.65 180)
 		(unit 1)
@@ -8245,7 +6444,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 273.05 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -8678,7 +6877,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 290.83 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -8943,80 +7142,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
-		(at 392.43 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45de3fb3-9e4e-494b-b9de-2e4c5f3fce71")
-		(property "Reference" "#PWR0583"
-			(at 392.43 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 392.43 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 392.43 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 392.43 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "9a549bad-c90f-400d-83d1-13637c8f6e8c")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0583")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
 		(at 217.17 156.21 270)
 		(unit 1)
@@ -9125,7 +7250,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 214.63 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -9340,7 +7465,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 278.13 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -9696,7 +7821,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 214.63 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9805,148 +7930,6 @@
 		)
 	)
 	(symbol
-		(lib_name "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_9")
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
-		(at 405.13 148.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "606d1adf-1aa0-454b-b95f-f6a10a7a4e80")
-		(property "Reference" "R91"
-			(at 407.416 147.828 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "1K"
-			(at 407.416 151.892 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
-			(at 405.13 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 405.13 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 404.622 147.828 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 404.622 147.828 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 404.622 147.828 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 404.622 147.828 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 404.622 147.828 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "24aff760-61b0-4fbc-9047-d70d6fdf4bc2")
-		)
-		(pin "2"
-			(uuid "cb359c2c-9b81-40f7-a5f8-711c452f5aa6")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "R91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
 		(at 361.95 217.17 90)
 		(unit 1)
@@ -9979,7 +7962,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 361.95 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -10268,7 +8251,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 361.95 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10398,7 +8381,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "WHEEL-MOTOR-RIGHT"
+		(property "Value" "WHEEL-MOTOR-LEFT"
 			(at 344.17 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10862,7 +8845,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 214.63 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10965,85 +8948,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "R90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 382.27 141.7828 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99e93be0-9711-4478-8ad5-1430f5a43f67")
-		(property "Reference" "#FLG02"
-			(at 380.365 141.7828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 378.46 141.7827 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 141.7828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 141.7828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 382.27 141.7828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7653644f-ee1a-4819-b0bd-980dd6039beb")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -11259,148 +9163,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "#PWR0579")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_10")
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
-		(at 397.51 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4cc511e-c92f-47cc-8258-6f953df5f4ef")
-		(property "Reference" "R88"
-			(at 399.796 137.668 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "20K"
-			(at 399.796 141.732 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
-			(at 397.51 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 397.51 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 397.002 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 397.002 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 397.002 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 397.002 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 397.002 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "2"
-			(uuid "9f50f3dc-ba44-4bc9-8402-0701aae8400a")
-		)
-		(pin "1"
-			(uuid "d4989cbc-ece5-4c64-9041-a6ff06b239b6")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -11675,7 +9437,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 356.87 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -11783,136 +9545,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:S7B-ZR_LF_SN")
-		(at 476.25 137.795 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1b18a34-4bf9-4105-9784-ab43516505c3")
-		(property "Reference" "U1"
-			(at 480.06 136.5249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WHEEL-MOTOR-RIGHT"
-			(at 480.06 139.0649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCImport:S7B-ZR_LF_SN"
-			(at 476.25 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212131309_JST-S7B-ZR-LF-SN_C5306723.pdf"
-			(at 476.25 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 1.5mm 12mm 1A 1x7P 3.7mm 50V 6mm 7 7P Brass Glass fiber reinforced PA66 Right Angle Tin UL94V-0 White ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
-			(at 476.25 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5306723"
-			(at 476.25 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 476.25 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "S7B-ZR(LF)(SN)"
-			(at 476.25 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "96cadcd0-5997-47a0-a132-c9f9f93d94d9")
-		)
-		(pin "1"
-			(uuid "89f5868c-a667-4bf1-b0da-67da3302753a")
-		)
-		(pin "2"
-			(uuid "b7050f7c-c56b-4610-8607-9907b705cd83")
-		)
-		(pin "3"
-			(uuid "508aac22-1620-4fd7-b7ad-f001ba0c7593")
-		)
-		(pin "4"
-			(uuid "f8d0c0cb-f182-4fbd-a296-ff04feece3d2")
-		)
-		(pin "5"
-			(uuid "e9a4d03d-adf1-4485-8fee-5aa515fd203c")
-		)
-		(pin "6"
-			(uuid "97442315-ec04-40d9-950e-986659cf5136")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_8")
 		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
 		(at 293.37 278.13 90)
@@ -11946,7 +9578,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 293.37 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -12076,7 +9708,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "0.22uF"
+		(property "Value" "0.22uF/25V"
 			(at 280.67 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12087,7 +9719,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 278.13 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12170,6 +9802,7 @@
 		)
 		(property "VOLTAGERATE" "50V"
 			(at 280.67 135.89 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12377,7 +10010,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 293.37 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -12561,136 +10194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:S7B-ZR_LF_SN")
-		(at 474.98 232.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1a682ab-0446-4fa8-8caf-a334e439fc0e")
-		(property "Reference" "U2"
-			(at 478.79 231.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WHEEL-MOTOR-LEFT"
-			(at 478.79 233.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCImport:S7B-ZR_LF_SN"
-			(at 474.98 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212131309_JST-S7B-ZR-LF-SN_C5306723.pdf"
-			(at 474.98 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 1.5mm 12mm 1A 1x7P 3.7mm 50V 6mm 7 7P Brass Glass fiber reinforced PA66 Right Angle Tin UL94V-0 White ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
-			(at 474.98 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5306723"
-			(at 474.98 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 474.98 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "S7B-ZR(LF)(SN)"
-			(at 474.98 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "88e5ef89-8102-4d65-bda6-4930f95722f1")
-		)
-		(pin "1"
-			(uuid "6d09148e-8891-473a-9083-edefa9ee8648")
-		)
-		(pin "2"
-			(uuid "9dca1f5f-ec8a-4a27-9c25-f6d2ad585f90")
-		)
-		(pin "3"
-			(uuid "f3243e2f-7e33-41ae-a868-18d2dd511b11")
-		)
-		(pin "4"
-			(uuid "42981f25-f25c-4f7a-9766-1dcb0f9d9335")
-		)
-		(pin "5"
-			(uuid "26bf307b-f2ca-4bb8-9016-e5e066d9e452")
-		)
-		(pin "6"
-			(uuid "aa89086a-a712-4ab9-b11a-94bbde546981")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DesignLibrary:WHEEL MOTOR_2_Capacitor-1_DesignLibrary.SchLib")
 		(at 321.31 278.13 270)
 		(unit 1)
@@ -12723,7 +10226,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 321.31 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -12864,7 +10367,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:RES-0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 222.25 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13153,7 +10656,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oomwoo_altium:CAP-0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 318.77 189.23 0)
 			(hide yes)
 			(show_name no)

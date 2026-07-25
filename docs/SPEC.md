@@ -23,7 +23,13 @@ Motor pinouts
 
 ```
 Roborock S5 Max wheel assembly - JST ZH 1.5mm male 7p (needs f)
-['''''''] wheel-drop-switch on, wheel-drop-switch com, orange hall TBD, blue hall TBD, brown hall TBD, MOT, MOT
+7 wheel-drop-switch on
+6 wheel-drop-switch com
+5 orange hall OUT?
+4 blue hall GND?
+3 brown hall VDD?
+2 MOT -?
+1 MOT +?
 
 BL24131607 suction fan DC 14.4V - JST PH2.0 female 5p (needs m)
 ['''''] ID FG SP - +

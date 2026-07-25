@@ -23,11 +23,12 @@ Motor pinouts
 
 ```
 Roborock S5 Max wheel assembly - JST ZH 1.5mm male 7p (mates board f)
+// Also see https://github.com/makerspet/oomwoo/tree/main/contributions/part-specs/Scowt
 7 wheel-drop-switch on
 6 wheel-drop-switch com
-5 orange hall OUT?
-4 blue hall GND?
-3 brown hall VDD?
+5 orange hall 5V VDD?
+4 blue hall signal OUT?
+3 brown hall GND?
 2 MOT -?
 1 MOT +?
 

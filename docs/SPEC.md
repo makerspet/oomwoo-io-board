@@ -22,7 +22,7 @@ Most motors draw power directly from the 4S battery (not via a DC-DC converter).
 Motor pinouts
 
 ```
-Roborock S5 Max wheel assembly - JST ZH 1.5mm male 7p (needs f)
+Roborock S5 Max wheel assembly - JST ZH 1.5mm male 7p (mates board f)
 7 wheel-drop-switch on
 6 wheel-drop-switch com
 5 orange hall OUT?
@@ -31,19 +31,23 @@ Roborock S5 Max wheel assembly - JST ZH 1.5mm male 7p (needs f)
 2 MOT -?
 1 MOT +?
 
-BL24131607 suction fan DC 14.4V - JST PH2.0 female 5p (needs m)
-['''''] ID FG SP - +
+BL24131607 suction fan DC 14.4V - JST PH2.0 female 5p (mates m-m fan-to-board cable)
+1 ID
+2 FG
+3 SP
+4 -
+5 +
 
-20N704R990F suction fan -  JST PH2.0 female 4p (needs m)
+20N704R990F suction fan -  JST PH2.0 female 4p (mates m-m fan-to-board cable)
 [''''] Pinout TBD
 
-20N704R990F suction fan DC 15V - JST PH2.0 female 4p (needs m)
+20N704R990F suction fan DC 15V - JST PH2.0 female 4p (mates m-m fan-to-board cable)
 [''''] Pinout TBD
 
-MSD-D suction fan - JST PH2.0 female 4p (needs m)
+MSD-D suction fan - JST PH2.0 female 4p (mates m-m fan-to-board cable)
 [''''] Pinout TBD
 
-20N709U020 suction fan - JST PH2.0 female 4p (needs m)
+20N709U020 suction fan - JST PH2.0 female 4p (mates m-m fan-to-board cable)
 [''''] Pinout TBD
 
 22N704V160 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (not PH)

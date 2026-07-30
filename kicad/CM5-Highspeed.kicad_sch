@@ -4086,10 +4086,6 @@
 		(uuid "213ec020-569e-4971-b321-ec147fe3455a")
 	)
 	(no_connect
-		(at 299.085 109.22)
-		(uuid "219a48f1-7b44-4398-bfe9-03254d45f8df")
-	)
-	(no_connect
 		(at 360.045 160.02)
 		(uuid "28c98b9c-11f9-48f8-8455-c77b1420b70d")
 	)
@@ -4100,14 +4096,6 @@
 	(no_connect
 		(at 360.045 134.62)
 		(uuid "37a7960f-3c7a-4ffd-8084-0bb35b3f9832")
-	)
-	(no_connect
-		(at 299.085 99.06)
-		(uuid "444b9b77-b98e-478b-a332-49935fee6207")
-	)
-	(no_connect
-		(at 299.085 93.98)
-		(uuid "4bb60b67-99d0-48ee-a124-252d347ba7d9")
 	)
 	(no_connect
 		(at 299.085 198.12)
@@ -4138,10 +4126,6 @@
 		(uuid "5f15b70e-16bd-44e4-bcf3-f5a0289467af")
 	)
 	(no_connect
-		(at 299.085 81.28)
-		(uuid "5fb4ed08-2b0e-4ff5-9d1f-41627dadca43")
-	)
-	(no_connect
 		(at 299.085 152.4)
 		(uuid "6022d106-bf9b-4be2-b7f4-831a9ea62626")
 	)
@@ -4160,10 +4144,6 @@
 	(no_connect
 		(at 360.045 139.7)
 		(uuid "6ba78188-0b3c-4f3e-88dd-15a64d2b115e")
-	)
-	(no_connect
-		(at 299.085 83.82)
-		(uuid "701c7f02-0af4-4693-9796-3ddffd3132ae")
 	)
 	(no_connect
 		(at 360.045 147.32)
@@ -4186,24 +4166,12 @@
 		(uuid "9a2c2586-3b7a-4933-b239-405a5ca860a8")
 	)
 	(no_connect
-		(at 299.085 101.6)
-		(uuid "9b2557ef-beda-4195-b57e-cd918ba6f1f4")
-	)
-	(no_connect
 		(at 299.085 154.94)
 		(uuid "9c2c0c8e-66af-4c50-93ea-0d2557721c09")
 	)
 	(no_connect
 		(at 360.045 205.74)
 		(uuid "9d507f97-b54e-4c22-aa28-c165b72e9d27")
-	)
-	(no_connect
-		(at 299.085 106.68)
-		(uuid "a1512ec2-7b08-4686-9ec4-434116d97053")
-	)
-	(no_connect
-		(at 360.045 91.44)
-		(uuid "a1e40d30-7c2a-494b-8855-8e1c2216e083")
 	)
 	(no_connect
 		(at 299.085 147.32)
@@ -4236,10 +4204,6 @@
 	(no_connect
 		(at 299.085 162.56)
 		(uuid "e9dc1353-b5d6-4e04-b919-8b003b4f3488")
-	)
-	(no_connect
-		(at 299.085 91.44)
-		(uuid "f0b2c3f2-41dc-440d-934a-26bc26a32cdf")
 	)
 	(no_connect
 		(at 299.085 182.88)
@@ -4325,6 +4289,16 @@
 	)
 	(wire
 		(pts
+			(xy 286.385 83.82) (xy 299.085 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b4c9ab-cb67-4871-8563-cca70b2b905f")
+	)
+	(wire
+		(pts
 			(xy 360.045 193.04) (xy 375.92 193.04)
 		)
 		(stroke
@@ -4332,6 +4306,16 @@
 			(type default)
 		)
 		(uuid "1873cb9a-2741-411f-a8ce-76ccf1b39291")
+	)
+	(wire
+		(pts
+			(xy 286.385 91.44) (xy 299.085 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1977fac1-4b50-40e0-b04a-52eae215887c")
 	)
 	(wire
 		(pts
@@ -4482,6 +4466,16 @@
 			(type default)
 		)
 		(uuid "4c96990d-30ba-4e83-a39d-9de98143bc9f")
+	)
+	(wire
+		(pts
+			(xy 286.385 99.06) (xy 299.085 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd7d9a2-a454-48fa-95c0-c21641c6ffe6")
 	)
 	(wire
 		(pts
@@ -4685,6 +4679,16 @@
 	)
 	(wire
 		(pts
+			(xy 286.385 81.28) (xy 299.085 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0705c4-fc94-497e-a0a0-f052326a6d05")
+	)
+	(wire
+		(pts
 			(xy 291.465 172.72) (xy 299.085 172.72)
 		)
 		(stroke
@@ -4762,6 +4766,16 @@
 			(type default)
 		)
 		(uuid "9bd3b31a-4ea1-42ec-bb71-219a6f94e299")
+	)
+	(wire
+		(pts
+			(xy 360.045 91.44) (xy 372.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c394a22-b61f-4d42-ab47-7d432be90666")
 	)
 	(wire
 		(pts
@@ -4865,6 +4879,16 @@
 	)
 	(wire
 		(pts
+			(xy 286.385 101.6) (xy 299.085 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ed61f7-4840-4b23-8e9b-0578af0033da")
+	)
+	(wire
+		(pts
 			(xy 360.045 119.38) (xy 370.205 119.38)
 		)
 		(stroke
@@ -4935,6 +4959,26 @@
 	)
 	(wire
 		(pts
+			(xy 286.385 109.22) (xy 299.085 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32a72c9-841b-4832-aca7-c3d85067a87d")
+	)
+	(wire
+		(pts
+			(xy 286.385 106.68) (xy 299.085 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40afda2-3cb6-497d-b52d-f2156df57fa8")
+	)
+	(wire
+		(pts
 			(xy 291.465 165.1) (xy 299.085 165.1)
 		)
 		(stroke
@@ -4995,6 +5039,16 @@
 	)
 	(wire
 		(pts
+			(xy 286.385 93.98) (xy 299.085 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90bc8dc-5463-4e16-b070-62fcfada4d88")
+	)
+	(wire
+		(pts
 			(xy 360.045 114.3) (xy 375.92 114.3)
 		)
 		(stroke
@@ -5052,6 +5106,28 @@
 			(type default)
 		)
 		(uuid "ff8b3905-6e7e-43c7-94ef-5ae68a359ea1")
+	)
+	(hierarchical_label "PCIE_TX_P"
+		(shape input)
+		(at 286.385 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08b3b9cc-6fc5-40cc-9378-bf3026862e45")
+	)
+	(hierarchical_label "PCIE_nWAKE"
+		(shape output)
+		(at 286.385 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "155dbb2a-de06-4ceb-8ede-10834ee582ae")
 	)
 	(hierarchical_label "USB2_P"
 		(shape bidirectional)
@@ -5119,6 +5195,17 @@
 		)
 		(uuid "71edf54c-fa60-448d-9a21-06fba3f9abd8")
 	)
+	(hierarchical_label "PCIE_CLK_nREQ"
+		(shape output)
+		(at 286.385 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a026544-6722-4428-b1c8-4bd7e3661d29")
+	)
 	(hierarchical_label "CM4_CAM0_D1_P"
 		(shape bidirectional)
 		(at 286.385 124.46 180)
@@ -5140,6 +5227,17 @@
 			(justify right)
 		)
 		(uuid "802e5780-1af4-43c1-b6d8-23f4715ea256")
+	)
+	(hierarchical_label "PCIE_CLK_P"
+		(shape input)
+		(at 286.385 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81718733-cbd0-4d19-9c12-ffb9557ee2db")
 	)
 	(hierarchical_label "MIPI1_C_P"
 		(shape bidirectional)
@@ -5229,6 +5327,17 @@
 		)
 		(uuid "b5b4f316-031c-4181-b951-feb8788852e8")
 	)
+	(hierarchical_label "PCIE_RX_P"
+		(shape output)
+		(at 286.385 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c839b8f9-0f3b-4d19-8bc9-93f998ef1807")
+	)
 	(hierarchical_label "MIPI1_C_N"
 		(shape bidirectional)
 		(at 375.92 190.5 0)
@@ -5240,6 +5349,17 @@
 		)
 		(uuid "c9906005-90f5-40cf-ace1-d2d6ed19a8cc")
 	)
+	(hierarchical_label "PCIE_CLK_N"
+		(shape input)
+		(at 286.385 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbcbbafa-76f7-4bc7-9bd7-77ae18cb2cca")
+	)
 	(hierarchical_label "MIPI1_D0_N"
 		(shape bidirectional)
 		(at 375.92 175.26 0)
@@ -5250,6 +5370,39 @@
 			(justify left)
 		)
 		(uuid "e6292c34-8bc1-4c55-b720-aec05996bf76")
+	)
+	(hierarchical_label "PCIE_TX_N"
+		(shape input)
+		(at 286.385 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7d3e848-8e47-4684-83ab-bce6778e21a4")
+	)
+	(hierarchical_label "PCIE_RX_N"
+		(shape output)
+		(at 286.385 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee0ed2fd-0b66-41e9-a50f-2bbc45cd6f41")
+	)
+	(hierarchical_label "PCIE_nRST"
+		(shape input)
+		(at 372.11 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2f504cb-381e-44e5-ae80-e61beef04310")
 	)
 	(hierarchical_label "MIPI0_C_N"
 		(shape bidirectional)

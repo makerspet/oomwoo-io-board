@@ -357,347 +357,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DesignLibrary:WHEEL MOTOR_0_HDRx5_DesignLibrary.SchLib"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*CONN-SMD_5P-P1.50_ZX-ZH1.5-5PWT*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_0_HDRx5_DesignLibrary.SchLib_1_0"
-				(rectangle
-					(start -15.24 0)
-					(end 0 -7.62)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 152 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 270)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 270)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 -5.08 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 180)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RES-0603*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_1_0"
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
-						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DesignLibrary:WHEEL MOTOR_1_Capacitor-1_DesignLibrary.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -974,334 +633,6 @@
 					(at 0 -10.16 90)
 					(length 2.54)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DesignLibrary:WHEEL MOTOR_2_Capacitor-1_DesignLibrary.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*CAP-0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_2_Capacitor-1_DesignLibrary.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.032) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.048) (xy -1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DesignLibrary:WHEEL MOTOR_3_Capacitor-1_DesignLibrary.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*CAP-0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_3_Capacitor-1_DesignLibrary.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.032) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.048) (xy -1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1659,6 +990,460 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:S7B-ZR_LF_SN"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S7B-ZR_LF_SN"
+				(at 0 -12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:S7B-ZR_LF_SN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212131309_JST-S7B-ZR-LF-SN_C5306723.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-25℃~+85℃ 1 1.5mm 12mm 1A 1x7P 3.7mm 50V 6mm 7 7P Brass Glass fiber reinforced PA66 Right Angle Tin UL94V-0 White ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5306723"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "S7B-ZR(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C5306723 CONN-TH_7P-P1.50_JST_S7B-ZR JST S7B-ZR(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S7B-ZR_LF_SN_0_1"
+				(circle
+					(center -1.27 8.89)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -10.16) (xy 2.1311 -10.1503) (xy 2.2264 -10.1214) (xy 2.3142 -10.0744) (xy 2.3912 -10.0112)
+						(xy 2.4544 -9.9343) (xy 2.5013 -9.8464) (xy 2.5302 -9.7511) (xy 2.54 -9.652) (xy 2.5302 9.7511)
+						(xy 2.5013 9.8464) (xy 2.4544 9.9343) (xy 2.3912 10.0112) (xy 2.3142 10.0744) (xy 2.2264 10.1214)
+						(xy 2.1311 10.1503) (xy 2.032 10.16) (xy -2.1311 10.1503) (xy -2.2264 10.1214) (xy -2.3142 10.0744)
+						(xy -2.3912 10.0112) (xy -2.4544 9.9343) (xy -2.5013 9.8464) (xy -2.5302 9.7511) (xy -2.54 9.652)
+						(xy -2.5302 -9.7511) (xy -2.5013 -9.8464) (xy -2.4544 -9.9343) (xy -2.3912 -10.0112) (xy -2.3142 -10.0744)
+						(xy -2.2264 -10.1214) (xy -2.1311 -10.1503) (xy -2.032 -10.16) (xy 2.032 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_1"
 			(pin_numbers
 				(hide yes)
@@ -1736,264 +1521,6 @@
 				)
 			)
 			(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_1_1_0"
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
-						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_11"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RES-0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_11_1_0"
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
-						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_12"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RES-0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_12_1_0"
 				(polyline
 					(pts
 						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
@@ -2691,264 +2218,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_7"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RES-0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_7_1_0"
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
-						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_8"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RES-0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_8_1_0"
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
-						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oomwoo-kicad-altium-import:BAT-VCC_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -3462,32 +2731,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "A"
-		(exclude_from_sim no)
-		(at 344.17 237.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "0974df7c-cad5-49f1-8f0d-e59ce2b7eb85")
-	)
-	(text "M+"
-		(exclude_from_sim no)
-		(at 344.17 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "0fa159d1-bbe3-4b04-8138-c6759fdb33db")
-	)
 	(text "WHEEL MOTOR CONTROL"
 		(exclude_from_sim no)
 		(at 172.72 91.44 0)
@@ -3502,110 +2745,6 @@
 		)
 		(uuid "1239d6b9-b363-49aa-830b-07fa11a06ecc")
 	)
-	(text "VCC"
-		(exclude_from_sim no)
-		(at 344.17 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "81e96b9e-c997-422b-8ec2-a612368ff076")
-	)
-	(text "M+"
-		(exclude_from_sim no)
-		(at 344.17 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b8e01f5d-1829-45bc-a310-5bd26e6ff78c")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 344.17 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf2540eb-9d80-44f9-a0a4-c3dc4bcc734e")
-	)
-	(text "M-"
-		(exclude_from_sim no)
-		(at 344.17 232.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d751c204-dc4f-4065-8a3d-5c80216571fd")
-	)
-	(text "M-"
-		(exclude_from_sim no)
-		(at 344.17 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9dd6091-5fe5-472b-9144-9f68215748f8")
-	)
-	(text "A"
-		(exclude_from_sim no)
-		(at 344.17 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "dacf09d8-659a-450c-8178-3456639fe4ee")
-	)
-	(text "VCC"
-		(exclude_from_sim no)
-		(at 344.17 240.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3fd41fb-faba-4bd5-ae23-6074476b5720")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 344.17 234.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e555a399-f32a-4196-ac98-adc2364d34ee")
-	)
 	(junction
 		(at 217.17 262.89)
 		(diameter 0)
@@ -3617,12 +2756,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1631b6c0-f8e0-42e4-bbb4-24240abaaf38")
-	)
-	(junction
-		(at 311.15 270.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fdfced8-5246-4470-bc12-dc7cd8de0dae")
 	)
 	(junction
 		(at 267.97 125.73)
@@ -3637,16 +2770,16 @@
 		(uuid "5478857e-6da1-4d8d-b282-e860359e2424")
 	)
 	(junction
+		(at 332.74 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55b43f86-a6f5-442f-aced-c6d7414c2d3c")
+	)
+	(junction
 		(at 267.97 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59d90195-566e-4973-b0c2-b56e70112fe3")
-	)
-	(junction
-		(at 311.15 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61a6b41e-63c5-4a4f-91d5-edbe33dc4eaf")
 	)
 	(junction
 		(at 217.17 176.53)
@@ -3655,34 +2788,22 @@
 		(uuid "62c8bf30-8227-4837-806d-83c959ae5a4b")
 	)
 	(junction
-		(at 356.87 130.81)
+		(at 345.44 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f7cdf9d-72e3-4f3f-9eb5-ac18794f7bbc")
+		(uuid "66672e5c-0ae1-47d5-bc04-75b5015eb0ca")
 	)
 	(junction
-		(at 336.55 247.65)
+		(at 332.105 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e0dd404-af51-47f6-b6ce-bc1eddf66117")
+		(uuid "7bfac859-a79d-4ccd-83f2-2c3a064ad59b")
 	)
 	(junction
-		(at 341.63 161.29)
+		(at 344.805 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac8ca476-b693-4015-9887-82056ac9a9af")
-	)
-	(junction
-		(at 336.55 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b18ffe6c-fa51-405c-9164-b9974c76f86d")
-	)
-	(junction
-		(at 356.87 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0c45efa-91f7-4747-814c-888b64e1be61")
+		(uuid "bdf0db8f-0294-4438-ab22-ba2cc1d868af")
 	)
 	(junction
 		(at 273.05 234.95)
@@ -3691,34 +2812,10 @@
 		(uuid "c37c7f9b-3f08-463b-b006-8c0f0fe11020")
 	)
 	(junction
-		(at 382.27 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb5e2d1f-ea32-4a37-8620-5d2ae718ef34")
-	)
-	(junction
 		(at 278.13 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d59ee983-8f72-4fe4-9f74-21869dbb4c01")
-	)
-	(junction
-		(at 311.15 278.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db0900b5-318e-49df-8241-16d561c91b13")
-	)
-	(junction
-		(at 311.15 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e40943c5-cd13-483b-9e30-34b7600d3fb2")
-	)
-	(junction
-		(at 341.63 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecd66952-e48f-43f6-9499-5ab77d247cf7")
 	)
 	(wire
 		(pts
@@ -3752,23 +2849,23 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 161.29) (xy 341.63 161.29)
+			(xy 344.805 151.13) (xy 344.805 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0927f392-60f9-46cd-8980-9142912f60bc")
+		(uuid "04c6d25f-de2b-4736-8579-0240fb24a25f")
 	)
 	(wire
 		(pts
-			(xy 372.11 217.17) (xy 382.27 217.17)
+			(xy 332.74 266.7) (xy 345.44 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d00b16a-7078-4bd4-ac5d-1656952ccec7")
+		(uuid "0c29d69e-6f70-4183-9f0c-36d85f54332a")
 	)
 	(wire
 		(pts
@@ -3779,16 +2876,6 @@
 			(type default)
 		)
 		(uuid "0edf5803-c377-4889-a29b-a0e339ec4e88")
-	)
-	(wire
-		(pts
-			(xy 382.27 130.81) (xy 382.27 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe9c8a8-d81b-407f-af0a-3fca065b678b")
 	)
 	(wire
 		(pts
@@ -3812,16 +2899,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 270.51) (xy 311.15 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19e6b423-561e-4835-a416-c085caee9464")
-	)
-	(wire
-		(pts
 			(xy 217.17 262.89) (xy 206.984 262.89)
 		)
 		(stroke
@@ -3842,43 +2919,43 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 270.51) (xy 303.53 270.51)
+			(xy 262.89 143.51) (xy 351.155 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "216ac096-a632-4d27-a055-8c700d808cae")
+		(uuid "21eead99-563a-477c-bfd1-7a33c50b0dea")
 	)
 	(wire
 		(pts
-			(xy 336.55 245.11) (xy 336.55 247.65)
+			(xy 332.105 156.21) (xy 351.155 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "221a9629-0c1d-4bff-94f8-7fb3f16110e3")
+		(uuid "222dda12-0cc1-4875-88b4-6e51da68a30c")
 	)
 	(wire
 		(pts
-			(xy 328.93 153.67) (xy 318.77 153.67)
+			(xy 332.74 245.11) (xy 351.79 245.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "244f1167-3790-4bd3-8008-9f0d00b99fd5")
+		(uuid "24353fc7-4579-4fa4-8583-d56c7f482853")
 	)
 	(wire
 		(pts
-			(xy 336.55 135.89) (xy 341.63 135.89)
+			(xy 321.31 158.75) (xy 332.105 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27c10e9b-76f8-4149-8592-c2d32f471472")
+		(uuid "24424b9d-6ca7-4e50-97d7-4252530a3ce4")
 	)
 	(wire
 		(pts
@@ -3892,26 +2969,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 240.03) (xy 318.77 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29b4d564-d38a-4682-8845-7706bba5f416")
-	)
-	(wire
-		(pts
-			(xy 293.37 270.51) (xy 285.75 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ab620c3-505a-43c0-a7a2-9fcf30ba4d48")
-	)
-	(wire
-		(pts
 			(xy 267.97 209.55) (xy 267.97 212.09)
 		)
 		(stroke
@@ -3919,6 +2976,16 @@
 			(type default)
 		)
 		(uuid "2b2a658f-0869-4726-bb0e-82e87c1d9801")
+	)
+	(wire
+		(pts
+			(xy 321.945 240.03) (xy 351.79 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d3630a-86c4-4d92-b5f1-ce6b6329f557")
 	)
 	(wire
 		(pts
@@ -3962,56 +3029,6 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 123.19) (xy 410.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d9e3f0-b8b6-4d26-a16f-e24d1a9ffdc2")
-	)
-	(wire
-		(pts
-			(xy 323.85 148.59) (xy 323.85 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a892514-21ca-4adb-bf49-99c2117c9c41")
-	)
-	(wire
-		(pts
-			(xy 341.63 135.89) (xy 341.63 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1adc24-44c2-409d-9d94-4b1119075f82")
-	)
-	(wire
-		(pts
-			(xy 336.55 247.65) (xy 341.63 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3e5e24-9b0b-4b91-b337-cac6c5475564")
-	)
-	(wire
-		(pts
-			(xy 318.77 189.23) (xy 323.85 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ed6b670-ce10-4e3c-a8df-75a705925607")
-	)
-	(wire
-		(pts
 			(xy 267.97 125.73) (xy 267.97 140.97)
 		)
 		(stroke
@@ -4019,16 +3036,6 @@
 			(type default)
 		)
 		(uuid "3ff97205-d456-40dd-88ec-ea0823c1bf61")
-	)
-	(wire
-		(pts
-			(xy 328.93 237.49) (xy 311.15 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f84aa5-0522-4604-8330-ef94e2febad1")
 	)
 	(wire
 		(pts
@@ -4042,23 +3049,23 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 219.71) (xy 356.87 217.17)
+			(xy 262.89 232.41) (xy 351.79 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44a5efdd-fcfd-4ecc-866b-98fe56877b81")
+		(uuid "43c52793-b85d-4580-91ce-77fc1123dbb3")
 	)
 	(wire
 		(pts
-			(xy 321.31 278.13) (xy 326.39 278.13)
+			(xy 332.105 173.99) (xy 332.105 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49115367-8f24-4422-87bf-4cfbee56c5ee")
+		(uuid "490cc463-8150-4327-b9c8-5856a7c2d7d5")
 	)
 	(wire
 		(pts
@@ -4092,16 +3099,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 153.67) (xy 318.77 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "506bd7ac-d9e1-41ab-ba84-12a538f0d515")
-	)
-	(wire
-		(pts
 			(xy 267.97 237.49) (xy 267.97 247.65)
 		)
 		(stroke
@@ -4112,43 +3109,13 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 234.95) (xy 323.85 247.65)
+			(xy 344.805 125.73) (xy 344.805 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "581619bb-7536-485c-9895-70b7c83f40d9")
-	)
-	(wire
-		(pts
-			(xy 328.93 234.95) (xy 323.85 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5862d960-3895-4862-97a1-222c477b7228")
-	)
-	(wire
-		(pts
-			(xy 336.55 224.79) (xy 336.55 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b512e96-42e7-4aa5-8614-c3b83c0d23fd")
-	)
-	(wire
-		(pts
-			(xy 356.87 224.79) (xy 356.87 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65139ce0-a5da-440a-9004-ebb7aff09699")
+		(uuid "64d6ef27-4edb-4f46-8cfe-f57d0340fa2a")
 	)
 	(wire
 		(pts
@@ -4162,16 +3129,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 148.59) (xy 323.85 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "677e18d2-d91a-4ffc-8701-ee0be343d6a1")
-	)
-	(wire
-		(pts
 			(xy 214.63 143.51) (xy 206.984 143.51)
 		)
 		(stroke
@@ -4179,16 +3136,6 @@
 			(type default)
 		)
 		(uuid "680d0647-de7b-4613-ac47-da78d234f8ea")
-	)
-	(wire
-		(pts
-			(xy 262.89 229.87) (xy 328.93 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c314a61-6389-4fe6-8cd9-becb597f8e45")
 	)
 	(wire
 		(pts
@@ -4232,16 +3179,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 278.13) (xy 311.15 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75b32464-9eaa-49ee-ac5d-16b55541ffd5")
-	)
-	(wire
-		(pts
 			(xy 229.87 234.95) (xy 237.49 234.95)
 		)
 		(stroke
@@ -4262,6 +3199,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.105 166.37) (xy 332.105 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786eecd1-ae11-4065-b396-155c68bcf3ad")
+	)
+	(wire
+		(pts
 			(xy 270.51 148.59) (xy 270.51 151.13)
 		)
 		(stroke
@@ -4269,26 +3216,6 @@
 			(type default)
 		)
 		(uuid "79dc7c90-4a33-45ce-81a8-4b1351f0a072")
-	)
-	(wire
-		(pts
-			(xy 336.55 222.25) (xy 341.63 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c32c3c5-71ed-42b0-a44e-f021d29fa56d")
-	)
-	(wire
-		(pts
-			(xy 318.77 217.17) (xy 356.87 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7da29853-4a39-41ed-b3e7-4e14498cfc5f")
 	)
 	(wire
 		(pts
@@ -4312,6 +3239,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 229.87) (xy 351.79 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82246fc2-24ee-4732-ac19-2ec0c2d84cd4")
+	)
+	(wire
+		(pts
+			(xy 344.805 151.13) (xy 351.155 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d75f50-dab0-4ec6-bf20-7a83c0a9312e")
+	)
+	(wire
+		(pts
 			(xy 278.13 125.73) (xy 290.83 125.73)
 		)
 		(stroke
@@ -4319,16 +3266,6 @@
 			(type default)
 		)
 		(uuid "86b46d49-798e-42ff-a762-43fd8334233e")
-	)
-	(wire
-		(pts
-			(xy 262.89 232.41) (xy 328.93 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d20dd54-dbed-491f-8378-6b35014f7fda")
 	)
 	(wire
 		(pts
@@ -4342,43 +3279,13 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 189.23) (xy 311.15 189.23)
+			(xy 332.74 252.73) (xy 332.74 245.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "919abb47-5ecf-4cc8-807e-0be44d26f57a")
-	)
-	(wire
-		(pts
-			(xy 341.63 247.65) (xy 341.63 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "933aad37-2ae8-457d-b66d-11dcf14b992a")
-	)
-	(wire
-		(pts
-			(xy 336.55 138.43) (xy 336.55 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a0cb39-f777-48c4-bdac-746927f14bdd")
-	)
-	(wire
-		(pts
-			(xy 323.85 247.65) (xy 336.55 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962dafd3-3daa-4527-bcec-88091061c181")
+		(uuid "977badb8-9dd7-4b98-93cf-95b93f4dc2b8")
 	)
 	(wire
 		(pts
@@ -4392,26 +3299,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 158.75) (xy 336.55 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b408565-cd8f-4ec0-9e38-6752f4eafce8")
-	)
-	(wire
-		(pts
-			(xy 356.87 138.43) (xy 356.87 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce8fcd9-bba2-4b09-b192-32ded45bbe9c")
-	)
-	(wire
-		(pts
 			(xy 229.87 242.57) (xy 229.87 234.95)
 		)
 		(stroke
@@ -4422,43 +3309,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.628 189.23) (xy 290.83 189.23)
+			(xy 321.945 245.11) (xy 332.74 245.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d720efe-68c6-4057-a87d-4bca1fea6da5")
-	)
-	(wire
-		(pts
-			(xy 311.15 278.13) (xy 311.15 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f11446b-4541-4a4f-8758-c2f703b6fe9b")
-	)
-	(wire
-		(pts
-			(xy 262.89 143.51) (xy 328.93 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0faf6a1-6a4c-4d15-a76f-8e32236e156b")
-	)
-	(wire
-		(pts
-			(xy 372.11 130.81) (xy 382.27 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a20bf4a5-3232-4113-8386-3c4e35e1cb91")
+		(uuid "9e812c2c-7714-4109-beca-c661be473d1f")
 	)
 	(wire
 		(pts
@@ -4482,16 +3339,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 151.13) (xy 311.15 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5c0d06e-a1d4-444d-bfad-8e02747ce87c")
-	)
-	(wire
-		(pts
 			(xy 214.63 146.05) (xy 206.984 146.05)
 		)
 		(stroke
@@ -4502,13 +3349,13 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 181.61) (xy 283.21 181.61)
+			(xy 332.74 212.09) (xy 332.74 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9a3877b-f83b-4f06-934d-86ff0a892035")
+		(uuid "a87cf7b4-62cd-42e5-8186-15651b61e844")
 	)
 	(wire
 		(pts
@@ -4522,33 +3369,23 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 181.61) (xy 311.15 189.23)
+			(xy 332.74 260.35) (xy 332.74 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abbb563d-d065-4d4b-bc64-5069e00a3fb3")
+		(uuid "ab2ad32e-7e93-43ae-9874-917932bbb685")
 	)
 	(wire
 		(pts
-			(xy 356.87 217.17) (xy 361.95 217.17)
+			(xy 344.805 148.59) (xy 351.155 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac403db3-bc9f-4d81-802b-87b7a9dabd75")
-	)
-	(wire
-		(pts
-			(xy 382.27 130.81) (xy 410.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adefe73b-8198-476a-88c5-4ae1103a298e")
+		(uuid "ad94d23d-3279-4fb9-85f9-d5557bb95ccf")
 	)
 	(wire
 		(pts
@@ -4562,33 +3399,23 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 161.29) (xy 336.55 161.29)
+			(xy 332.105 125.73) (xy 332.105 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0f03ae4-d92d-4f6f-952a-dbec21c6c102")
+		(uuid "ba6573d7-fcf1-4ac4-8906-58f4aea885cf")
 	)
 	(wire
 		(pts
-			(xy 318.77 130.81) (xy 356.87 130.81)
+			(xy 344.805 180.34) (xy 344.805 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b26701c9-16e2-4639-9b7b-4c3d05a76cb3")
-	)
-	(wire
-		(pts
-			(xy 311.15 189.23) (xy 313.69 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4d656c5-058f-4422-9dad-8d42edd88bdd")
+		(uuid "bb60d897-3375-4e24-9a59-a18fa191d51c")
 	)
 	(wire
 		(pts
@@ -4612,6 +3439,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 146.05) (xy 351.155 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c1af13-afda-44b6-ac17-6bf189ef7a05")
+	)
+	(wire
+		(pts
+			(xy 332.105 158.75) (xy 351.155 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f738a3-4e23-4bb6-af90-03188084ab8e")
+	)
+	(wire
+		(pts
 			(xy 278.13 133.35) (xy 278.13 135.89)
 		)
 		(stroke
@@ -4622,16 +3469,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 146.05) (xy 328.93 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c48197bb-676e-4211-ba72-d392fde0fd3f")
-	)
-	(wire
-		(pts
 			(xy 280.67 234.95) (xy 273.05 234.95)
 		)
 		(stroke
@@ -4639,6 +3476,16 @@
 			(type default)
 		)
 		(uuid "c571d57f-73c3-4b85-8a6f-646ff29469cc")
+	)
+	(wire
+		(pts
+			(xy 345.44 266.7) (xy 345.44 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a9135c-8a0b-44e5-bb69-0b8a8913b625")
 	)
 	(wire
 		(pts
@@ -4662,26 +3509,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 130.81) (xy 361.95 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c943a6ca-f70b-492f-96ed-0ed3c9e22e74")
-	)
-	(wire
-		(pts
-			(xy 328.93 240.03) (xy 318.77 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca8288e2-09f8-44b7-a8e9-8c5a28ad5c99")
-	)
-	(wire
-		(pts
 			(xy 222.25 176.53) (xy 217.17 176.53)
 		)
 		(stroke
@@ -4689,16 +3516,6 @@
 			(type default)
 		)
 		(uuid "cc00bc62-b79a-4f58-bff6-fc9f0486c2e6")
-	)
-	(wire
-		(pts
-			(xy 341.63 222.25) (xy 341.63 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3c42e7-ab64-489b-adda-993360534a28")
 	)
 	(wire
 		(pts
@@ -4722,13 +3539,13 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 181.61) (xy 311.15 181.61)
+			(xy 345.44 237.49) (xy 351.79 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7c83d0c-2c99-4742-b874-349530293dde")
+		(uuid "d93a5907-3b96-416f-9b6a-39d8f6671a35")
 	)
 	(wire
 		(pts
@@ -4742,33 +3559,13 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 133.35) (xy 356.87 130.81)
+			(xy 345.44 212.09) (xy 345.44 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc2edfbe-a426-4fe4-8a38-28fea871a575")
-	)
-	(wire
-		(pts
-			(xy 276.168 278.13) (xy 293.37 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de85de2d-bfab-4969-87e9-31a4fc40fb1a")
-	)
-	(wire
-		(pts
-			(xy 341.63 161.29) (xy 341.63 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfd1c93f-0124-4554-a5c4-9e26355a95de")
+		(uuid "e0433fe2-2853-4aee-be8b-93174cd8bf67")
 	)
 	(wire
 		(pts
@@ -4779,16 +3576,6 @@
 			(type default)
 		)
 		(uuid "e0f7fa1b-a1ad-47b5-a972-582d8d2a2fc0")
-	)
-	(wire
-		(pts
-			(xy 328.93 151.13) (xy 311.15 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1909f92-76ce-4e23-86f9-4d69c5dadc3f")
 	)
 	(wire
 		(pts
@@ -4822,13 +3609,33 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 278.13) (xy 311.15 278.13)
+			(xy 345.44 237.49) (xy 345.44 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efc9608e-4c84-452a-a6a5-6e8b68c8ad0d")
+		(uuid "eca84ac0-dbd6-4a95-b5b2-b4c96c4c50f3")
+	)
+	(wire
+		(pts
+			(xy 321.31 153.67) (xy 351.155 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece412e0-d341-4792-9762-5648300ec6c5")
+	)
+	(wire
+		(pts
+			(xy 332.105 180.34) (xy 344.805 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee01c2af-197b-4de5-b608-a87fde927095")
 	)
 	(wire
 		(pts
@@ -4862,6 +3669,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 234.95) (xy 351.79 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66f1d9d-bb1c-49ea-a93b-46b99a538d60")
+	)
+	(wire
+		(pts
 			(xy 237.49 143.51) (xy 224.79 143.51)
 		)
 		(stroke
@@ -4869,6 +3686,27 @@
 			(type default)
 		)
 		(uuid "fe5fda0f-0857-4e1e-99d5-028dc5f68635")
+	)
+	(wire
+		(pts
+			(xy 332.74 242.57) (xy 351.79 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2cc7d1-8c20-410b-988f-410c0cadfdd7")
+	)
+	(hierarchical_label "WHEEL-M-RIGHT-DROP"
+		(shape output)
+		(at 321.31 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ca4d98b-2bec-4c48-8ed9-933744da936f")
 	)
 	(hierarchical_label "WHEEL-M-L-F-ADC"
 		(shape output)
@@ -4903,27 +3741,16 @@
 		)
 		(uuid "2fcf240b-7688-446b-8bff-e0c89791381b")
 	)
-	(hierarchical_label "WHEEL-M-RIGHT-ENCODE-A"
+	(hierarchical_label "WHEEL-M-LEFT-DROP"
 		(shape output)
-		(at 273.628 189.23 180)
+		(at 321.945 245.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3dfb02c2-8091-4bf4-a386-b876fe4e379f")
-	)
-	(hierarchical_label "WHEEL-M-LEFT-ENCODE-A"
-		(shape output)
-		(at 276.168 278.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e4cb787-f4ad-483d-a9cb-82970a09be9e")
+		(uuid "85725d7d-08c4-4579-b9ad-81302fc9ce80")
 	)
 	(hierarchical_label "WHEEL-M-R-F-ADC"
 		(shape output)
@@ -4957,6 +3784,28 @@
 			(justify right)
 		)
 		(uuid "e84e6ddc-11d8-4fcb-9a05-c36c2456065c")
+	)
+	(hierarchical_label "WHEEL-M-LEFT-ENCODE-A"
+		(shape output)
+		(at 321.945 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efafbe74-3a02-4087-b941-5895b280ec6b")
+	)
+	(hierarchical_label "WHEEL-M-RIGHT-ENCODE-A"
+		(shape output)
+		(at 321.31 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1bb9481-dab0-4d25-a07f-e08e9363c6a2")
 	)
 	(symbol
 		(lib_id "DesignLibrary:WHEEL MOTOR_1_Resistor-1_DesignLibrary.SchLib")
@@ -5174,8 +4023,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
-		(at 356.87 227.33 0)
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 332.74 212.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5183,9 +4032,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0563c6ed-7924-4f86-99cb-ab8e9c7ecd56")
-		(property "Reference" "#PWR0581"
-			(at 356.87 227.33 0)
+		(uuid "05ee7a1d-7320-43a9-843d-cf582937c594")
+		(property "Reference" "#PWR0611"
+			(at 332.74 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5195,18 +4044,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 356.87 233.68 0)
+		(property "Value" "VCC-3V3-P"
+			(at 325.12 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 227.33 0)
+			(at 332.74 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5216,7 +4066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 227.33 0)
+			(at 332.74 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5226,7 +4076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 356.87 227.33 0)
+			(at 332.74 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5236,12 +4086,12 @@
 			)
 		)
 		(pin ""
-			(uuid "c9960416-4e55-4239-bb7e-3954c7f408ef")
+			(uuid "e3e1ab34-01ab-4eb5-a423-c2ed916aac58")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0581")
+					(reference "#PWR0611")
 					(unit 1)
 				)
 			)
@@ -5558,9 +4408,8 @@
 		)
 	)
 	(symbol
-		(lib_name "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_11")
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
-		(at 290.83 181.61 90)
+		(lib_id "JLCImport:S7B-ZR_LF_SN")
+		(at 356.87 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5568,31 +4417,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "13eb1a86-5dc1-4d6a-a831-f80f26619d0c")
-		(property "Reference" "R94"
-			(at 293.116 180.848 90)
+		(fields_autoplaced yes)
+		(uuid "11910e13-1061-44fd-ace2-b666c41be4ca")
+		(property "Reference" "MOT_L1"
+			(at 360.68 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "4K7"
-			(at 293.116 184.912 90)
+		(property "Value" "S7B-ZR_LF_SN"
+			(at 360.68 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 290.83 181.61 0)
+		(property "Footprint" "JLCImport:S7B-ZR_LF_SN"
+			(at 356.87 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5602,8 +4452,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 290.83 181.61 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212131309_JST-S7B-ZR-LF-SN_C5306723.pdf"
+			(at 356.87 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5613,8 +4463,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 290.83 181.61 0)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 12mm 1A 1x7P 3.7mm 50V 6mm 7 7P Brass Glass fiber reinforced PA66 Right Angle Tin UL94V-0 White ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
+			(at 356.87 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,8 +4474,8 @@
 				)
 			)
 		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 290.322 180.848 90)
+		(property "LCSC" "C5306723"
+			(at 356.87 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,11 +4483,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "*"
-			(at 290.322 180.848 90)
+		(property "Manufacturer" "JST"
+			(at 356.87 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5645,11 +4494,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 290.322 180.848 90)
+		(property "Manufacturer Part" "S7B-ZR(LF)(SN)"
+			(at 356.87 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5657,43 +4505,33 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "SUPPLIER" "*"
-			(at 290.322 180.848 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
+		(pin "3"
+			(uuid "fec59d7b-a7cb-464b-be73-28f23b03d8a9")
 		)
-		(property "VOLTAGERATE" "*"
-			(at 290.322 180.848 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
+		(pin "7"
+			(uuid "c3385cb2-d3a3-47bb-ae72-a966980f5ac4")
+		)
+		(pin "4"
+			(uuid "f0106f36-268a-427c-903f-df08d3adfc8b")
 		)
 		(pin "1"
-			(uuid "0327ce48-a983-4720-b784-92769ed36e15")
+			(uuid "7129ebb0-12c6-4640-a487-c40e7cf675c8")
+		)
+		(pin "5"
+			(uuid "5b21d4e6-c3ff-43f3-888b-b2585946858d")
 		)
 		(pin "2"
-			(uuid "db81d180-568e-4f55-9fcb-1ad97fe574c3")
+			(uuid "2974fe16-be79-482a-b623-f718b3eec385")
+		)
+		(pin "6"
+			(uuid "8df29829-4aa8-4f2c-b317-3e18f1eeb7d9")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "R94")
+					(reference "MOT_L1")
 					(unit 1)
 				)
 			)
@@ -5910,146 +4748,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "R97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_3_Capacitor-1_DesignLibrary.SchLib")
-		(at 356.87 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "21f86744-87bf-4db1-81dd-f596e5c37d9b")
-		(property "Reference" "C86"
-			(at 358.394 136.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 358.394 139.446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 356.87 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 356.87 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 355.346 132.842 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 355.346 132.842 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 355.346 132.842 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 355.346 132.842 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "VOLTAGERATE" "50V"
-			(at 358.394 141.986 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "941ddb9c-c061-4a32-bbdd-2688b1bed74f")
-		)
-		(pin "1"
-			(uuid "c278806a-489f-431c-bccc-4d00c8409e1f")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -6553,81 +5251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
-		(at 285.75 270.51 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3430f018-4b0d-4602-b4d3-cd0de95c65b1")
-		(property "Reference" "#PWR0573"
-			(at 285.75 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC-3V3-P"
-			(at 281.94 270.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 270.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 270.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 270.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "0642d859-2587-440d-8dfd-976d661f4c3f")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0573")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DesignLibrary:WHEEL MOTOR_3_DIODE-1_DesignLibrary.SchLib")
 		(at 219.71 267.97 0)
 		(unit 1)
@@ -6769,8 +5392,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
-		(at 326.39 278.13 90)
+		(lib_id "oomwoo-kicad-altium-import:VCC-5V-REG_BAR")
+		(at 345.44 212.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6778,9 +5401,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3c48e50c-1f2c-4823-b72f-9c09b87caeb9")
-		(property "Reference" "#PWR0577"
-			(at 326.39 278.13 0)
+		(uuid "4113054a-81cd-4f70-980e-5ad694a01de5")
+		(property "Reference" "#PWR075"
+			(at 345.44 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6790,19 +5413,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 332.74 278.13 90)
+		(property "Value" "VCC-5V-REG"
+			(at 345.44 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 278.13 0)
+			(at 345.44 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6812,7 +5434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 278.13 0)
+			(at 345.44 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6822,7 +5444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 326.39 278.13 0)
+			(at 345.44 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6832,310 +5454,12 @@
 			)
 		)
 		(pin ""
-			(uuid "a982db61-8112-4e6a-93be-779585514b49")
+			(uuid "b77a64ec-290a-4bd8-9d6e-35ab16261d94")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0577")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_12")
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
-		(at 290.83 189.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44282e9b-762f-4c0d-b3a6-6e56ba21797e")
-		(property "Reference" "R95"
-			(at 293.116 188.468 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "1K"
-			(at 293.116 192.532 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 290.83 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 290.83 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 290.322 188.468 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 290.322 188.468 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 290.322 188.468 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 290.322 188.468 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 290.322 188.468 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "65141ead-5a89-4997-a363-5562c4e22472")
-		)
-		(pin "2"
-			(uuid "76d56da6-8674-407f-957b-2fc5068ded5f")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "R95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_HDRx5_DesignLibrary.SchLib")
-		(at 331.47 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4493e6c0-a34e-4eca-98e1-4a833be8b3dd")
-		(property "Reference" "J12"
-			(at 328.93 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "WHEEL-MOTOR-RIGHT"
-			(at 344.17 163.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "oomwoo_altium:CONN-SMD_5P-P1.50_ZX-ZH1.5-5PWT"
-			(at 331.47 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 331.47 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 330.2 147.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 330.2 147.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 330.2 147.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 330.2 147.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 330.2 147.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "3"
-			(uuid "45b808e7-c55a-41fa-baa9-1bf89259a14a")
-		)
-		(pin "5"
-			(uuid "7362c60c-bf3d-4ece-95b8-8912e6d0cdfe")
-		)
-		(pin "2"
-			(uuid "7bf24977-b677-4a4f-9a9b-add421c5d68b")
-		)
-		(pin "6"
-			(uuid "8fb7adc6-17e3-4bfc-9b92-d8c5dd12f0c1")
-		)
-		(pin "7"
-			(uuid "d92b0994-6702-4375-82bf-62b702737d4c")
-		)
-		(pin "1"
-			(uuid "69e5b2e2-8947-4783-804b-39df43a02110")
-		)
-		(pin "4"
-			(uuid "89f6efb5-d621-43f2-bfd6-dd525818a656")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "J12")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7573,6 +5897,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 332.74 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52cd3e02-e96d-4729-a146-b40b17d5aaa2")
+		(property "Reference" "R50"
+			(at 335.28 255.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 335.28 257.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 333.756 256.794 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 332.74 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32d141b6-e30e-4303-9876-a6edd0e32e00")
+		)
+		(pin "2"
+			(uuid "a04bf6b9-e852-4573-9fdf-89f2e5a581f7")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
 		(at 217.17 242.57 270)
 		(unit 1)
@@ -7642,6 +6047,87 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "#PWR0560")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 332.105 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58053d17-6722-4f77-9546-bbcc2006d067")
+		(property "Reference" "R49"
+			(at 334.645 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 334.645 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 333.121 170.434 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.105 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 332.105 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27b68078-f087-44ed-9c7f-ef346c2291f8")
+		)
+		(pin "2"
+			(uuid "2ff69764-1a08-45fb-87a9-9470fccde7d5")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -7930,147 +6416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
-		(at 361.95 217.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6bee4816-9b06-4d83-a25d-619ce4765397")
-		(property "Reference" "R96"
-			(at 364.236 216.408 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "330R"
-			(at 364.236 220.472 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 361.95 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 361.95 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 361.442 216.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 361.442 216.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 361.442 216.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 361.442 216.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 361.442 216.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "28c979c4-8446-472f-b238-a8dca2b6eb5b")
-		)
-		(pin "2"
-			(uuid "e88701a3-2631-466c-af72-f0e84f3b5cc3")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "R96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
 		(at 217.17 280.67 0)
 		(unit 1)
@@ -8219,303 +6564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
-		(at 361.95 130.81 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74bb0338-833f-497b-bd1e-cc722acb12da")
-		(property "Reference" "R87"
-			(at 364.236 130.048 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "330R"
-			(at 364.236 134.112 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 361.95 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 361.95 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 361.442 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 361.442 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 361.442 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 361.442 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 361.442 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "b26f3b6a-bdc8-4af6-b2fe-2cc564b0fc16")
-		)
-		(pin "2"
-			(uuid "6303cf2e-934d-4930-837d-58859be77980")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "R87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_HDRx5_DesignLibrary.SchLib")
-		(at 331.47 227.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8106507e-c155-4677-898e-d364781571ad")
-		(property "Reference" "J13"
-			(at 328.93 224.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "WHEEL-MOTOR-LEFT"
-			(at 344.17 250.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "oomwoo_altium:CONN-SMD_5P-P1.50_ZX-ZH1.5-5PWT"
-			(at 331.47 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 331.47 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 330.2 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 330.2 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 330.2 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 330.2 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 330.2 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "4"
-			(uuid "553b1aad-4faa-4fb0-be6d-52f193923113")
-		)
-		(pin "1"
-			(uuid "5c1907d8-1aa3-407d-a16a-74f66e0fc01e")
-		)
-		(pin "2"
-			(uuid "9e3deeff-a56f-48e6-8e37-c23216c5b851")
-		)
-		(pin "3"
-			(uuid "6eff44fc-5003-468d-9c66-db69ba0dcd7c")
-		)
-		(pin "7"
-			(uuid "b170b53d-ee34-4ffc-b94e-d9f561ee4139")
-		)
-		(pin "5"
-			(uuid "0a501d75-91f5-4be3-a837-186d63d4dd37")
-		)
-		(pin "6"
-			(uuid "3e16abe1-6d93-431f-9cf9-81960d38a269")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
 		(at 265.43 161.29 0)
 		(unit 1)
@@ -8658,80 +6706,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "#PWR0563")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
-		(at 341.63 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8fd82de4-5399-4aac-b673-20e676a75f84")
-		(property "Reference" "#PWR0578"
-			(at 341.63 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 341.63 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 341.63 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "d29fdca6-edd7-42ff-9493-b0a591989307")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0578")
 					(unit 1)
 				)
 			)
@@ -9096,80 +7070,6 @@
 	)
 	(symbol
 		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
-		(at 341.63 250.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3965070-72d5-492f-b6e8-630ae293baef")
-		(property "Reference" "#PWR0579"
-			(at 341.63 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 341.63 256.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 341.63 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e89a453b-474b-4764-8cfb-68ddd9373604")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0579")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
 		(at 217.17 194.31 0)
 		(unit 1)
 		(body_style 1)
@@ -9405,288 +7305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_3_Capacitor-1_DesignLibrary.SchLib")
-		(at 356.87 219.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b036958a-ab06-4be3-8684-a28efdc8d8b1")
-		(property "Reference" "C90"
-			(at 358.394 223.266 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 358.394 225.806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 356.87 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 356.87 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 355.346 219.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 355.346 219.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 355.346 219.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 355.346 219.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "VOLTAGERATE" "50V"
-			(at 358.394 228.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "19923413-4493-4cd8-984d-6fa4646ceb7a")
-		)
-		(pin "2"
-			(uuid "70ce329a-e09d-464e-9395-6e5592e144ce")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_8")
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
-		(at 293.37 278.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c057c6ce-5942-4d5b-993f-f18bdd5b4d5f")
-		(property "Reference" "R102"
-			(at 295.656 277.368 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "1K"
-			(at 295.656 281.432 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 293.37 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 292.862 277.368 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 292.862 277.368 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 292.862 277.368 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 292.862 277.368 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 292.862 277.368 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "2"
-			(uuid "61645722-16d1-450f-80bb-d1122974a0e7")
-		)
-		(pin "1"
-			(uuid "8446d22f-4a19-4b9b-92c6-8bb170112ce7")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "R102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DesignLibrary:WHEEL MOTOR_1_Capacitor-1_DesignLibrary.SchLib")
 		(at 278.13 133.35 180)
 		(unit 1)
@@ -9828,82 +7446,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC-5V-REG_BAR")
-		(at 410.21 123.19 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca24337a-e9ed-471d-ad0f-f13f3b7b2ebb")
-		(property "Reference" "#PWR069"
-			(at 410.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC-5V-REG"
-			(at 410.21 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 410.21 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 410.21 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 410.21 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "7b3fbb44-6695-4bbf-a906-1155b7c6c807")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
-		(at 323.85 189.23 90)
+		(at 345.44 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9911,9 +7455,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d256a848-7217-45c9-9045-94f132f65891")
-		(property "Reference" "#PWR0576"
-			(at 323.85 189.23 0)
+		(uuid "ca192c0f-7fc2-49ce-9a55-26117c3032bc")
+		(property "Reference" "#PWR0612"
+			(at 345.44 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9924,18 +7468,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 330.2 189.23 90)
+			(at 345.44 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 189.23 0)
+			(at 345.44 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9945,7 +7488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 189.23 0)
+			(at 345.44 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9955,7 +7498,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 189.23 0)
+			(at 345.44 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9965,21 +7508,20 @@
 			)
 		)
 		(pin ""
-			(uuid "3cee8a7b-3d3d-4598-8c63-2c517d5b1ef3")
+			(uuid "e3e82b73-1697-489f-897b-ac9416cb5080")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0576")
+					(reference "#PWR0612")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib_7")
-		(lib_id "DesignLibrary:WHEEL MOTOR_0_Resistor-1_DesignLibrary.SchLib")
-		(at 293.37 270.51 90)
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 344.805 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9987,32 +7529,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d27c86e0-c564-4ad1-8da9-3292019139fe")
-		(property "Reference" "R101"
-			(at 295.656 269.748 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "4K7"
-			(at 295.656 273.812 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 293.37 270.51 0)
+		(uuid "cc728b34-2f82-4296-bb15-66cd0c3c4a7d")
+		(property "Reference" "#PWR0589"
+			(at 344.805 181.61 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 344.805 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.805 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10022,8 +7562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 270.51 0)
-			(hide yes)
+			(at 344.805 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10033,8 +7572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 293.37 270.51 0)
-			(hide yes)
+			(at 344.805 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10043,84 +7581,21 @@
 				)
 			)
 		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 292.862 269.748 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 292.862 269.748 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 292.862 269.748 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 292.862 269.748 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 292.862 269.748 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "2"
-			(uuid "6ec0df39-09cb-4de0-858e-4fef20842066")
-		)
-		(pin "1"
-			(uuid "2b26b94c-5b56-427f-8ea4-6fca067544a9")
+		(pin ""
+			(uuid "cd822354-6bef-42f9-b078-d900a7947500")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "R101")
+					(reference "#PWR0589")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
-		(at 283.21 181.61 270)
+		(lib_id "JLCImport:S7B-ZR_LF_SN")
+		(at 356.235 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10128,9 +7603,139 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d27ef8f0-f7bb-4a44-9232-71f9bd72f398")
-		(property "Reference" "#PWR0572"
-			(at 283.21 181.61 0)
+		(fields_autoplaced yes)
+		(uuid "d46491b5-214a-4e9b-a6a8-0e83697c5e75")
+		(property "Reference" "MOT_R1"
+			(at 360.045 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S7B-ZR_LF_SN"
+			(at 360.045 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:S7B-ZR_LF_SN"
+			(at 356.235 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212131309_JST-S7B-ZR-LF-SN_C5306723.pdf"
+			(at 356.235 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 12mm 1A 1x7P 3.7mm 50V 6mm 7 7P Brass Glass fiber reinforced PA66 Right Angle Tin UL94V-0 White ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
+			(at 356.235 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5306723"
+			(at 356.235 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 356.235 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "S7B-ZR(LF)(SN)"
+			(at 356.235 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "db5e5642-8399-4feb-b146-e15ebc313da7")
+		)
+		(pin "7"
+			(uuid "06a1814a-2baf-404c-b292-3f7b24c2691b")
+		)
+		(pin "4"
+			(uuid "c50384df-7a95-4723-8728-f5e8298182ff")
+		)
+		(pin "1"
+			(uuid "eeab531f-f221-499f-b961-d7e3786810a5")
+		)
+		(pin "5"
+			(uuid "f2f650af-33c5-411a-9809-f1eaf0fc9dcc")
+		)
+		(pin "2"
+			(uuid "d247ada2-8833-41fa-ac06-369ac8173322")
+		)
+		(pin "6"
+			(uuid "fa00fe3c-a800-45eb-9aa7-394f01ad4a38")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
+					(reference "MOT_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 332.105 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dad27826-1833-4913-9787-42f419d5267c")
+		(property "Reference" "#PWR0610"
+			(at 332.105 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10141,7 +7746,7 @@
 			)
 		)
 		(property "Value" "VCC-3V3-P"
-			(at 279.4 181.61 90)
+			(at 324.485 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10152,7 +7757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 181.61 0)
+			(at 332.105 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10162,7 +7767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 181.61 0)
+			(at 332.105 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10172,7 +7777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 283.21 181.61 0)
+			(at 332.105 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10182,20 +7787,20 @@
 			)
 		)
 		(pin ""
-			(uuid "713dd57b-c366-4627-91b1-2718d2c4cc31")
+			(uuid "f19cb841-19be-46e0-a087-c683c2b00908")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0572")
+					(reference "#PWR0610")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_2_Capacitor-1_DesignLibrary.SchLib")
-		(at 321.31 278.13 270)
+		(lib_id "oomwoo-kicad-altium-import:VCC-5V-REG_BAR")
+		(at 344.805 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10203,32 +7808,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e37218f1-06c4-4b81-97f7-1e917ef05748")
-		(property "Reference" "C91"
-			(at 317.246 276.606 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 321.31 280.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 321.31 278.13 0)
+		(uuid "e860ac7e-f81f-4c60-8c9a-8f5247532b57")
+		(property "Reference" "#PWR074"
+			(at 344.805 125.73 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-5V-REG"
+			(at 344.805 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.805 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10238,8 +7841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 278.13 0)
-			(hide yes)
+			(at 344.805 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10249,8 +7851,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 321.31 278.13 0)
-			(hide yes)
+			(at 344.805 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10259,75 +7860,13 @@
 				)
 			)
 		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 315.722 276.606 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 315.722 276.606 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 315.722 276.606 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 315.722 276.606 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "VOLTAGERATE" "50V"
-			(at 321.31 283.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "a889c2db-f793-4bc4-b2f7-0863f42e8094")
-		)
-		(pin "2"
-			(uuid "4140548f-d68a-43ae-8817-141532d73535")
+		(pin ""
+			(uuid "591f7aa6-78b6-48d6-ab0f-3114ef21faee")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "C91")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -10618,220 +8157,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
 					(reference "#PWR0565")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DesignLibrary:WHEEL MOTOR_2_Capacitor-1_DesignLibrary.SchLib")
-		(at 318.77 189.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f8763fdd-b2b3-4b50-90b7-30eb63d6fe47")
-		(property "Reference" "C87"
-			(at 314.706 187.706 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 318.77 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 318.77 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 313.182 187.706 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 313.182 187.706 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 313.182 187.706 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 313.182 187.706 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "VOLTAGERATE" "50V"
-			(at 318.77 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "b05c4a47-ee69-46d4-b280-54015e09dbbd")
-		)
-		(pin "1"
-			(uuid "cd5c0bef-2081-4291-bf7a-7ae294228959")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "C87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
-		(at 356.87 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc869bbe-5b13-463d-bdfb-c3d66c8b0618")
-		(property "Reference" "#PWR0580"
-			(at 356.87 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 356.87 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.87 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 356.87 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "dd643bc7-ce08-435e-8a2b-178b4c3ae1a4")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/dc7554d6-6a04-4f93-8cb8-7c364fc629ef"
-					(reference "#PWR0580")
 					(unit 1)
 				)
 			)

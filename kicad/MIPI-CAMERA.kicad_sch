@@ -867,7 +867,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oomwoo-kicad-altium-import:VCC3V3_SYS_BAR"
+		(symbol "oomwoo-kicad-altium-import:VCC-3V3-P_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -885,7 +885,7 @@
 					)
 				)
 			)
-			(property "Value" "VCC3V3_SYS"
+			(property "Value" "VCC-3V3-P"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -917,7 +917,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name 'VCC3V3_SYS'"
+			(property "Description" "Power symbol creates a global label with name 'VCC-3V3-P'"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -939,7 +939,7 @@
 					)
 				)
 			)
-			(symbol "VCC3V3_SYS_BAR_0_0"
+			(symbol "VCC-3V3-P_BAR_0_0"
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy 1.27 -2.54)
@@ -968,7 +968,7 @@
 					(at 0 0 0)
 					(length 0)
 					(hide yes)
-					(name "VCC3V3_SYS"
+					(name "VCC-3V3-P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1153,6 +1153,12 @@
 		(uuid "50c6a518-8088-4024-bd3e-50960b3787ae")
 	)
 	(junction
+		(at 269.24 192.405)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "136447ea-fed2-4aeb-b3c5-c10aa66eda5d")
+	)
+	(junction
 		(at 344.805 281.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1177,12 +1183,6 @@
 		(uuid "4f37fdcf-7ce3-4056-bd1e-c4f872dc459b")
 	)
 	(junction
-		(at 269.875 192.405)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fe07c60-75aa-41e1-aafe-8647efe6719f")
-	)
-	(junction
 		(at 258.445 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1198,7 +1198,7 @@
 		(at 357.505 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f4535b8-3be4-48fa-ba23-cd098ba7c4d8")
+		(uuid "788d903d-d34f-4892-922f-6039a2d4172a")
 	)
 	(junction
 		(at 258.445 284.48)
@@ -1282,7 +1282,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 167.005) (xy 281.305 167.005)
+			(xy 250.825 167.005) (xy 296.545 167.005)
 		)
 		(stroke
 			(width 0)
@@ -1292,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 259.08) (xy 368.935 259.08)
+			(xy 338.455 259.08) (xy 386.08 259.08)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 271.78) (xy 368.935 271.78)
+			(xy 338.455 271.78) (xy 386.08 271.78)
 		)
 		(stroke
 			(width 0)
@@ -1322,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 243.84) (xy 368.935 243.84)
+			(xy 338.455 243.84) (xy 386.08 243.84)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 251.46) (xy 368.935 251.46)
+			(xy 338.455 251.46) (xy 386.08 251.46)
 		)
 		(stroke
 			(width 0)
@@ -1392,16 +1392,6 @@
 	)
 	(wire
 		(pts
-			(xy 357.505 233.68) (xy 357.505 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c363efa-ab84-48b5-a80e-30a6036153e0")
-	)
-	(wire
-		(pts
 			(xy 252.095 243.84) (xy 258.445 243.84)
 		)
 		(stroke
@@ -1442,7 +1432,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 169.545) (xy 281.305 169.545)
+			(xy 250.825 169.545) (xy 296.545 169.545)
 		)
 		(stroke
 			(width 0)
@@ -1532,16 +1522,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.875 149.225) (xy 269.875 192.405)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d914a0e-c24a-4810-ac2e-2a9d215bf859")
-	)
-	(wire
-		(pts
 			(xy 258.445 259.08) (xy 258.445 266.7)
 		)
 		(stroke
@@ -1552,13 +1532,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.875 192.405) (xy 250.825 192.405)
+			(xy 269.24 192.405) (xy 250.825 192.405)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70e9ef4e-72b4-4ee8-b620-faf59bcf0bc8")
+		(uuid "707e4acc-5500-47af-ac20-b463a3b2ffba")
 	)
 	(wire
 		(pts
@@ -1572,7 +1552,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 254) (xy 368.935 254)
+			(xy 338.455 254) (xy 386.08 254)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 246.38) (xy 368.935 246.38)
+			(xy 338.455 246.38) (xy 386.08 246.38)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +1632,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 187.325) (xy 281.305 187.325)
+			(xy 250.825 187.325) (xy 296.545 187.325)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 189.865) (xy 281.305 189.865)
+			(xy 250.825 189.865) (xy 296.545 189.865)
 		)
 		(stroke
 			(width 0)
@@ -1692,13 +1672,23 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 177.165) (xy 281.305 177.165)
+			(xy 250.825 177.165) (xy 296.545 177.165)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d9215a2-6046-4de3-bd77-63b52046bd6d")
+	)
+	(wire
+		(pts
+			(xy 269.24 192.405) (xy 269.875 192.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2a0da1-f916-4320-a02e-6ed4871b1480")
 	)
 	(wire
 		(pts
@@ -1752,6 +1742,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 135.255) (xy 269.24 192.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48e9aba-a69b-4ee9-94c4-14b02f6c68f4")
+	)
+	(wire
+		(pts
 			(xy 271.145 290.83) (xy 271.145 298.45)
 		)
 		(stroke
@@ -1772,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 261.62) (xy 368.935 261.62)
+			(xy 338.455 261.62) (xy 386.08 261.62)
 		)
 		(stroke
 			(width 0)
@@ -1792,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 266.7) (xy 368.935 266.7)
+			(xy 338.455 266.7) (xy 386.08 266.7)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 174.625) (xy 281.305 174.625)
+			(xy 250.825 174.625) (xy 296.545 174.625)
 		)
 		(stroke
 			(width 0)
@@ -1842,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 274.32) (xy 368.935 274.32)
+			(xy 338.455 274.32) (xy 386.08 274.32)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 159.385) (xy 281.305 159.385)
+			(xy 250.825 159.385) (xy 296.545 159.385)
 		)
 		(stroke
 			(width 0)
@@ -1869,6 +1869,16 @@
 			(type default)
 		)
 		(uuid "d764d096-fb7f-4836-8ecf-9b747bd8350e")
+	)
+	(wire
+		(pts
+			(xy 357.505 220.345) (xy 357.505 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d51025-1bf3-4deb-b58d-e6368393001d")
 	)
 	(wire
 		(pts
@@ -1892,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 182.245) (xy 281.305 182.245)
+			(xy 250.825 182.245) (xy 296.545 182.245)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 161.925) (xy 281.305 161.925)
+			(xy 250.825 161.925) (xy 296.545 161.925)
 		)
 		(stroke
 			(width 0)
@@ -1991,7 +2001,7 @@
 		(uuid "34f5f29f-df26-49ad-8594-f110d27846a3")
 	)
 	(label "ID_SD"
-		(at 368.935 274.32 0)
+		(at 386.08 274.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2001,7 +2011,7 @@
 		(uuid "4074a92f-ef34-4cef-9d9d-dcc85c286e85")
 	)
 	(label "CAM_IO"
-		(at 368.935 266.7 0)
+		(at 386.08 266.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2011,7 +2021,7 @@
 		(uuid "66e2b5d3-06b1-4f57-a1b9-f7d5340f0376")
 	)
 	(label "ID_SC"
-		(at 368.935 271.78 0)
+		(at 386.08 271.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2032,7 +2042,7 @@
 	)
 	(hierarchical_label "SCL0"
 		(shape input)
-		(at 281.305 187.325 0)
+		(at 296.545 187.325 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2043,7 +2053,7 @@
 	)
 	(hierarchical_label "MIPI0_C_P"
 		(shape output)
-		(at 281.305 177.165 0)
+		(at 296.545 177.165 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2065,7 +2075,7 @@
 	)
 	(hierarchical_label "MIPI0_D0_N"
 		(shape output)
-		(at 281.305 159.385 0)
+		(at 296.545 159.385 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2076,7 +2086,7 @@
 	)
 	(hierarchical_label "CM4_CAM0_D1_N"
 		(shape output)
-		(at 368.935 251.46 0)
+		(at 386.08 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2087,7 +2097,7 @@
 	)
 	(hierarchical_label "MIPI0_D1_N"
 		(shape output)
-		(at 281.305 167.005 0)
+		(at 296.545 167.005 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2098,7 +2108,7 @@
 	)
 	(hierarchical_label "CM4_CAM0_D0_P"
 		(shape output)
-		(at 368.935 246.38 0)
+		(at 386.08 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2109,7 +2119,7 @@
 	)
 	(hierarchical_label "CM4_CAM0_C_N"
 		(shape output)
-		(at 368.935 259.08 0)
+		(at 386.08 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2120,7 +2130,7 @@
 	)
 	(hierarchical_label "SDA0"
 		(shape bidirectional)
-		(at 281.305 189.865 0)
+		(at 296.545 189.865 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2164,7 +2174,7 @@
 	)
 	(hierarchical_label "CM4_CAM0_D0_N"
 		(shape output)
-		(at 368.935 243.84 0)
+		(at 386.08 243.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2175,7 +2185,7 @@
 	)
 	(hierarchical_label "CAM_IO"
 		(shape input)
-		(at 281.305 182.245 0)
+		(at 296.545 182.245 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2221,7 +2231,7 @@
 	)
 	(hierarchical_label "CM4_CAM0_C_P"
 		(shape output)
-		(at 368.935 261.62 0)
+		(at 386.08 261.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2232,7 +2242,7 @@
 	)
 	(hierarchical_label "MIPI0_C_N"
 		(shape output)
-		(at 281.305 174.625 0)
+		(at 296.545 174.625 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2242,7 +2252,7 @@
 		)
 		(uuid "ab8a9102-1b3f-4179-b245-657c085ef5d1")
 		(property "Net Class" ""
-			(at 281.305 175.895 0)
+			(at 296.545 175.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2278,7 +2288,7 @@
 	)
 	(hierarchical_label "MIPI0_D0_P"
 		(shape output)
-		(at 281.305 161.925 0)
+		(at 296.545 161.925 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2289,7 +2299,7 @@
 	)
 	(hierarchical_label "MIPI0_D1_P"
 		(shape output)
-		(at 281.305 169.545 0)
+		(at 296.545 169.545 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2300,7 +2310,7 @@
 	)
 	(hierarchical_label "CM4_CAM0_D1_P"
 		(shape output)
-		(at 368.935 254 0)
+		(at 386.08 254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2310,8 +2320,8 @@
 		(uuid "e3264333-a9b2-4288-97e9-3bfc6fdeebd3")
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC3V3_SYS_BAR")
-		(at 271.145 236.22 180)
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 357.505 220.345 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2319,9 +2329,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "16abc4b7-6832-4a87-acdb-40e98f0c4523")
-		(property "Reference" "#PWR050"
-			(at 271.145 236.22 0)
+		(uuid "39492b0e-ecea-40bd-8dd5-7f03ee728d7c")
+		(property "Reference" "#PWR053"
+			(at 357.505 220.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2331,8 +2341,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC3V3_SYS"
-			(at 271.145 232.41 0)
+		(property "Value" "VCC-3V3-P"
+			(at 357.505 216.535 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2342,7 +2352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.145 236.22 0)
+			(at 357.505 220.345 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2352,7 +2362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.145 236.22 0)
+			(at 357.505 220.345 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2362,7 +2372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.145 236.22 0)
+			(at 357.505 220.345 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2372,12 +2382,12 @@
 			)
 		)
 		(pin ""
-			(uuid "6378fd97-1007-48fd-b6c2-6ee380be61ae")
+			(uuid "d8e7c36a-760d-423e-848c-571d91c83eb4")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/4ec956ed-a6e4-4c45-8336-48489dad8324"
-					(reference "#PWR050")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2623,6 +2633,80 @@
 		)
 	)
 	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 269.24 135.255 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f700b67-a76d-4c0b-8280-9aa035c9c117")
+		(property "Reference" "#PWR087"
+			(at 269.24 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3-P"
+			(at 269.24 131.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 135.255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 135.255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 135.255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "fcc0b7c7-5da0-4aa4-bea9-8cc8e6b5bb68")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/4ec956ed-a6e4-4c45-8336-48489dad8324"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 357.505 295.91 0)
 		(unit 1)
@@ -2854,80 +2938,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC3V3_SYS_BAR")
-		(at 357.505 233.68 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c0d4e38-6f08-4a7f-8f3f-c416715d1a9a")
-		(property "Reference" "#PWR053"
-			(at 357.505 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC3V3_SYS"
-			(at 357.505 229.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 357.505 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 357.505 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 357.505 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "ba3bd84f-68f9-40d9-a421-704ca063e64f")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/4ec956ed-a6e4-4c45-8336-48489dad8324"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 271.145 287.02 0)
 		(unit 1)
@@ -3082,80 +3092,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/4ec956ed-a6e4-4c45-8336-48489dad8324"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC3V3_SYS_BAR")
-		(at 269.875 149.225 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b29575be-7a5c-4069-92b2-952226ed8d12")
-		(property "Reference" "#PWR027"
-			(at 269.875 149.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC3V3_SYS"
-			(at 269.875 145.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.875 149.225 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.875 149.225 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.875 149.225 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "f6a83641-1f11-45bc-99f8-9dc3b0a22143")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/4ec956ed-a6e4-4c45-8336-48489dad8324"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3502,6 +3438,80 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/4ec956ed-a6e4-4c45-8336-48489dad8324"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 271.145 236.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db2189bb-4e82-4d73-a8bc-9aa978bbddea")
+		(property "Reference" "#PWR050"
+			(at 271.145 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3-P"
+			(at 271.145 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.145 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.145 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 271.145 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "098aaa6c-af5e-466d-bac2-90114e2cccb7")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/4ec956ed-a6e4-4c45-8336-48489dad8324"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

@@ -5,185 +5,6 @@
 	(uuid "0bb0af75-9faf-4efc-ae03-b7aee0a9f348")
 	(paper "A2")
 	(lib_symbols
-		(symbol "DesignLibrary:BUTTON-LED_0_NPN-SOT23_DesignLibrary.SchLib"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SOT23-3D*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BUTTON-LED_0_NPN-SOT23_DesignLibrary.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -6.35 -4.318) (xy -7.366 -3.556) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width -0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.842 -2.54) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -2.54) (xy -7.366 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -4.318 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 270)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DesignLibrary:BUTTON-LED_0_kEY-4_DesignLibrary.SchLib"
 			(pin_names
 				(hide yes)
@@ -514,135 +335,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DesignLibrary:BUTTON-LED_2_Resistor-1_DesignLibrary.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RES-0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BUTTON-LED_2_Resistor-1_DesignLibrary.SchLib_1_0"
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -6.604) (xy -0.508 -6.35) (xy 0.508 -5.842) (xy -0.508 -5.334) (xy 0.508 -4.826)
-						(xy -0.508 -4.318) (xy 0.508 -3.81) (xy 0 -3.556) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DesignLibrary:BUTTON-LED_3_LED-SMD_DesignLibrary.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -827,6 +519,491 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:IRLML6344TRPBF"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 7.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IRLML6344TRPBF"
+				(at 0 -7.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:IRLML6344TRPBF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809200041_Infineon-Technologies-IRLML6344TRPBF_C53550.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+150℃ 1 N-channel 1.1V 1.3W 29mΩ@4.5V 30V 46pF 5A 6.8nC 650pF SOT-23 MOSFETs ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C53550"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Infineon Technologies"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "IRLML6344TRPBF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C53550 IRLML6344TRPBF Infineon Technologies SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRLML6344TRPBF_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 2.54 1.778) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.524 -0.508) (xy 1.524 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.508) (xy 4.318 -0.762) (xy 5.842 -0.762) (xy 5.08 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 0.508) (xy 5.588 0.508) (xy 4.572 0.508) (xy 4.064 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1127,6 +1304,12 @@
 		(uuid "36f0789f-f27e-43fd-9446-f30f5641ae53")
 	)
 	(junction
+		(at 240.665 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "020ca7c1-4311-4c45-91a6-e8c192bcfe26")
+	)
+	(junction
 		(at 344.805 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1137,6 +1320,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3610d792-b53e-4a4a-8b03-17fb7355ee1f")
+	)
+	(junction
+		(at 240.665 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49a4ac04-a997-4aac-b993-8cac1c8bcb55")
 	)
 	(junction
 		(at 329.565 240.03)
@@ -1151,22 +1340,10 @@
 		(uuid "70c967de-f8f7-44f3-b4b0-537c6b22f1a1")
 	)
 	(junction
-		(at 240.665 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0d69375-aec2-4334-b8e6-549c1c797a34")
-	)
-	(junction
 		(at 329.565 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be7e287c-af5d-4d63-8e0a-2653f65c0b3c")
-	)
-	(junction
-		(at 240.665 257.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db5eed15-135b-4627-864e-cfcd59df52ff")
 	)
 	(junction
 		(at 240.665 143.51)
@@ -1212,16 +1389,6 @@
 	)
 	(wire
 		(pts
-			(xy 230.505 179.07) (xy 240.665 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd2db5b-f17f-43e4-a6d2-52b66c028553")
-	)
-	(wire
-		(pts
 			(xy 332.105 163.83) (xy 329.565 163.83)
 		)
 		(stroke
@@ -1239,6 +1406,26 @@
 			(type default)
 		)
 		(uuid "0ecac008-c2cb-4b69-af95-a51f60fe8a46")
+	)
+	(wire
+		(pts
+			(xy 230.505 257.81) (xy 240.665 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138db216-8e57-47cb-a0f6-dba999763922")
+	)
+	(wire
+		(pts
+			(xy 240.665 179.07) (xy 250.825 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15eb6777-e2ec-43cd-96b4-1ef655d6a193")
 	)
 	(wire
 		(pts
@@ -1272,16 +1459,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.665 196.85) (xy 240.665 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "273b160d-9b03-43da-9b3c-178cb67c077b")
-	)
-	(wire
-		(pts
 			(xy 319.405 240.03) (xy 319.405 250.19)
 		)
 		(stroke
@@ -1289,6 +1466,16 @@
 			(type default)
 		)
 		(uuid "2776fb5e-a406-411a-97f1-7d3ba8b8d405")
+	)
+	(wire
+		(pts
+			(xy 240.665 274.32) (xy 240.665 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32eb7c0b-99aa-4133-8fab-18b4d20cf42f")
 	)
 	(wire
 		(pts
@@ -1322,6 +1509,16 @@
 	)
 	(wire
 		(pts
+			(xy 230.505 269.24) (xy 233.045 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e90110a-092d-4ee3-977e-4fa5345495fb")
+	)
+	(wire
+		(pts
 			(xy 349.885 158.75) (xy 349.885 161.29)
 		)
 		(stroke
@@ -1332,23 +1529,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 265.43) (xy 197.485 265.43)
+			(xy 222.885 269.24) (xy 200.025 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49e450dd-3b9c-4b63-b3de-6db1c09dc0bb")
-	)
-	(wire
-		(pts
-			(xy 240.665 181.61) (xy 240.665 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4abf55c0-78ae-4209-80d4-c270729f4489")
 	)
 	(wire
 		(pts
@@ -1402,7 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.665 179.07) (xy 250.825 179.07)
+			(xy 230.505 179.07) (xy 240.665 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1422,13 +1609,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.665 260.35) (xy 240.665 257.81)
+			(xy 240.665 179.07) (xy 240.665 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7082115d-6370-4455-8560-63f181081163")
+		(uuid "6781eca7-02ab-4ef8-93cf-5bb45db02420")
 	)
 	(wire
 		(pts
@@ -1462,13 +1649,13 @@
 	)
 	(wire
 		(pts
-			(xy 235.585 186.69) (xy 230.505 186.69)
+			(xy 240.665 195.58) (xy 240.665 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d8305f5-48de-43a9-a544-f3cdfc98f756")
+		(uuid "7a902320-f3de-4e16-8d51-610d18235ad6")
 	)
 	(wire
 		(pts
@@ -1492,13 +1679,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 186.69) (xy 197.485 186.69)
+			(xy 222.885 190.5) (xy 200.025 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "84bc0aa9-3698-4145-8368-172335934764")
+	)
+	(wire
+		(pts
+			(xy 230.505 190.5) (xy 233.045 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88352cf9-4ac8-4b39-957e-6538305c21b4")
 	)
 	(wire
 		(pts
@@ -1509,16 +1706,6 @@
 			(type default)
 		)
 		(uuid "92f49ab8-f11f-425b-9fb0-73a24e563200")
-	)
-	(wire
-		(pts
-			(xy 230.505 257.81) (xy 240.665 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972722d3-af19-4bf7-ac58-a25c6d92631e")
 	)
 	(wire
 		(pts
@@ -1572,6 +1759,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.665 257.81) (xy 240.665 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad059c9f-6922-4d45-b371-e91ae05d2a86")
+	)
+	(wire
+		(pts
 			(xy 329.565 242.57) (xy 329.565 240.03)
 		)
 		(stroke
@@ -1602,26 +1799,6 @@
 	)
 	(wire
 		(pts
-			(xy 235.585 265.43) (xy 230.505 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b240f21b-23b5-40a5-b4a0-c6fb96403ecc")
-	)
-	(wire
-		(pts
-			(xy 240.665 257.81) (xy 250.825 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e43876-3229-4f22-acc3-ee8f84e77be5")
-	)
-	(wire
-		(pts
 			(xy 332.105 242.57) (xy 329.565 242.57)
 		)
 		(stroke
@@ -1639,6 +1816,16 @@
 			(type default)
 		)
 		(uuid "ccae9382-8d76-4d33-863b-361963da9e77")
+	)
+	(wire
+		(pts
+			(xy 240.665 257.81) (xy 250.825 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac5af0a-4d86-488a-a443-befbc2f36268")
 	)
 	(wire
 		(pts
@@ -1680,19 +1867,9 @@
 		)
 		(uuid "e89986c1-c1fa-4871-b3a7-67ba0f09cbeb")
 	)
-	(wire
-		(pts
-			(xy 240.665 275.59) (xy 240.665 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e940fc44-c61d-4743-b1ad-369e18571f14")
-	)
 	(hierarchical_label "LED-HOME"
 		(shape input)
-		(at 197.485 186.69 180)
+		(at 200.025 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1725,7 +1902,7 @@
 	)
 	(hierarchical_label "LED-PWR"
 		(shape input)
-		(at 197.485 265.43 180)
+		(at 200.025 269.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1733,150 +1910,6 @@
 			(justify right)
 		)
 		(uuid "fec0f694-57d1-4ce9-8408-57a01681e880")
-	)
-	(symbol
-		(lib_id "DesignLibrary:BUTTON-LED_0_NPN-SOT23_DesignLibrary.SchLib")
-		(at 235.585 181.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "16bac3b2-a0df-414a-a0f5-a5d5169b18b0")
-		(property "Reference" "Q22"
-			(at 241.427 186.436 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 241.427 188.976 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "oomwoo_altium:SOT23-3D"
-			(at 235.585 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 235.585 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 235.585 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 235.077 181.102 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 235.077 181.102 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 235.077 181.102 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 235.077 181.102 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 235.077 181.102 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "8210b87a-2846-4bac-b233-c06957c0a541")
-		)
-		(pin "2"
-			(uuid "ee3345be-b895-4636-8a8f-4496a5c889c7")
-		)
-		(pin "3"
-			(uuid "d430e30b-c998-4879-b349-18426ab41edf")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
-					(reference "Q22")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "DesignLibrary:BUTTON-LED_0_kEY-4_DesignLibrary.SchLib")
@@ -2235,147 +2268,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "#PWR0622")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DesignLibrary:BUTTON-LED_2_Resistor-1_DesignLibrary.SchLib")
-		(at 230.505 265.43 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2624a1e5-aaee-4552-818e-7dc49a689b1d")
-		(property "Reference" "R126"
-			(at 222.631 264.668 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1K"
-			(at 222.631 268.732 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 230.505 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 230.505 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 230.505 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 219.837 264.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 219.837 264.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 219.837 264.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 219.837 264.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 219.837 264.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "8e1d772f-7300-4d54-850b-ff26058fa147")
-		)
-		(pin "1"
-			(uuid "26860df0-6ab0-40bb-94aa-c088bf6a2d3e")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
-					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -2805,6 +2697,124 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:IRLML6344TRPBF")
+		(at 238.125 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b1f864e-985f-4baa-b4a7-f44f16603b6b")
+		(property "Reference" "Q10"
+			(at 245.745 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6344TRPBF"
+			(at 245.745 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:IRLML6344TRPBF"
+			(at 238.125 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809200041_Infineon-Technologies-IRLML6344TRPBF_C53550.pdf"
+			(at 238.125 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 N-channel 1.1V 1.3W 29mΩ@4.5V 30V 46pF 5A 6.8nC 650pF SOT-23 MOSFETs ROHS"
+			(at 238.125 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C53550"
+			(at 238.125 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 238.125 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "IRLML6344TRPBF"
+			(at 238.125 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f8a54f23-31ad-4ca5-b1cf-7fe36ca32786")
+		)
+		(pin "3"
+			(uuid "b2e027c1-ecf6-43f1-9d3c-f093f72b9bb7")
+		)
+		(pin "1"
+			(uuid "483686cb-82a1-44c6-8165-bc7b4e206e7a")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
 		(at 240.665 138.43 180)
 		(unit 1)
@@ -3168,8 +3178,9 @@
 		)
 	)
 	(symbol
-		(lib_id "DesignLibrary:BUTTON-LED_2_Resistor-1_DesignLibrary.SchLib")
-		(at 230.505 186.69 270)
+		(lib_id "Device:R_US")
+		(at 226.695 269.24 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3177,31 +3188,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a4b29d7b-6978-4fc0-8caa-4cc0921fef7b")
-		(property "Reference" "R123"
-			(at 222.631 185.928 90)
+		(uuid "a47874c8-65a5-4cd8-aff5-c069ece5e325")
+		(property "Reference" "R72"
+			(at 226.695 272.415 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "1K"
-			(at 222.631 189.992 90)
+		(property "Value" "10"
+			(at 226.695 266.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 230.505 186.69 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 226.441 268.224 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,7 +3221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 230.505 186.69 0)
+			(at 226.695 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3222,8 +3231,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 230.505 186.69 0)
+		(property "Description" "Resistor, US symbol"
+			(at 226.695 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,78 +3240,18 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 219.837 185.928 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 219.837 185.928 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 219.837 185.928 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 219.837 185.928 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 219.837 185.928 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
-			(uuid "30e5205c-fa17-4673-ba4d-4e4081dac278")
+			(uuid "65d1b4d9-753e-48e0-8cec-9638e64388a6")
 		)
 		(pin "2"
-			(uuid "c2096582-3dd1-49bb-9fa4-873697681803")
+			(uuid "682ce160-2f0a-490f-83ae-674e2ae47c72")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
-					(reference "R123")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -3739,150 +3688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DesignLibrary:BUTTON-LED_0_NPN-SOT23_DesignLibrary.SchLib")
-		(at 235.585 260.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c585945f-cbb8-46d9-90ba-8cfc9cda2876")
-		(property "Reference" "Q23"
-			(at 241.427 265.176 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 241.427 267.716 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "oomwoo_altium:SOT23-3D"
-			(at 235.585 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 235.585 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 235.585 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 235.077 259.842 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 235.077 259.842 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 235.077 259.842 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 235.077 259.842 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 235.077 259.842 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "2"
-			(uuid "3557def8-0e4f-4af5-b1b5-3f38cf7fe5e3")
-		)
-		(pin "3"
-			(uuid "1334f3f7-2a50-4581-a6e9-9e532a0bcce9")
-		)
-		(pin "1"
-			(uuid "ab9954b7-8acb-4245-b697-e1e9ddc52202")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
-					(reference "Q23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DesignLibrary:BUTTON-LED_0_kEY-4_DesignLibrary.SchLib")
 		(at 332.105 240.03 90)
 		(unit 1)
@@ -4024,6 +3829,204 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 226.695 190.5 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0352102-c6e1-47e9-be66-792d1f227c81")
+		(property "Reference" "R71"
+			(at 226.695 193.675 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 226.695 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 226.441 189.484 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.695 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.695 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dddd0fea-9e89-4960-8081-6b2c67716d8d")
+		)
+		(pin "2"
+			(uuid "74f13dac-34b3-4448-a6b5-06c7b0d9b0c6")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:IRLML6344TRPBF")
+		(at 238.125 269.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0690f0f-ffbb-4796-9202-4003b4dce729")
+		(property "Reference" "Q12"
+			(at 245.745 267.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6344TRPBF"
+			(at 245.745 270.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:IRLML6344TRPBF"
+			(at 238.125 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809200041_Infineon-Technologies-IRLML6344TRPBF_C53550.pdf"
+			(at 238.125 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 N-channel 1.1V 1.3W 29mΩ@4.5V 30V 46pF 5A 6.8nC 650pF SOT-23 MOSFETs ROHS"
+			(at 238.125 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C53550"
+			(at 238.125 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 238.125 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "IRLML6344TRPBF"
+			(at 238.125 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fc58a941-67eb-4288-8efc-1c188d4d5e12")
+		)
+		(pin "3"
+			(uuid "c14e0145-f543-4795-9987-f13f35367bc4")
+		)
+		(pin "1"
+			(uuid "046d8d80-4f87-49e0-966a-032634808dba")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
+					(reference "Q12")
 					(unit 1)
 				)
 			)

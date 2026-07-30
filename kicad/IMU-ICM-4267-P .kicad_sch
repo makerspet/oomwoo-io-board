@@ -955,7 +955,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oomwoo-kicad-altium-import:VCC3V3_SYS_BAR"
+		(symbol "oomwoo-kicad-altium-import:VCC-3V3-P_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -973,7 +973,7 @@
 					)
 				)
 			)
-			(property "Value" "VCC3V3_SYS"
+			(property "Value" "VCC-3V3-P"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1005,7 +1005,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name 'VCC3V3_SYS'"
+			(property "Description" "Power symbol creates a global label with name 'VCC-3V3-P'"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1027,7 +1027,7 @@
 					)
 				)
 			)
-			(symbol "VCC3V3_SYS_BAR_0_0"
+			(symbol "VCC-3V3-P_BAR_0_0"
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy 1.27 -2.54)
@@ -1056,7 +1056,7 @@
 					(at 0 0 0)
 					(length 0)
 					(hide yes)
-					(name "VCC3V3_SYS"
+					(name "VCC-3V3-P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1729,6 +1729,80 @@
 			(justify right)
 		)
 		(uuid "ef24d438-2dec-4a3a-9ca3-32305e25e538")
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 361.315 187.325 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a9f3507-cc3a-4402-bd70-028de6264e8e")
+		(property "Reference" "#PWR089"
+			(at 361.315 187.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3-P"
+			(at 361.315 183.515 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.315 187.325 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.315 187.325 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 361.315 187.325 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d79cdd96-e345-41ae-bbd1-5ca3b96c4dd1")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7b57c0fa-4a35-4109-8672-3c36267bf8ff"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "DesignLibrary:IMU_3_Resistor-1_DesignLibrary.SchLib")
@@ -2619,80 +2693,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC3V3_SYS_BAR")
-		(at 361.315 187.325 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf0deda3-d4c3-4d3d-947f-fe84ec14e68a")
-		(property "Reference" "#PWR0691"
-			(at 361.315 187.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC3V3_SYS"
-			(at 361.315 183.515 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 361.315 187.325 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.315 187.325 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 361.315 187.325 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a4d773cf-fd8e-41a8-a41b-20c984c103d7")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7b57c0fa-4a35-4109-8672-3c36267bf8ff"
-					(reference "#PWR0691")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DesignLibrary:IMU_3_Resistor-1_DesignLibrary.SchLib")
 		(at 241.935 179.705 0)
 		(unit 1)
@@ -2974,7 +2974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oomwoo-kicad-altium-import:VCC3V3_SYS_BAR")
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
 		(at 249.555 167.005 180)
 		(unit 1)
 		(body_style 1)
@@ -2983,8 +2983,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f7864898-3b22-4006-b3c1-d79a4935023c")
-		(property "Reference" "#PWR0689"
+		(uuid "f311a566-5cb6-46fe-8f46-186d9dc5baf0")
+		(property "Reference" "#PWR088"
 			(at 249.555 167.005 0)
 			(hide yes)
 			(show_name no)
@@ -2995,7 +2995,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC3V3_SYS"
+		(property "Value" "VCC-3V3-P"
 			(at 249.555 163.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3036,12 +3036,12 @@
 			)
 		)
 		(pin ""
-			(uuid "45d9e17e-b486-40e6-a2a7-cd4484b5d0fd")
+			(uuid "d61dcd76-bd37-4f0b-825e-cdba2fc18b72")
 		)
 		(instances
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7b57c0fa-4a35-4109-8672-3c36267bf8ff"
-					(reference "#PWR0689")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)

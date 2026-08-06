@@ -713,6 +713,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 234.315) (xy 219.71 282.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e496776-57c1-4057-ab14-d4c99987c1d4")
+	)
+	(wire
+		(pts
 			(xy 119.38 116.205) (xy 119.38 133.35)
 		)
 		(stroke
@@ -803,6 +813,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 282.575) (xy 240.03 282.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3195029d-ee5f-4ca8-afa3-469fa9844429")
+	)
+	(wire
+		(pts
 			(xy 179.07 43.18) (xy 207.01 43.18)
 		)
 		(stroke
@@ -863,7 +883,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 285.115) (xy 219.71 285.115)
+			(xy 240.03 285.115) (xy 217.17 285.115)
 		)
 		(stroke
 			(width 0)
@@ -1433,7 +1453,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 285.115) (xy 219.71 234.315)
+			(xy 217.17 285.115) (xy 217.17 234.315)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2272,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 267.97 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2331,7 +2351,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 294.005 260.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,7 +2430,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 285.115 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2489,7 +2509,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 276.86 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2568,7 +2588,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 346.71 135.255 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2647,7 +2667,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 249.555 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2805,7 +2825,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 349.25 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2884,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 258.445 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2963,7 +2983,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10"
 			(at 351.79 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3420,6 +3440,16 @@
 		(pin "STM-PWR-CTRL" input
 			(at 240.03 285.115 180)
 			(uuid "40a55488-9d50-4719-a3b7-4659bc65402a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V-MOTORS-EN" input
+			(at 240.03 282.575 180)
+			(uuid "ccc73d6c-49f1-40bb-91e3-b0cb153ef324")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4190,7 @@
 			)
 		)
 		(pin "STM-PWR-CTRL" output
-			(at 219.71 234.315 270)
+			(at 217.17 234.315 270)
 			(uuid "f3518ee9-1eef-4e41-ba49-b5419bf6aaac")
 			(effects
 				(font
@@ -4497,6 +4527,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "V-MOTORS-EN" output
+			(at 219.71 234.315 270)
+			(uuid "2124fa79-4724-480e-a4db-51089f93fe6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

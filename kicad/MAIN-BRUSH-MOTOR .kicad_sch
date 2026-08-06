@@ -1535,125 +1535,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oomwoo-kicad-altium-import:BAT-VCC_BAR"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT-VCC"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'BAT-VCC'"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BAT-VCC_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "BAT-VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oomwoo-kicad-altium-import:GND_POWER_GROUND"
 			(power global)
 			(exclude_from_sim no)
@@ -1944,16 +1825,16 @@
 		(uuid "7768c4cb-ad86-45aa-a37d-807a9163e3b2")
 	)
 	(junction
+		(at 254.026 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98336c08-616c-4c90-b3a6-c6932f839402")
+	)
+	(junction
 		(at 256.566 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acb8603d-207c-475a-9d6a-2fe75045e467")
-	)
-	(junction
-		(at 254.026 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba07ab13-39f6-4040-aaca-e2564c4e890f")
 	)
 	(junction
 		(at 264.186 152.4)
@@ -2005,7 +1886,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.026 149.86) (xy 254.026 152.4)
+			(xy 254 147.955) (xy 254 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2285,6 +2166,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 152.4) (xy 254.026 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2c89a6-9d4c-4c84-8d98-40819dacbf98")
+	)
+	(wire
+		(pts
 			(xy 325.12 180.34) (xy 325.12 182.88)
 		)
 		(stroke
@@ -2342,6 +2233,30 @@
 			(type default)
 		)
 		(uuid "fafd876a-8b37-40b0-8149-c2420b773ed4")
+	)
+	(global_label "VM-VBAT"
+		(shape input)
+		(at 254 147.955 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c319bbe-0a30-4eb7-a566-9d32fe5d6313")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254 136.4426 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "MAIN-BRUSH-IN1"
 		(shape input)
@@ -3230,80 +3145,6 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/d2575d7d-1146-4d18-8245-44d2d65fb93f"
 					(reference "C104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oomwoo-kicad-altium-import:BAT-VCC_BAR")
-		(at 254.026 149.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "85c36438-1307-4f33-bba9-24a094e52d46")
-		(property "Reference" "#PWR0597"
-			(at 254.026 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT-VCC"
-			(at 254.026 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254.026 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254.026 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 254.026 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "fdd52c1e-dc91-4a99-9912-1113b7e63cb8")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/d2575d7d-1146-4d18-8245-44d2d65fb93f"
-					(reference "#PWR0597")
 					(unit 1)
 				)
 			)

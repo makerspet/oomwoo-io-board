@@ -160,6 +160,12 @@ LDROBOT LD14P lookalike - JST GH 1.25mm 4-pin female (needs m)
 Mystery mini - JST GH 1.25mm 5-pin female (needs m)
 ```
 
+## Sensors
+- VL53L7CH
+  - Arduino library https://github.com/stm32duino/VL53L7CH
+  - hookup schematic https://eu.mouser.com/en/new/stmicroelectronics/stm-vl53l7ch-tof-sensor
+  - LPn pin sets I2C address
+
 ## Pump
 
 - 6V DC motor, peristaltic; ~0.6A rated, 1A max

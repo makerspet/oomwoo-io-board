@@ -7281,6 +7281,12 @@
 		(uuid "16b2b131-8a61-42a1-9f69-cf818aee1fa5")
 	)
 	(junction
+		(at 379.73 243.205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bcf689c-d8b3-4603-b2dd-9a66e32c13db")
+	)
+	(junction
 		(at 235.585 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7291,6 +7297,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22a72eed-7ec1-458d-a53c-fc2895b86a60")
+	)
+	(junction
+		(at 364.49 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "296a74d0-58f4-4eab-afc2-205e4d6bb895")
 	)
 	(junction
 		(at 242.189 204.47)
@@ -7413,6 +7425,12 @@
 		(uuid "b1d1c0fe-3c8e-4957-bb1e-b56dc61ef7a3")
 	)
 	(junction
+		(at 393.7 221.615)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c88beb7c-2654-4f11-bdfa-c9d7a220fe36")
+	)
+	(junction
 		(at 341.503 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7431,10 +7449,22 @@
 		(uuid "d39cfef5-7b80-4e4c-89e4-3e3f5053209a")
 	)
 	(junction
+		(at 349.885 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de40fa1a-2348-4a8b-8a76-f2dde4f75835")
+	)
+	(junction
 		(at 261.239 147.32)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "e77bcffe-a994-4ae7-a0e9-348ed765a6e1")
+	)
+	(junction
+		(at 364.49 243.205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edd527c4-8dd4-402f-8d12-8d76c86ce1ce")
 	)
 	(junction
 		(at 261.239 124.46)
@@ -7674,13 +7704,23 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 226.06) (xy 364.49 245.11)
+			(xy 364.49 226.06) (xy 364.49 243.205)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0ddf738c-80d8-4706-b1f0-55b63bb7a6be")
+	)
+	(wire
+		(pts
+			(xy 349.885 239.395) (xy 349.885 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec83528-246c-4ebe-a849-dc30d2abdc9e")
 	)
 	(wire
 		(pts
@@ -7854,6 +7894,36 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 243.205) (xy 364.49 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25af6f03-9952-43d1-95c4-b51a15f28c87")
+	)
+	(wire
+		(pts
+			(xy 349.885 243.205) (xy 364.49 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec5b04b-b42e-46c6-bdb3-65ac44dc5dc9")
+	)
+	(wire
+		(pts
+			(xy 379.73 198.12) (xy 364.49 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef0b9f4-2a9b-4cd8-890a-263ae313e0d4")
+	)
+	(wire
+		(pts
 			(xy 330.835 119.38) (xy 347.345 119.38)
 		)
 		(stroke
@@ -8024,6 +8094,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 221.615) (xy 399.415 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4816a8e6-be23-49ec-a52d-994eaed3048a")
+	)
+	(wire
+		(pts
 			(xy 373.38 139.7) (xy 373.38 142.24)
 		)
 		(stroke
@@ -8094,6 +8174,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 216.535) (xy 379.73 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54959741-aa42-4983-a32c-74d8d91ffe30")
+	)
+	(wire
+		(pts
 			(xy 242.189 204.47) (xy 260.985 204.47)
 		)
 		(stroke
@@ -8144,6 +8234,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 221.615) (xy 393.7 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b94b660-5842-491d-875b-7fe60add13c2")
+	)
+	(wire
+		(pts
 			(xy 330.835 109.22) (xy 347.345 109.22)
 		)
 		(stroke
@@ -8171,6 +8271,16 @@
 			(type solid)
 		)
 		(uuid "5fafc1ed-0fa8-4293-9788-523db541c171")
+	)
+	(wire
+		(pts
+			(xy 393.7 238.76) (xy 393.7 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffb2145-a87c-4100-ae84-9ef47a371d1c")
 	)
 	(wire
 		(pts
@@ -8454,6 +8564,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.885 220.98) (xy 356.87 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8a5038-73f7-41e8-aaea-3ee25a5c9223")
+	)
+	(wire
+		(pts
 			(xy 235.585 200.66) (xy 235.585 204.47)
 		)
 		(stroke
@@ -8471,6 +8591,16 @@
 			(type default)
 		)
 		(uuid "8dec8e18-3dae-417a-8b23-3f147ff68f99")
+	)
+	(wire
+		(pts
+			(xy 393.7 243.205) (xy 379.73 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90323a1b-6f41-498d-b099-593c52ee4ee4")
 	)
 	(wire
 		(pts
@@ -8501,6 +8631,16 @@
 			(type solid)
 		)
 		(uuid "95327535-01d3-427e-b822-2c5830ee4a71")
+	)
+	(wire
+		(pts
+			(xy 349.885 220.98) (xy 349.885 231.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6a3bf4-4ac5-4c16-9dd8-8817541f8465")
 	)
 	(wire
 		(pts
@@ -8594,6 +8734,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 226.695) (xy 379.73 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a352afda-f31a-4bf7-99de-d8ad82ffb491")
+	)
+	(wire
+		(pts
 			(xy 261.239 124.46) (xy 261.239 137.16)
 		)
 		(stroke
@@ -8644,6 +8794,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 243.205) (xy 364.49 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b107fe62-7549-4c5a-916f-fe6453d0d8fc")
+	)
+	(wire
+		(pts
 			(xy 302.26 282.575) (xy 321.31 282.575)
 		)
 		(stroke
@@ -8681,6 +8841,16 @@
 			(type solid)
 		)
 		(uuid "ba351260-1bce-4629-9184-6c5eb7bbeefd")
+	)
+	(wire
+		(pts
+			(xy 393.7 221.615) (xy 393.7 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6b66aa-9308-4cc8-bd88-5e2e7970db89")
 	)
 	(wire
 		(pts
@@ -8754,7 +8924,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.995 220.98) (xy 356.87 220.98)
+			(xy 340.995 220.98) (xy 349.885 220.98)
 		)
 		(stroke
 			(width 0)
@@ -9683,6 +9853,17 @@
 		)
 		(uuid "f98928cc-84f5-46a6-8da2-480825f3ee63")
 	)
+	(hierarchical_label "PMIC_EN2"
+		(shape input)
+		(at 399.415 221.615 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fceb005c-5e3a-4f3c-9fc5-7466ccd4d457")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 242.189 196.85 0)
@@ -10027,6 +10208,124 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:IRLML6344TRPBF")
+		(at 382.27 221.615 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dc3541a-fcf9-4011-8c50-9e62eb154f62")
+		(property "Reference" "Q18"
+			(at 374.65 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6344TRPBF"
+			(at 387.35 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:IRLML6344TRPBF"
+			(at 382.27 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809200041_Infineon-Technologies-IRLML6344TRPBF_C53550.pdf"
+			(at 382.27 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 N-channel 1.1V 1.3W 29mΩ@4.5V 30V 46pF 5A 6.8nC 650pF SOT-23 MOSFETs ROHS"
+			(at 382.27 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C53550"
+			(at 382.27 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 382.27 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "IRLML6344TRPBF"
+			(at 382.27 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8c5d335-76cb-4f29-ab71-404557f0f864")
+		)
+		(pin "3"
+			(uuid "ccf7b7a6-2799-4132-8f74-7628df03838e")
+		)
+		(pin "1"
+			(uuid "db185c23-dc17-499e-baae-21a25777746a")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/e9095513-3c34-4c9e-b88d-b0637a4ecc78"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VP")
 		(at 235.585 164.592 0)
 		(unit 1)
@@ -10246,6 +10545,88 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/e9095513-3c34-4c9e-b88d-b0637a4ecc78"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 349.885 235.585 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "385c7c31-fbaa-480f-ab38-7c8698227343")
+		(property "Reference" "R46"
+			(at 352.425 234.3149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kOhm"
+			(at 352.425 236.8549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 350.901 235.839 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.885 235.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 349.885 235.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00141e9f-8af0-40cd-a3e5-7be4e818c529")
+		)
+		(pin "2"
+			(uuid "4fe7990b-6773-42ce-b09a-56bfa949862f")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/e9095513-3c34-4c9e-b88d-b0637a4ecc78"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -10615,6 +10996,88 @@
 			(project "oomwoo-kicad"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/e9095513-3c34-4c9e-b88d-b0637a4ecc78"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 393.7 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8167764a-f7c0-45ed-b60c-779f150cd65c")
+		(property "Reference" "R33"
+			(at 396.24 233.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kOhm"
+			(at 396.24 236.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 394.716 235.204 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 393.7 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a665ea4-a1a5-4bbf-8cbc-a8bb1d2d4396")
+		)
+		(pin "2"
+			(uuid "8721f3c1-a017-4122-8124-c3e9431614df")
+		)
+		(instances
+			(project "oomwoo-kicad"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/e9095513-3c34-4c9e-b88d-b0637a4ecc78"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -11963,7 +12426,7 @@
 		(dnp no)
 		(uuid "b28367fa-7aec-4fc3-b7e9-2dea75fed156")
 		(property "Reference" "Q13"
-			(at 369.57 219.7099 0)
+			(at 351.79 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11974,7 +12437,7 @@
 			)
 		)
 		(property "Value" "IRLML6344TRPBF"
-			(at 369.57 222.2499 0)
+			(at 346.71 227.965 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

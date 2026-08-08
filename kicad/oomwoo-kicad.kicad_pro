@@ -1101,7 +1101,7 @@
         "uuid": "dbcfb655-8d45-4808-9a74-2a0eb03372e8"
       }
     ],
-    "used_designators": "C54-55",
+    "used_designators": "C7-8,C18,C36,C38-40,C42,C52-57,C86-87,C90-91,C94-95,C102,C106-107,C111-123,U1-2,U8,U12,U16-17,U21-22,#PWR9,#PWR14,#PWR18,#PWR41,#PWR56-57,#PWR59,#PWR66-68,#PWR76,#PWR91-94,#PWR98-113,#PWR671-677,IR\\-L2-3,X2,IR\\-R2-3,#FLG16-19,R33,R42-43,R46-47,R69-70,R102,R113,R117,R126,R134-135,R141,R143-149,Q18-19,L2-3,L6,D37",
     "variants": []
   },
   "sheets": [
@@ -1120,6 +1120,10 @@
     [
       "bbba09df-157d-4294-b403-7dc3ed0c5481",
       "FRONT SENSORS"
+    ],
+    [
+      "7f043eef-851b-4fc7-bc1b-c170004bfbd9",
+      "RTC_WATCHDOG"
     ],
     [
       "eb65cbe8-a43a-448e-bb05-c96139672d5e",

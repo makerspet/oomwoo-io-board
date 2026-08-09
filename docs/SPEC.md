@@ -160,7 +160,28 @@ LDROBOT LD14P lookalike - JST GH 1.25mm 4-pin female (needs m)
 Mystery mini - JST GH 1.25mm 5-pin female (needs m)
 ```
 
+## Front sensors module board
+
+- 2x VL53L7CH (or VL53L7CX) 60° horizontal FoV each
+  - each turned 30° left, right to cover 120° horizontal FoV
+- 2x OV5647, 5M wide-angle for stereo depth + object recognition
+  - off-the-shelf breakout boards for now
+  - possibly $2 imaging ICs later
+- NIR illumination LEDs with a projection pattern
+- breaks into multiple PCBs using holes
+  - central - 2x TSOP38238 (separated by a baffle) for dock homing
+  - left - VL53L7CH pointed 30° left
+  - right - VL53L7CH pointed 30° right
+  - stereo depth camera 2x OV5647 with NIR illumination LEDs
+
+## Side sensors module board
+
+- TSOP38238 for dock detection
+- consumer vacuums use analog Sharp short-range distance sensor
+  - use VL53L0CX GY-530, TMF8806 or similar instead? Dust may be an issue.
+
 ## Sensors
+
 - VL53L7CH
   - Arduino library https://github.com/stm32duino/VL53L7CH
   - hookup schematic https://eu.mouser.com/en/new/stmicroelectronics/stm-vl53l7ch-tof-sensor

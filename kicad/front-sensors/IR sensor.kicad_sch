@@ -1,0 +1,3905 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c2a7441c-2d9d-410a-b294-8e50f958bc13")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:TSOP38238"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 7.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TSOP38238"
+				(at 0 -7.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:TSOP38238"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809191926_Vishay-Intertech-TSOP38238_C141632.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 350uA 38kHz 45m ±45° SIP-3-2.54mm Infrared Remote Receiver (IRM) ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C141632"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Vishay Intertech"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "TSOP38238"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C141632 SENSOR-TG_TSOP38236 TSOP38238 Vishay Intertech"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TSOP38238_0_1"
+				(circle
+					(center -1.778 4.318)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 -5.588) (xy 5.4331 -5.5783) (xy 5.5284 -5.5493) (xy 5.6162 -5.5024) (xy 5.6932 -5.4392)
+						(xy 5.7564 -5.3622) (xy 5.8033 -5.2744) (xy 5.8323 -5.1791) (xy 5.842 -5.08) (xy 5.8323 4.6711)
+						(xy 5.8033 4.7664) (xy 5.7564 4.8542) (xy 5.6932 4.9312) (xy 5.6162 4.9944) (xy 5.5284 5.0413)
+						(xy 5.4331 5.0702) (xy 5.334 5.08) (xy -2.1311 5.0702) (xy -2.2264 5.0413) (xy -2.3142 4.9944)
+						(xy -2.3912 4.9312) (xy -2.4544 4.8542) (xy -2.5013 4.7664) (xy -2.5302 4.6711) (xy -2.54 4.572)
+						(xy -2.5302 -5.1791) (xy -2.5013 -5.2744) (xy -2.4544 -5.3622) (xy -2.3912 -5.4392) (xy -2.3142 -5.5024)
+						(xy -2.2264 -5.5493) (xy -2.1311 -5.5783) (xy -2.032 -5.588) (xy 5.334 -5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:ZX-ZH1_5-4PWT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZX-ZH1_5-4PWT"
+				(at 0 -10.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:ZX-ZH1_5-4PWT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312011606_Megastar-ZX-ZH1-5-4PWT_C19272407.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-25℃~+85℃ 1 1.5mm 1A 1x4P 250V 3.8mm 4 4P 6mm 9mm Auxiliary Solder Pin Beige Brass LCP Surface Mount, Right Angle Tin ZH SMD,P=1.5mm,Surface Mount，Right Angle Wire To Board Connector ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C19272407"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Megastar"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "ZX-ZH1.5-4PWT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C19272407 CONN-SMD_4P-P1.50_ZX-ZH1.5-4PWT Megastar ZX-ZH1.5-4PWT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ZX-ZH1_5-4PWT_0_1"
+				(circle
+					(center -1.27 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -6.35) (xy 2.1311 -6.3403) (xy 2.2264 -6.3113) (xy 2.3142 -6.2644) (xy 2.3912 -6.2012)
+						(xy 2.4544 -6.1242) (xy 2.5013 -6.0364) (xy 2.5302 -5.9411) (xy 2.54 -5.842) (xy 2.5302 5.9411)
+						(xy 2.5013 6.0364) (xy 2.4544 6.1242) (xy 2.3912 6.2012) (xy 2.3142 6.2644) (xy 2.2264 6.3113)
+						(xy 2.1311 6.3403) (xy 2.032 6.35) (xy -2.1311 6.3403) (xy -2.2264 6.3113) (xy -2.3142 6.2644)
+						(xy -2.3912 6.2012) (xy -2.4544 6.1242) (xy -2.5013 6.0364) (xy -2.5302 5.9411) (xy -2.54 5.842)
+						(xy -2.5302 -5.9411) (xy -2.5013 -6.0364) (xy -2.4544 -6.1242) (xy -2.3912 -6.2012) (xy -2.3142 -6.2644)
+						(xy -2.2264 -6.3113) (xy -2.1311 -6.3403) (xy -2.032 -6.35) (xy 2.032 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 8.89 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oomwoo-kicad-altium-import:GND_POWER_GROUND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oomwoo-kicad-altium-import:VCC-3V3-P_BAR"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC-3V3-P"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCC-3V3-P'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC-3V3-P_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "VCC-3V3-P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "VDD"
+		(exclude_from_sim no)
+		(at 91.44 117.475 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c6979a2-6d33-4c25-a40f-c64580da907c")
+	)
+	(text "RECEIVER"
+		(exclude_from_sim no)
+		(at 88.9 125.095 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fa3fc8c-1176-4208-8e50-f0cbf15f7ea8")
+	)
+	(text "RECEIVER"
+		(exclude_from_sim no)
+		(at 88.265 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "967b8f66-164c-40a5-adb7-579d35bace2b")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 90.7451 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de38ed16-3f4b-45e2-b339-bc76c830ee07")
+	)
+	(text "VDD"
+		(exclude_from_sim no)
+		(at 90.805 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4a0dc68-9cd0-4517-9f32-3ae392e1662e")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 91.3801 120.015 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f55c5684-a525-4bff-9309-ff0997403e8c")
+	)
+	(junction
+		(at 89.535 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07686e1e-c50f-47d6-814a-9cef980299de")
+	)
+	(junction
+		(at 161.29 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07a5b092-8289-452a-8e81-7229f5519596")
+	)
+	(junction
+		(at 86.995 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1faf64d6-7eb5-43a8-a729-97ad3f88a097")
+	)
+	(junction
+		(at 86.995 64.135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40804ba1-fc29-49a9-b176-536aed1d1723")
+	)
+	(junction
+		(at 145.415 121.285)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "427d8558-4b21-471b-ac0a-d7a5c1df4950")
+	)
+	(junction
+		(at 161.29 141.605)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ea22e82-1151-4693-bb89-4af91042c06c")
+	)
+	(junction
+		(at 161.29 121.285)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52410bd7-7d31-4602-a828-dd05aaa0b5dd")
+	)
+	(junction
+		(at 86.995 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "635b37a5-4e68-4c59-84a3-243e7d057965")
+	)
+	(junction
+		(at 86.995 47.625)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66a6343e-2453-4129-856d-0dc289cfd835")
+	)
+	(junction
+		(at 145.415 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68dbd137-1a55-46f5-a173-a05769abf6f3")
+	)
+	(junction
+		(at 89.535 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bc26e38-d623-45c6-8363-a2fa7a187b02")
+	)
+	(junction
+		(at 89.535 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b05086ce-876e-4a07-b3c5-3473e22fc88b")
+	)
+	(junction
+		(at 89.535 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1bdb40f-3021-4385-aa3e-6564d3d84c79")
+	)
+	(junction
+		(at 89.535 52.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b23e3873-aa75-4ecd-94a6-d7d386ac9332")
+	)
+	(junction
+		(at 86.995 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b874c1a3-789d-4e93-a030-9c73fedf1b15")
+	)
+	(junction
+		(at 89.535 64.135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6e5c29e-cf45-4ef7-b60f-07eb258a4ba0")
+	)
+	(junction
+		(at 161.29 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdc805a7-948d-442c-b415-00fa6942a96f")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.325) (xy 99.06 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f42139-c99d-4921-bbc9-8dbe620ac37e")
+	)
+	(wire
+		(pts
+			(xy 92.71 50.165) (xy 89.535 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab31785-458f-49e3-ae8b-d043b517359f")
+	)
+	(wire
+		(pts
+			(xy 161.29 141.605) (xy 161.29 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a96410c-eaf9-4488-b595-69b41b112a68")
+	)
+	(wire
+		(pts
+			(xy 89.535 120.65) (xy 89.535 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2c6780-f2dd-4b68-8181-1f7163a15b01")
+	)
+	(wire
+		(pts
+			(xy 161.29 121.285) (xy 192.405 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e45290-e399-4c63-bc62-2115be51d282")
+	)
+	(wire
+		(pts
+			(xy 145.415 67.31) (xy 145.415 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277a2c13-0208-4491-a0df-5f1370142b08")
+	)
+	(wire
+		(pts
+			(xy 161.29 137.795) (xy 161.29 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b53530-fd31-470e-98d3-725d26917df1")
+	)
+	(wire
+		(pts
+			(xy 89.535 52.705) (xy 89.535 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dccb4b1-9c54-418e-9d27-0708d0ec1962")
+	)
+	(wire
+		(pts
+			(xy 145.415 141.605) (xy 161.29 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a7a087-1532-4195-85f5-66b335628cb9")
+	)
+	(wire
+		(pts
+			(xy 92.71 120.65) (xy 89.535 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3407ea70-c609-4c08-8e6e-98e9e4d80c7e")
+	)
+	(wire
+		(pts
+			(xy 89.535 40.64) (xy 89.535 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ab1440-28a2-4969-a9a8-331458b65614")
+	)
+	(wire
+		(pts
+			(xy 178.435 71.12) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d616556-094a-48d9-be3a-3d1dfa1b8985")
+	)
+	(wire
+		(pts
+			(xy 124.46 50.8) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419367a9-43df-44a6-bfc2-f6a29fba6bbe")
+	)
+	(wire
+		(pts
+			(xy 145.415 121.285) (xy 145.415 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f5f2f8-0f28-4814-9816-40d1081b7175")
+	)
+	(wire
+		(pts
+			(xy 99.06 134.62) (xy 89.535 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c94a36-867e-4bf9-a911-1870b5cdb644")
+	)
+	(wire
+		(pts
+			(xy 86.995 132.715) (xy 86.995 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b86d5a8-7e6a-42db-af3c-e168884890d4")
+	)
+	(wire
+		(pts
+			(xy 89.535 64.135) (xy 86.995 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc883b2-59b0-4d4b-8c3f-c01c91b5dc04")
+	)
+	(wire
+		(pts
+			(xy 161.29 50.8) (xy 192.405 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5213cd4d-44d0-49c4-bd2c-fda6bf29388b")
+	)
+	(wire
+		(pts
+			(xy 178.435 118.745) (xy 178.435 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d81b72-84e7-4394-af7e-09069c2042d6")
+	)
+	(wire
+		(pts
+			(xy 86.995 47.625) (xy 86.995 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59928801-b8e5-4a37-bb0b-db5f86b22dd1")
+	)
+	(wire
+		(pts
+			(xy 145.415 71.12) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afcd6d3-a886-410f-bfc7-8113a9b941cf")
+	)
+	(wire
+		(pts
+			(xy 192.405 48.26) (xy 178.435 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b494bb7-adc2-4d63-bde5-db8ac94c028c")
+	)
+	(wire
+		(pts
+			(xy 178.435 141.605) (xy 161.29 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611322e9-a91b-46cc-89bc-716c00ce4c5f")
+	)
+	(wire
+		(pts
+			(xy 145.415 121.285) (xy 161.29 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62858c8c-2c78-4465-af1c-3448b7a09016")
+	)
+	(wire
+		(pts
+			(xy 99.06 64.135) (xy 89.535 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656c744a-c684-451b-8e47-29fc2ca9a1c1")
+	)
+	(wire
+		(pts
+			(xy 86.995 118.11) (xy 86.995 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c19a07-9de1-422a-a4be-05a4a8e6982e")
+	)
+	(wire
+		(pts
+			(xy 89.535 134.62) (xy 86.995 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7abb01-bb98-4fb1-80b9-566f09aa8b0e")
+	)
+	(wire
+		(pts
+			(xy 161.29 50.8) (xy 161.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710a4d55-187f-4d6c-89f3-3753f97920f9")
+	)
+	(wire
+		(pts
+			(xy 89.535 123.19) (xy 89.535 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78308465-b116-4cb7-8e5e-c2964e4264c1")
+	)
+	(wire
+		(pts
+			(xy 86.995 62.23) (xy 86.995 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79be85a9-63a4-4807-8edd-48b065a440ab")
+	)
+	(wire
+		(pts
+			(xy 89.535 50.165) (xy 89.535 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc1f1ff-3410-4b58-a522-1fccf59183fa")
+	)
+	(wire
+		(pts
+			(xy 89.535 52.705) (xy 92.71 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fabdd59-b758-49f4-8c0c-c1bfdd7b40f5")
+	)
+	(wire
+		(pts
+			(xy 89.535 123.19) (xy 92.71 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8056fce4-8cfc-4325-ac14-714bc1bb7e85")
+	)
+	(wire
+		(pts
+			(xy 89.535 111.125) (xy 89.535 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821378eb-648f-47c9-9c40-3da29884686d")
+	)
+	(wire
+		(pts
+			(xy 124.46 43.18) (xy 124.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8816b341-c2a5-4d45-8903-0630ccb6f512")
+	)
+	(wire
+		(pts
+			(xy 99.06 130.81) (xy 99.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aea588d-9258-4b1d-ad30-d724d05fc9d6")
+	)
+	(wire
+		(pts
+			(xy 178.435 116.205) (xy 192.405 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c48a3da-858f-4428-b308-79e34f3443e8")
+	)
+	(wire
+		(pts
+			(xy 99.06 113.03) (xy 99.06 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970df3d5-2db3-46be-a95b-5c272cdd5250")
+	)
+	(wire
+		(pts
+			(xy 145.415 50.8) (xy 145.415 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd9cea4-de03-4fc8-94ff-e9144982598f")
+	)
+	(wire
+		(pts
+			(xy 178.435 48.26) (xy 178.435 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ecce2fe-7da3-4877-9da0-6e430f6c64ae")
+	)
+	(wire
+		(pts
+			(xy 124.46 113.665) (xy 124.46 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fca430a-7482-4ad2-99e3-273683c6937b")
+	)
+	(wire
+		(pts
+			(xy 86.995 118.11) (xy 86.995 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8ee671-d3d7-46f5-81b8-b74754055b47")
+	)
+	(wire
+		(pts
+			(xy 145.415 50.8) (xy 161.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4b5553-cba2-45a3-8e86-5ab9b5803339")
+	)
+	(wire
+		(pts
+			(xy 192.405 118.745) (xy 178.435 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af43faf7-6bba-400d-92d0-80f6877407e5")
+	)
+	(wire
+		(pts
+			(xy 145.415 137.795) (xy 145.415 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b30854-19d6-4962-bcb1-bbdf8da55bbe")
+	)
+	(wire
+		(pts
+			(xy 137.16 121.285) (xy 145.415 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c043e8-f602-49c2-adbe-bba41027251c")
+	)
+	(wire
+		(pts
+			(xy 99.06 42.545) (xy 99.06 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8aafcc5-a928-4e16-96c3-884b6b352e17")
+	)
+	(wire
+		(pts
+			(xy 161.29 121.285) (xy 161.29 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6b0ad4-a169-4df6-9da5-aa10a4e7e1b8")
+	)
+	(wire
+		(pts
+			(xy 99.06 111.125) (xy 89.535 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38860e3-66ce-4805-919d-9d4526785401")
+	)
+	(wire
+		(pts
+			(xy 86.995 47.625) (xy 86.995 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d7518b-48d1-443a-8b8f-8f58022445c1")
+	)
+	(wire
+		(pts
+			(xy 65.405 125.73) (xy 92.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f0f8d5-7688-40f8-b2fb-22a808e3121d")
+	)
+	(wire
+		(pts
+			(xy 86.995 43.18) (xy 86.995 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3ae08d-7ee6-440e-b448-eb66ddc4f37e")
+	)
+	(wire
+		(pts
+			(xy 86.995 134.62) (xy 86.995 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f8cc60-4396-41ef-b9ae-5e8e79b39988")
+	)
+	(wire
+		(pts
+			(xy 99.06 40.64) (xy 89.535 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ab677c-8739-4839-a882-839008b40aeb")
+	)
+	(wire
+		(pts
+			(xy 92.71 118.11) (xy 86.995 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77ea510-b615-4eb7-b828-693211ecb6b4")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 145.415 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c60a5c-6fb8-44b9-b750-02971eec485d")
+	)
+	(wire
+		(pts
+			(xy 65.405 55.245) (xy 92.71 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53a3d98-7e06-455e-9522-9b128a29d866")
+	)
+	(wire
+		(pts
+			(xy 161.29 71.12) (xy 161.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f926acf3-d831-4e42-8c23-0d92f467edbb")
+	)
+	(wire
+		(pts
+			(xy 86.995 64.135) (xy 86.995 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7134a7-b3fa-4246-bbda-ee18c69425b2")
+	)
+	(wire
+		(pts
+			(xy 92.71 47.625) (xy 86.995 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa77107e-9eb9-4f40-adef-bf8471d2330c")
+	)
+	(wire
+		(pts
+			(xy 161.29 67.31) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb24a567-f359-4c22-a7dc-0855a7d950fc")
+	)
+	(wire
+		(pts
+			(xy 178.435 45.72) (xy 192.405 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe65ceb9-ecca-48cd-b288-ee7ffb947744")
+	)
+	(wire
+		(pts
+			(xy 124.46 121.285) (xy 129.54 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff00a7b6-6c41-4cbf-bdf0-55e478d84a64")
+	)
+	(label "IR-F-RX2"
+		(at 65.405 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "778f7464-18ab-431b-a48c-8418c174ac33")
+	)
+	(label "IR-F-RX1"
+		(at 65.405 55.245 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e37e2d9-c01a-408c-8c81-8122129740ab")
+	)
+	(label "IR-F-RX2"
+		(at 178.435 116.205 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3c4e8bc-f2fe-457d-bc42-43a25aeb8ce7")
+	)
+	(label "IR-F-RX1"
+		(at 178.435 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbe5c52e-cfe7-423b-93bb-cec54573493e")
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 124.46 113.665 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bee0dd9-2cda-47a5-b817-8e638bc8d6c0")
+		(property "Reference" "#PWR0109"
+			(at 124.46 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3-P"
+			(at 124.46 109.855 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 113.665 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 113.665 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 113.665 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "be43bce6-890f-4cc7-ad28-11418e77369d")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 161.29 142.875 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0edfe281-136b-4f06-8193-4653246b317f")
+		(property "Reference" "#PWR0111"
+			(at 161.29 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 149.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 142.875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 142.875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 142.875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c1039c0a-e9f1-491d-a8d9-b4509c2fb021")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.995 130.175 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18fc1df5-17d8-4df5-a555-c66e1baf358a")
+		(property "Reference" "C90"
+			(at 80.645 127.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF/10V"
+			(at 74.295 130.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.995 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "109b0010-3b3b-430f-b121-54791f627023")
+		)
+		(pin "2"
+			(uuid "2599cbb1-3b76-4342-92ba-0430c01e1f2d")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 124.46 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26c9d2e7-8d6d-4089-b0d9-10ad8108b24d")
+		(property "Reference" "#PWR0108"
+			(at 124.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3-P"
+			(at 124.46 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "858ae5c7-ccef-4252-975e-29d47ccba916")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 86.995 64.135 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f014aa0-33a6-4d83-af8b-07359d6950ae")
+		(property "Reference" "#FLG03"
+			(at 85.09 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 83.185 64.1349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 86.995 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e3049b0-53de-4b1c-b1f8-aba123fbe34c")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 86.995 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35d88862-9aa2-4b35-a23f-b7bf8b122a1c")
+		(property "Reference" "#FLG02"
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 83.185 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 86.995 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b6be42b-ece5-4284-95a7-34ae986b2d79")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.995 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "486bda04-cf53-4936-9a75-45df35c1b4b1")
+		(property "Reference" "C91"
+			(at 80.645 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF/10V"
+			(at 74.295 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.995 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23aeb230-39b3-4a6f-b524-3d5a2973aad4")
+		)
+		(pin "2"
+			(uuid "03447008-2c97-4ee0-8e21-8e4b1044cf36")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 86.995 42.545 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4fbad436-f5d5-4406-adea-aac48a9410bd")
+		(property "Reference" "#PWR0106"
+			(at 86.995 42.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3-P"
+			(at 86.995 38.735 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 42.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 42.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 42.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "01734109-93cd-4b14-822a-aad5cf9b5152")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 133.35 121.285 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55df7769-58da-4f5f-808f-5c2d0cf075fc")
+		(property "Reference" "R2"
+			(at 133.35 114.935 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 133.35 117.475 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.604 120.269 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "737e4863-2eac-460e-8ba8-4a2cc6b90ba8")
+		)
+		(pin "2"
+			(uuid "4d6516ef-f00b-4aef-b98a-81cd41c23de0")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 161.29 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61df6fb8-abdb-4994-a7c9-5f5b40a729ff")
+		(property "Reference" "#PWR0110"
+			(at 161.29 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "beb969a5-0d4d-46c1-9bdf-d6f7c6b5340c")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:ZX-ZH1_5-4PWT")
+		(at 97.79 51.435 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69bb57a8-9547-4607-9f9a-f2e43b1d4367")
+		(property "Reference" "IR-F1"
+			(at 102.235 50.1649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZX-ZH1_5-4PWT"
+			(at 102.235 52.7049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:ZX-ZH1_5-4PWT"
+			(at 97.79 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312011606_Megastar-ZX-ZH1-5-4PWT_C19272407.pdf"
+			(at 97.79 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 1A 1x4P 250V 3.8mm 4 4P 6mm 9mm Auxiliary Solder Pin Beige Brass LCP Surface Mount, Right Angle Tin ZH SMD,P=1.5mm,Surface Mount，Right Angle Wire To Board Connector ROHS"
+			(at 97.79 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19272407"
+			(at 97.79 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Megastar"
+			(at 97.79 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ZX-ZH1.5-4PWT"
+			(at 97.79 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ae368de-ebc7-4bbe-bf07-18f611aaa3cb")
+		)
+		(pin "1"
+			(uuid "e14ff2f5-3c52-47c5-acf5-a0c868a2e3a8")
+		)
+		(pin "6"
+			(uuid "4f11fade-0b89-4796-8732-a5d23ccc3af0")
+		)
+		(pin "4"
+			(uuid "7312ea8e-6879-4b16-ae1b-9110b3030321")
+		)
+		(pin "5"
+			(uuid "75899e3d-6ce2-4d34-8363-c17aaa66abe3")
+		)
+		(pin "3"
+			(uuid "76c3c78d-aae5-4422-b5b1-c16bf439ce49")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "IR-F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 145.415 135.255 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cd28aa4-38e2-40a2-9176-50616c07393b")
+		(property "Reference" "C3"
+			(at 148.59 133.9912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF/10V"
+			(at 148.59 136.5312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.415 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 145.415 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "faf88b2e-516b-4b4b-8d37-9b8632f4adda")
+		)
+		(pin "1"
+			(uuid "ed5c6f92-151d-4861-a18d-6e2c87dc97f5")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6790012-978a-472f-bba4-3d2149b36e1f")
+		(property "Reference" "C1"
+			(at 164.465 63.5062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/10V"
+			(at 164.465 66.0462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "19284029-3fa3-437c-b231-b07c6cc809fd")
+		)
+		(pin "1"
+			(uuid "899bbf9e-1b91-4618-ba16-759090daceb0")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 86.995 65.405 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8dd27c3-447d-4e1c-9332-1db82400fcab")
+		(property "Reference" "#PWR0107"
+			(at 86.995 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.995 71.755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 65.405 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 65.405 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 65.405 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ccbc6d1a-76e6-4009-991b-e14c6aa77cdc")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 145.415 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab62c24d-842b-40b1-aafb-7e02b129ae08")
+		(property "Reference" "C2"
+			(at 148.59 63.5062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF/10V"
+			(at 148.59 66.0462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.415 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 145.415 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e4b89536-c7f9-4053-ac4e-1260a77dbeb1")
+		)
+		(pin "1"
+			(uuid "d1266949-d0f0-4166-9e7c-8a6e566de6c7")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:ZX-ZH1_5-4PWT")
+		(at 97.79 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee6b597-3d6f-471f-8c41-0b1b48528aee")
+		(property "Reference" "IR-F2"
+			(at 101.6 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZX-ZH1_5-4PWT"
+			(at 101.6 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:ZX-ZH1_5-4PWT"
+			(at 97.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312011606_Megastar-ZX-ZH1-5-4PWT_C19272407.pdf"
+			(at 97.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 1A 1x4P 250V 3.8mm 4 4P 6mm 9mm Auxiliary Solder Pin Beige Brass LCP Surface Mount, Right Angle Tin ZH SMD,P=1.5mm,Surface Mount，Right Angle Wire To Board Connector ROHS"
+			(at 97.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19272407"
+			(at 97.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Megastar"
+			(at 97.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ZX-ZH1.5-4PWT"
+			(at 97.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9327dd6c-f224-4ce1-816b-785dec44b307")
+		)
+		(pin "1"
+			(uuid "31fa9ab6-6980-4d56-9542-6d1ecfaea5e7")
+		)
+		(pin "6"
+			(uuid "07b162f5-253a-41a7-bc51-a92682f34091")
+		)
+		(pin "4"
+			(uuid "8841c169-7455-4c96-bd4b-45c3a2b40e0b")
+		)
+		(pin "5"
+			(uuid "27839a73-40e0-4f50-8ab6-73778cd9ca18")
+		)
+		(pin "3"
+			(uuid "7a23abb5-1e39-4711-bda0-2f29d02bcd26")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "IR-F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 133.35 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b601f467-3506-42e9-aca0-5563906f7bf0")
+		(property "Reference" "R1"
+			(at 133.35 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 133.35 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.604 49.784 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9cb5ad0e-9f72-4913-9cdb-3ef898537785")
+		)
+		(pin "2"
+			(uuid "2273440d-7b59-43c5-be92-845694984780")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 86.995 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6791336-24d2-4c39-a901-65eeef66911a")
+		(property "Reference" "#PWR0105"
+			(at 86.995 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.995 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0e614fab-7b3b-43a8-851e-69b8c66e3322")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:TSOP38238")
+		(at 197.485 118.745 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcd903de-aba2-48b8-b6c0-d7ac37d3e673")
+		(property "Reference" "RX2"
+			(at 204.47 117.7289 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSOP38238"
+			(at 204.47 120.2689 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:TSOP38238"
+			(at 197.485 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809191926_Vishay-Intertech-TSOP38238_C141632.pdf"
+			(at 197.485 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 350uA 38kHz 45m ±45° SIP-3-2.54mm Infrared Remote Receiver (IRM) ROHS"
+			(at 197.485 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C141632"
+			(at 197.485 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Intertech"
+			(at 197.485 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TSOP38238"
+			(at 197.485 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b9d7f5df-283e-4c8e-a99a-cce5c8753a25")
+		)
+		(pin "1"
+			(uuid "d5a4c8d5-7d58-4dd4-9d1d-3b762bcffa2d")
+		)
+		(pin "2"
+			(uuid "d8a5db7b-e415-4b51-94fc-a50030addf29")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "RX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:VCC-3V3-P_BAR")
+		(at 86.995 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3c26d33-9dab-4b10-840d-f9b1bdd843cc")
+		(property "Reference" "#PWR0104"
+			(at 86.995 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3-P"
+			(at 86.995 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "3b5e7d58-8123-40b8-ab5e-68d10bfe2ec6")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 135.255 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e9fb70-921b-46f8-84b4-12c58dab70f6")
+		(property "Reference" "C4"
+			(at 164.465 133.9912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/10V"
+			(at 164.465 136.5312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d29015c-a895-45fe-8f47-e9fe9d04f581")
+		)
+		(pin "1"
+			(uuid "c77bc21d-c03f-480b-93dc-17ecb6b9b9a3")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:TSOP38238")
+		(at 197.485 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7beab46-6fe7-43e3-8f6c-9d5f908ebff6")
+		(property "Reference" "RX1"
+			(at 204.47 47.2439 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSOP38238"
+			(at 204.47 49.7839 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:TSOP38238"
+			(at 197.485 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809191926_Vishay-Intertech-TSOP38238_C141632.pdf"
+			(at 197.485 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 350uA 38kHz 45m ±45° SIP-3-2.54mm Infrared Remote Receiver (IRM) ROHS"
+			(at 197.485 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C141632"
+			(at 197.485 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Intertech"
+			(at 197.485 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TSOP38238"
+			(at 197.485 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5ccba747-b319-4d19-a994-43eb0a766f76")
+		)
+		(pin "1"
+			(uuid "66dd1142-fb79-44cf-a4c2-876ba8150304")
+		)
+		(pin "2"
+			(uuid "75004972-e005-483e-8f20-efc2580e78b9")
+		)
+		(instances
+			(project "Front Sensor"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125/4bb8f12b-f88e-462d-8d8b-7cab36a6773e"
+					(reference "RX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

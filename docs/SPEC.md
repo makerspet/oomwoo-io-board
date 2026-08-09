@@ -178,7 +178,10 @@ Mystery mini - JST GH 1.25mm 5-pin female (needs m)
 
 - TSOP38238 for dock detection
 - consumer vacuums use analog Sharp short-range distance sensor
+  - use VL6180V1NR/1 C2655167 $1.03 100pcs 18° FoV diagonal? Obsolete, similar to VL53L4CD
   - use VL53L0CX GY-530, TMF8806 or similar instead? Dust may be an issue.
+  - VL53L0CXV0DH/1 C91199 $2.11 100pcs
+  - VL53L4CDV0DH/1 C3178291 $2.19 100pcs
 
 ## Sensors
 

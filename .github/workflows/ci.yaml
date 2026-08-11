@@ -21,12 +21,12 @@ jobs:
 
       - uses: actions-for-kicad/kicad-actions@v2-k10.0
         with:
-          schematic_file_name: kicad/main/oomwoo-kicad.kicad_sch
+          schematic_file_name: kicad/main/Main.kicad_sch
           schematic_output_pdf: true
           schematic_output_pdf_file_name: oomwoo-kicad-schematic-${{ steps.sha.outputs.short }}.pdf
           schematic_output_bom: true
           schematic_output_bom_file_name: oomwoo-kicad-bom-${{ steps.sha.outputs.short }}.csv
-          pcb_file_name: kicad/main/oomwoo-kicad.kicad_pcb
+          pcb_file_name: kicad/main/Main.kicad_pcb
           pcb_output_image: true
           pcb_output_image_file_name: oomwoo-kicad-pcb-${{ steps.sha.outputs.short }}.png
           pcb_output_gerbers_and_drill: true
@@ -61,7 +61,7 @@ jobs:
       - uses: actions-for-kicad/kicad-actions@v2-k10.0
         continue-on-error: true # TODO: revise and enforce rules
         with:
-          schematic_file_name: kicad/main/oomwoo-kicad.kicad_sch
+          schematic_file_name: kicad/main/Main.kicad_sch
           run_erc: true
           erc_output_file_name: oomwoo-kicad-erc-${{ steps.sha.outputs.short }}.rpt
 
@@ -84,7 +84,7 @@ jobs:
       - uses: actions-for-kicad/kicad-actions@v2-k10.0
         continue-on-error: true # TODO: revise and enforce rules
         with:
-          pcb_file_name: kicad/main/oomwoo-kicad.kicad_pcb
+          pcb_file_name: kicad/main/Main.kicad_pcb
           run_drc: true
           drc_output_file_name: oomwoo-kicad-drc-${{ steps.sha.outputs.short }}.rpt
 

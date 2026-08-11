@@ -209,6 +209,20 @@
 		)
 		(uuid "025cb885-de39-4b55-9a3e-badddfca4627")
 	)
+	(text "RTC_WD"
+		(exclude_from_sim no)
+		(at 480.695 86.995 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "03e36759-158e-438f-b7f2-2dc91647a66a")
+	)
 	(text "ANTI-FALL IR"
 		(exclude_from_sim no)
 		(at 128.27 33.02 0)
@@ -309,7 +323,7 @@
 	)
 	(text "SIDE PROXI SENSOR"
 		(exclude_from_sim no)
-		(at 250.19 33.02 0)
+		(at 263.525 29.21 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -535,7 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.155 114.3) (xy 224.155 41.275)
+			(xy 213.995 114.3) (xy 213.995 26.67)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.155 41.275) (xy 245.11 41.275)
+			(xy 213.995 26.67) (xy 245.11 26.67)
 		)
 		(stroke
 			(width 0)
@@ -712,6 +726,26 @@
 			(type default)
 		)
 		(uuid "19198ad7-90e9-4ce2-98b1-2b3408e95fab")
+	)
+	(wire
+		(pts
+			(xy 236.855 51.435) (xy 245.11 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa67d2c-464b-405a-b154-fe50820f58cb")
+	)
+	(wire
+		(pts
+			(xy 216.535 114.3) (xy 216.535 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad1b6df-3d04-4484-b6d5-0f4c215bafdf")
 	)
 	(wire
 		(pts
@@ -805,13 +839,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 48.895) (xy 245.11 48.895)
+			(xy 228.6 44.45) (xy 245.11 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cad2ced-9122-43ba-9675-59d00aa07258")
+		(uuid "2da5e959-8384-4faf-af46-13a516096f1f")
 	)
 	(wire
 		(pts
@@ -822,6 +856,26 @@
 			(type default)
 		)
 		(uuid "2dbd295a-267c-44f7-a05e-c90cfbc20da9")
+	)
+	(wire
+		(pts
+			(xy 236.855 114.3) (xy 236.855 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e76a3ac-7588-4f8f-a482-69d1c79c77ba")
+	)
+	(wire
+		(pts
+			(xy 219.075 30.48) (xy 219.075 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e95d3c3-33e6-4bdc-ae5b-0bb7416b9fa2")
 	)
 	(wire
 		(pts
@@ -1115,6 +1169,16 @@
 	)
 	(wire
 		(pts
+			(xy 239.395 53.34) (xy 239.395 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d850f6-836a-4290-b66a-348236c03bcd")
+	)
+	(wire
+		(pts
 			(xy 351.155 140.97) (xy 351.155 123.825)
 		)
 		(stroke
@@ -1365,6 +1429,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 46.355) (xy 231.14 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a3276c-bcd1-400c-9675-0b0e38656fc9")
+	)
+	(wire
+		(pts
 			(xy 100.33 147.701) (xy 148.59 147.701)
 		)
 		(stroke
@@ -1435,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 46.99) (xy 233.045 114.3)
+			(xy 226.06 42.545) (xy 226.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1595,6 +1669,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 114.3) (xy 228.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69a200d-1165-4651-ac97-bd101aaf0628")
+	)
+	(wire
+		(pts
 			(xy 426.72 208.28) (xy 443.865 208.28)
 		)
 		(stroke
@@ -1665,16 +1749,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 114.3) (xy 234.95 48.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aefc7dfa-16f9-49d0-afb9-cd0a07be1231")
-	)
-	(wire
-		(pts
 			(xy 194.31 234.315) (xy 194.31 259.715)
 		)
 		(stroke
@@ -1682,6 +1756,16 @@
 			(type default)
 		)
 		(uuid "b0601eaa-ffbb-4039-9015-b7615b2c5875")
+	)
+	(wire
+		(pts
+			(xy 231.14 46.355) (xy 231.14 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19aacf7-4b9c-414e-a7c2-cecdd6c6c997")
 	)
 	(wire
 		(pts
@@ -1742,6 +1826,26 @@
 			(type default)
 		)
 		(uuid "bb857751-288c-4343-b66a-9e9d6c37f684")
+	)
+	(wire
+		(pts
+			(xy 245.11 30.48) (xy 219.075 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb6826c-cfc1-4b6e-b06d-cbc320d2eeee")
+	)
+	(wire
+		(pts
+			(xy 245.11 53.34) (xy 239.395 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdda9cf0-1ffc-4b35-bcba-41649dedeb2d")
 	)
 	(wire
 		(pts
@@ -1832,16 +1936,6 @@
 			(type default)
 		)
 		(uuid "ca631f32-3a84-447f-b9e1-4e1f37806740")
-	)
-	(wire
-		(pts
-			(xy 226.06 43.18) (xy 226.06 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb348779-eb84-49f5-9f6d-4da0c7c3729c")
 	)
 	(wire
 		(pts
@@ -2005,6 +2099,16 @@
 	)
 	(wire
 		(pts
+			(xy 216.535 28.575) (xy 245.11 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06fb333-08e3-41e5-bd30-e0c6cad34a3e")
+	)
+	(wire
+		(pts
 			(xy 262.89 228.6) (xy 306.07 228.6)
 		)
 		(stroke
@@ -2125,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 46.99) (xy 233.045 46.99)
+			(xy 245.11 42.545) (xy 226.06 42.545)
 		)
 		(stroke
 			(width 0)
@@ -2162,16 +2266,6 @@
 			(type default)
 		)
 		(uuid "f4ff03a7-30b7-498a-82d7-b5a17b4efe83")
-	)
-	(wire
-		(pts
-			(xy 245.11 43.18) (xy 226.06 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ff7648-5345-493a-b19f-b68ba59b956b")
 	)
 	(wire
 		(pts
@@ -3944,7 +4038,7 @@
 			)
 		)
 		(pin "IR-L-RX" output
-			(at 245.11 41.275 180)
+			(at 245.11 26.67 180)
 			(uuid "901acc98-eadd-4b0f-a8fa-aacfa83cba44")
 			(effects
 				(font
@@ -3953,18 +4047,8 @@
 				(justify left)
 			)
 		)
-		(pin "IR-L-TX" input
-			(at 245.11 43.18 180)
-			(uuid "85fdf60a-865a-4da9-88bd-a994f62af00f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "IR-R-RX" output
-			(at 245.11 46.99 180)
+			(at 245.11 42.545 180)
 			(uuid "0e419530-02aa-4b64-a498-bcec6ab8f079")
 			(effects
 				(font
@@ -3973,9 +4057,59 @@
 				(justify left)
 			)
 		)
-		(pin "IR-R-TX" input
-			(at 245.11 48.895 180)
-			(uuid "b659486f-1e10-4b2b-9fcb-10f9b7d66fb8")
+		(pin "CE-L" input
+			(at 245.11 28.575 180)
+			(uuid "96627be1-286f-4d27-a4eb-6361c7e850ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CE-R" input
+			(at 245.11 44.45 180)
+			(uuid "773cb6a6-1906-489e-a2c3-2d4e442c8a2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO1-L" input
+			(at 245.11 30.48 180)
+			(uuid "1f03810c-7fa6-4d4e-a690-9282c21926c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO1-R" input
+			(at 245.11 46.355 180)
+			(uuid "e30d50cb-b61b-4d19-82e8-9c275c039377")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 245.11 53.34 180)
+			(uuid "fd8ac8ae-4d58-4fab-9b3a-2e92ef3ca20c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 245.11 51.435 180)
+			(uuid "e88f2130-c94e-4be7-bd3e-06d0e70450ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4535,7 @@
 				(justify left)
 			)
 		)
-		(pin "MAIN-BRUSH-IN1" input
+		(pin "MAIN-BRUSH-IN1" output
 			(at 148.59 129.54 180)
 			(uuid "4d06b588-029c-4f35-9841-1217bc7fdd1d")
 			(effects
@@ -4411,7 +4545,7 @@
 				(justify left)
 			)
 		)
-		(pin "MAIN-BRUSH-IN2" input
+		(pin "MAIN-BRUSH-IN2" output
 			(at 148.59 131.445 180)
 			(uuid "829d0848-9dce-4d87-b464-29e31e96cef8")
 			(effects
@@ -4431,7 +4565,7 @@
 				(justify left)
 			)
 		)
-		(pin "SIDE-BRUSH-IN1" input
+		(pin "SIDE-BRUSH-IN1" output
 			(at 148.59 205.74 180)
 			(uuid "22e544a0-49fc-4ee1-88c1-03cf133ef30f")
 			(effects
@@ -4441,7 +4575,7 @@
 				(justify left)
 			)
 		)
-		(pin "SIDE-BRUSH-IN2" input
+		(pin "SIDE-BRUSH-IN2" output
 			(at 148.59 207.645 180)
 			(uuid "0a466344-d3eb-4144-b336-c2f3a2c84eff")
 			(effects
@@ -4562,7 +4696,7 @@
 			)
 		)
 		(pin "USART2-IR-L-RX" input
-			(at 233.045 114.3 90)
+			(at 226.06 114.3 90)
 			(uuid "6a4621b5-e285-4680-9c7f-be1434cfbe34")
 			(effects
 				(font
@@ -4571,29 +4705,69 @@
 				(justify right)
 			)
 		)
-		(pin "USART4-IR-R-TX" output
-			(at 234.95 114.3 90)
-			(uuid "965e86fe-7832-4a6f-a708-d47151e3ec5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USART2-IR-L-TX" output
-			(at 226.06 114.3 90)
-			(uuid "6f980338-bcc7-46b5-a2a2-e60fa3f72c04")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USART4-IR-R-RX" input
-			(at 224.155 114.3 90)
+			(at 213.995 114.3 90)
 			(uuid "080e26f4-69ae-438d-8c51-a200a6d256b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4_SCL" input
+			(at 239.395 114.3 90)
+			(uuid "3e4f12cf-dd6c-44e1-8d96-650deb726c00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4_SDA" input
+			(at 236.855 114.3 90)
+			(uuid "bd8bae1b-f247-4eac-a234-2824b2d35d1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIDE-PROXI-CE-L" output
+			(at 216.535 114.3 90)
+			(uuid "3c1879e2-48cd-4ade-a9f5-2b4b8d10c1e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIDE-PROXI-CE-R" output
+			(at 228.6 114.3 90)
+			(uuid "d0800cf6-7b37-44ed-b3b9-d4008bce0edc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIDE-PROXI-GPIO-L" input
+			(at 219.075 114.3 90)
+			(uuid "f7d5a40d-20d4-40b4-a590-33617a9186a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIDE-PROXI-GPIO-R" input
+			(at 231.14 114.3 90)
+			(uuid "4db3d7b3-319a-43a6-8d31-c70002256263")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5012,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 128 255 128 1)
 		)
 		(uuid "7f043eef-851b-4fc7-bc1b-c170004bfbd9")
 		(property "Sheetname" "RTC_WATCHDOG"

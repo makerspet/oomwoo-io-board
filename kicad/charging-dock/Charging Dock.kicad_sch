@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b1780c3e-7100-4df4-97c9-2fd6186fb125")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 149.86 75.565) (xy 161.925 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef01319a-bded-4ea6-bcd9-29c5a1b1e6f4")
+	)
+	(sheet
+		(at 118.11 99.06)
+		(size 31.75 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4bb8f12b-f88e-462d-8d8b-7cab36a6773e")
+		(property "Sheetname" "IR BEACON"
+			(at 118.11 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IR Beacon.kicad_sch"
+			(at 118.11 120.5996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Charging Dock"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.925 66.04)
+		(size 30.48 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "72c6e154-185e-4dc1-b232-13c9d403fda4")
+		(property "Sheetname" "POWER"
+			(at 161.925 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 161.925 87.5796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "POWER_EN" input
+			(at 161.925 75.565 180)
+			(uuid "6694670e-112e-4528-b6a6-8e1f22df8eff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Charging Dock"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 66.04)
+		(size 31.75 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "98be3a95-74c8-4a8a-bf9d-07f6f90f1855")
+		(property "Sheetname" "PRESENCE SENSOR"
+			(at 118.11 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Presence Sensor.kicad_sch"
+			(at 118.11 87.5796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DETECTED" output
+			(at 149.86 75.565 0)
+			(uuid "9c583fae-dedc-4b26-a6d6-62c78a17a862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Charging Dock"
+				(path "/b1780c3e-7100-4df4-97c9-2fd6186fb125"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

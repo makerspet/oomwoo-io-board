@@ -2166,7 +2166,7 @@
 			(uuid "1c472560-39a0-470a-815f-e36b778ab77c")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "#PWR0541")
 					(unit 1)
@@ -2208,7 +2208,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 334.899 187.706 90)
 			(hide yes)
 			(show_name no)
@@ -2248,7 +2248,7 @@
 			(uuid "5ff47494-40ba-414e-a1b9-d10458af2d5e")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "R35")
 					(unit 1)
@@ -2289,7 +2289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 324.231 223.774 90)
 			(hide yes)
 			(show_name no)
@@ -2329,7 +2329,7 @@
 			(uuid "2c652aa8-d45c-4f78-8638-dd367c16eb8b")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "R39")
 					(unit 1)
@@ -2447,7 +2447,7 @@
 			(uuid "f5f2355a-3aef-4859-a90b-9fd6efb771ee")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "Q6")
 					(unit 1)
@@ -2487,7 +2487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 296.926 257.429 90)
 			(hide yes)
 			(show_name no)
@@ -2527,7 +2527,7 @@
 			(uuid "4bdb1a4b-c32c-4eeb-91be-7613de12b178")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "R48")
 					(unit 1)
@@ -2601,7 +2601,7 @@
 			(uuid "ad576a9f-89a5-4eea-ab65-72948da9ead6")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "#PWR0546")
 					(unit 1)
@@ -2755,7 +2755,7 @@
 			(uuid "8bb66ffb-f23e-4bd9-97e3-94b1552c9091")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "BUMP_CLIFF1")
 					(unit 1)
@@ -2797,7 +2797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.239 224.409 90)
 			(hide yes)
 			(show_name no)
@@ -2837,7 +2837,7 @@
 			(uuid "f9a33cd1-e312-452e-acc7-efb494a2dca6")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "R38")
 					(unit 1)
@@ -2879,7 +2879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.714 225.044 90)
 			(hide yes)
 			(show_name no)
@@ -2919,7 +2919,7 @@
 			(uuid "2a1ad623-e725-4b9c-941e-067411fe22bd")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "R41")
 					(unit 1)
@@ -2960,7 +2960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 340.741 223.774 90)
 			(hide yes)
 			(show_name no)
@@ -3000,7 +3000,7 @@
 			(uuid "14e41778-e906-418b-897a-5c8067c06629")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "R44")
 					(unit 1)
@@ -3039,7 +3039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 331.724 187.706 90)
 			(hide yes)
 			(show_name no)
@@ -3079,7 +3079,7 @@
 			(uuid "477273e4-13c8-4e49-ab2f-da3abc24d2a9")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "R30")
 					(unit 1)
@@ -3153,7 +3153,7 @@
 			(uuid "ec8483d3-8951-4fc2-a513-7d94951fe825")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "#PWR0540")
 					(unit 1)
@@ -3227,7 +3227,7 @@
 			(uuid "74cd2efe-2bf6-48fc-8edb-ed4646699d6f")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "#PWR073")
 					(unit 1)
@@ -3267,7 +3267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 304.546 244.094 90)
 			(hide yes)
 			(show_name no)
@@ -3307,7 +3307,7 @@
 			(uuid "6721e675-ea75-48e7-928d-295af9d17e84")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "R68")
 					(unit 1)
@@ -3425,7 +3425,7 @@
 			(uuid "9e1d4734-6e4f-44c1-9afc-c0af2b21326f")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "Q5")
 					(unit 1)
@@ -3499,7 +3499,7 @@
 			(uuid "a69674d1-1fb7-490c-8da9-cb3a859195fa")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/eb65cbe8-a43a-448e-bb05-c96139672d5e"
 					(reference "#PWR0553")
 					(unit 1)

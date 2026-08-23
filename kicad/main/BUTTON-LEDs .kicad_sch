@@ -2050,7 +2050,7 @@
 			(uuid "f2a0e604-73d7-4c98-bbcc-04b9ca59c2cf")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "K2")
 					(unit 1)
@@ -2191,7 +2191,7 @@
 			(uuid "7d9b0f95-3037-4117-98f4-21bfddb60ae3")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "R120")
 					(unit 1)
@@ -2265,7 +2265,7 @@
 			(uuid "7c14650a-85ce-4ee4-bbb7-b2d161f46c3e")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "#PWR0622")
 					(unit 1)
@@ -2406,7 +2406,7 @@
 			(uuid "39e680a5-9c67-46a5-9c19-27e506427b02")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "D13")
 					(unit 1)
@@ -2547,7 +2547,7 @@
 			(uuid "d7e4d620-ca82-4b39-a040-d703fd190aae")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "D11")
 					(unit 1)
@@ -2688,7 +2688,7 @@
 			(uuid "c81e3105-0530-4e46-bbe2-1f2b96101ed2")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "R124")
 					(unit 1)
@@ -2806,7 +2806,7 @@
 			(uuid "483686cb-82a1-44c6-8165-bc7b4e206e7a")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "Q10")
 					(unit 1)
@@ -2880,7 +2880,7 @@
 			(uuid "91385796-40bc-441e-9aa4-22c38e40fec7")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "#PWR0619")
 					(unit 1)
@@ -3021,7 +3021,7 @@
 			(uuid "4e7e4050-3bc2-4130-9035-caaa98b18c5c")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "R122")
 					(unit 1)
@@ -3095,7 +3095,7 @@
 			(uuid "8941d63d-b17e-4d32-9b34-8344167f0d9b")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "#PWR0624")
 					(unit 1)
@@ -3169,7 +3169,7 @@
 			(uuid "0ffadab4-4134-47d1-bb15-c9cfccb75a70")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "#PWR0623")
 					(unit 1)
@@ -3209,7 +3209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.441 268.224 90)
 			(hide yes)
 			(show_name no)
@@ -3249,7 +3249,7 @@
 			(uuid "682ce160-2f0a-490f-83ae-674e2ae47c72")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "R72")
 					(unit 1)
@@ -3390,7 +3390,7 @@
 			(uuid "f04db9e9-02c4-45dd-8fb1-7cc4907db151")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "R125")
 					(unit 1)
@@ -3464,7 +3464,7 @@
 			(uuid "ffb44955-8c9a-4e7a-b6d5-143c94c71cbf")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "#PWR0625")
 					(unit 1)
@@ -3605,7 +3605,7 @@
 			(uuid "0c1a44aa-1511-46ce-97e5-8721e1c8a2a6")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "D14")
 					(unit 1)
@@ -3679,7 +3679,7 @@
 			(uuid "4440eb5a-5879-4de4-a730-307cc323727a")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "#PWR0620")
 					(unit 1)
@@ -3826,7 +3826,7 @@
 			(uuid "62b6b2ac-45c9-416e-8a94-d794e7c2c080")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "K3")
 					(unit 1)
@@ -3866,7 +3866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.441 189.484 90)
 			(hide yes)
 			(show_name no)
@@ -3906,7 +3906,7 @@
 			(uuid "74f13dac-34b3-4448-a6b5-06c7b0d9b0c6")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "R71")
 					(unit 1)
@@ -4024,7 +4024,7 @@
 			(uuid "046d8d80-4f87-49e0-966a-032634808dba")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "Q12")
 					(unit 1)
@@ -4165,7 +4165,7 @@
 			(uuid "a8a10d71-2e2d-490b-9685-833a3459ad1d")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "D12")
 					(unit 1)
@@ -4306,7 +4306,7 @@
 			(uuid "ec2c05c7-4134-47c8-ac43-ec71a44b4e14")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "R121")
 					(unit 1)
@@ -4380,7 +4380,7 @@
 			(uuid "a1ab4691-317e-4f9a-af8d-19aa1b63f746")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/ee620ee5-1d77-4392-93b6-4acdc78b883b"
 					(reference "#PWR0621")
 					(unit 1)

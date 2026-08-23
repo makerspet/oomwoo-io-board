@@ -1472,267 +1472,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "875105242010:875105242010"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "875105242010"
-				(at 8.89 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CAPAE530X550N"
-				(at 8.89 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/875105242010.pdf"
-				(at 8.89 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Wurth Elektronik 100uF 10 V dc Aluminium Polymer Capacitor, WCAP-PSLP Series 2000h 5.5 (Dia.) x 4.85mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "5.5"
-				(at 8.89 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 8.89 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "875105242010"
-				(at 8.89 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "710-875105242010"
-				(at 8.89 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/875105242010?qs=0KOYDY2FL2%252BkWotU1M3qUQ%3D%3D"
-				(at 8.89 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 8.89 -896.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 8.89 -996.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "875105242010_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 1.778) (xy 4.064 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 1.27) (xy 3.556 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 5.842 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ASEK-32.768KHZ-LRT:ASEK-32.768KHZ-LRT"
 			(pin_names
 				(offset 1.016)
@@ -2041,6 +1780,224 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:JBLM2101M025C058RTM_100UF_25V"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JBLM2101M025C058RTM_100UF_25V"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:JBLM2101M025C058RTM_100UF_25V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311241631_DMBJ-JBLM2101M025C058RTM-100UF-25V_C19270705.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1.87A@100kHz 100uF 2000hrs@105℃ 25V 5.8mm 50mΩ@100kHz 6.3mm ±20% SMD,D6.3xL5.8mm Polymer Aluminum Capacitors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C19270705"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "DMBJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "JBLM2101M025C058RTM 100UF 25V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C19270705 CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD DMBJ JBLM2101M025C058RTM 100UF 25V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JBLM2101M025C058RTM_100UF_25V_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy -1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.778) (xy -0.508 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1278 -1.7526)
+					(mid 0.4218 0.0211)
+					(end 1.1506 1.7856)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:C"
 			(pin_numbers
 				(hide yes)
@@ -2178,335 +2135,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Library:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Library:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -3584,6 +3212,10 @@
 		(uuid "9ab2350f-52e1-4ed8-aa70-08530fc7c61b")
 	)
 	(no_connect
+		(at 231.14 88.9)
+		(uuid "9cd813d6-b7b2-4f0f-b7fd-b095bdd348ca")
+	)
+	(no_connect
 		(at 231.14 134.62)
 		(uuid "9eb7ed82-e5d2-4af2-9b1f-8e78a9d7acc7")
 	)
@@ -3757,16 +3389,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 100.33) (xy 259.08 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ad85a90-3fa1-4927-a508-276edeaef57e")
-	)
-	(wire
-		(pts
 			(xy 195.58 81.28) (xy 195.58 78.74)
 		)
 		(stroke
@@ -3907,16 +3529,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 88.9) (xy 250.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d74769a-7e40-484f-9557-fc730efcc575")
-	)
-	(wire
-		(pts
 			(xy 231.14 99.06) (xy 242.57 99.06)
 		)
 		(stroke
@@ -3967,6 +3579,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 226.695) (xy 278.13 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f7dd5b-6fc4-4fd9-b523-f80290a90dfb")
+	)
+	(wire
+		(pts
 			(xy 231.14 96.52) (xy 242.57 96.52)
 		)
 		(stroke
@@ -3994,6 +3616,16 @@
 			(type default)
 		)
 		(uuid "5e1db1dc-8a40-4475-9bbe-f82c9d543b2a")
+	)
+	(wire
+		(pts
+			(xy 288.29 100.965) (xy 288.29 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60eba9ff-e544-4497-8f95-75866b6fd827")
 	)
 	(wire
 		(pts
@@ -4057,6 +3689,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 213.36) (xy 278.13 216.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb985d1-c753-427e-aafd-bde3e74f39b8")
+	)
+	(wire
+		(pts
 			(xy 320.04 160.02) (xy 325.12 160.02)
 		)
 		(stroke
@@ -4097,7 +3739,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 78.74) (xy 259.08 78.74)
+			(xy 231.14 78.74) (xy 242.57 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4114,16 +3756,6 @@
 			(type default)
 		)
 		(uuid "86f6e6e5-4af8-4248-b160-7335ef1c3792")
-	)
-	(wire
-		(pts
-			(xy 250.19 100.33) (xy 259.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a44b02b-d8d0-494a-98c7-b2aa04228317")
 	)
 	(wire
 		(pts
@@ -4337,16 +3969,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 250.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be1f7210-c91c-40c4-9df6-cdba317aca40")
-	)
-	(wire
-		(pts
 			(xy 195.58 165.1) (xy 195.58 162.56)
 		)
 		(stroke
@@ -4447,16 +4069,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 215.9) (xy 278.13 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3106db4-d023-4f19-8d3f-7276e65c950a")
-	)
-	(wire
-		(pts
 			(xy 195.58 88.9) (xy 195.58 81.28)
 		)
 		(stroke
@@ -4464,26 +4076,6 @@
 			(type default)
 		)
 		(uuid "d7c08c68-2f13-4a4b-9c4c-9d983adfe78c")
-	)
-	(wire
-		(pts
-			(xy 278.13 228.6) (xy 278.13 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c76fb4-f61a-48d9-958b-0c0a8b27b926")
-	)
-	(wire
-		(pts
-			(xy 259.08 78.74) (xy 259.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db3da379-5e06-42c9-871f-c9155279e165")
 	)
 	(wire
 		(pts
@@ -4577,16 +4169,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 87.63) (xy 259.08 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9b9bcfe-2aa4-43b8-a238-efd7824ecb0e")
-	)
-	(wire
-		(pts
 			(xy 195.58 96.52) (xy 195.58 88.9)
 		)
 		(stroke
@@ -4675,23 +4257,13 @@
 		)
 		(uuid "7ae93589-04db-4dfb-a6b1-4c3182b5c7fa")
 	)
-	(label "PCIE_LED"
-		(at 234.95 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a68a207d-8ff7-43e5-b387-d199fcbbf15f")
-	)
 	(label "VCC3V3_M2"
-		(at 234.315 78.74 0)
+		(at 242.57 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b869185e-a29d-468b-b2c9-91be7d16081e")
 	)
@@ -5069,7 +4641,7 @@
 			(uuid "186742f0-bf74-45b8-998c-b161568c4346")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "Y1")
 					(unit 1)
@@ -5112,9 +4684,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "WA-SMSI_9774XXX360:WA-SMSI_9774015360"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 379.73 95.25 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5330,9 +4901,87 @@
 			(uuid "bd73d574-2e73-440c-9fb5-9eca5f4c23b4")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "MP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 104.775 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "255f8531-19eb-469e-af62-974a3c0bb02b")
+		(property "Reference" "#PWR0100"
+			(at 288.29 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 109.855 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feb28b48-f7ab-4c81-9505-5f8f6e45554c")
+		)
+		(instances
+			(project "Main"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -5757,7 +5406,7 @@
 			(uuid "ed32fdee-e369-442b-a25b-3919e5f44536")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "J2")
 					(unit 1)
@@ -5835,9 +5484,124 @@
 			(uuid "082b4778-07d7-4ae3-9a74-5b76a6864205")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:JBLM2101M025C058RTM_100UF_25V")
+		(at 278.13 221.615 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f46ad12-f348-4df2-bce2-abe7813e1624")
+		(property "Reference" "C36"
+			(at 281.305 220.3449 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JBLM2101M025C058RTM_100UF_25V"
+			(at 281.305 222.8849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:JBLM2101M025C058RTM_100UF_25V"
+			(at 278.13 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311241631_DMBJ-JBLM2101M025C058RTM-100UF-25V_C19270705.pdf"
+			(at 278.13 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.87A@100kHz 100uF 2000hrs@105℃ 25V 5.8mm 50mΩ@100kHz 6.3mm ±20% SMD,D6.3xL5.8mm Polymer Aluminum Capacitors ROHS"
+			(at 278.13 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19270705"
+			(at 278.13 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "DMBJ"
+			(at 278.13 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "JBLM2101M025C058RTM 100UF 25V"
+			(at 278.13 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a1e45a4-c387-45ed-95d9-d9f359496d80")
+		)
+		(pin "1"
+			(uuid "5492d9e2-799c-48ed-b88b-b7a707d18d21")
+		)
+		(instances
+			(project "Main"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -5865,9 +5629,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 193.04 223.52 0)
-			(hide yes)
+		(property "Value" "100nF/50V"
+			(at 184.785 221.615 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6213,7 +5976,7 @@
 			(uuid "b10f5e0f-179b-4f28-a5e7-58d3ec6bd580")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "C41")
 					(unit 1)
@@ -6287,7 +6050,7 @@
 			(uuid "4ae5dbba-a629-4068-93ba-a5b856653d6e")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR069")
 					(unit 1)
@@ -6317,9 +6080,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 241.3 223.52 0)
-			(hide yes)
+		(property "Value" "100nF/50V"
+			(at 234.95 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6665,7 +6427,7 @@
 			(uuid "88d652da-2000-4b1c-af9b-36c84f064c50")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "C48")
 					(unit 1)
@@ -6739,7 +6501,7 @@
 			(uuid "5a6e5d13-4410-4cad-8d26-ed05b7292970")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR079")
 					(unit 1)
@@ -6813,7 +6575,7 @@
 			(uuid "f767bca2-36fe-453b-8214-5399a0a445de")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR080")
 					(unit 1)
@@ -6843,9 +6605,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 273.05 179.07 0)
-			(hide yes)
+		(property "Value" "100nF/50V"
+			(at 264.16 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6865,7 +6626,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" ""
 			(at 273.05 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -6876,7 +6637,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF/50V"
+		(property "Description" ""
 			(at 273.05 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -6887,7 +6648,7 @@
 				)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field4" ""
 			(at 273.05 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -6898,7 +6659,7 @@
 				)
 			)
 		)
-		(property "Field5" "2611911"
+		(property "Field5" ""
 			(at 273.05 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -6909,7 +6670,7 @@
 				)
 			)
 		)
-		(property "Field6" "RM EMK105 B7104KV-F"
+		(property "Field6" ""
 			(at 273.05 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -6920,7 +6681,7 @@
 				)
 			)
 		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
+		(property "Field7" ""
 			(at 273.05 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -6931,7 +6692,7 @@
 				)
 			)
 		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Part Description" ""
 			(at 273.05 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -7191,387 +6952,9 @@
 			(uuid "99f0f3e0-6fb3-47f7-bfbf-0a152327d23a")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:LED")
-		(at 259.08 93.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f7fcc64-39d0-40cf-bffa-6b192914699f")
-		(property "Reference" "D3"
-			(at 262.0518 92.9894 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-210/LTST-S270KRKT.pdf"
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LED RED CLEAR CHIP SMD"
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "Digikey "
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "	LTST-S270KRKT"
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "B1911USD-20D000114U1930"
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" "650295101"
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Description" "	Red 620nm LED Indication - Discrete 2.2V 2-SMD, No Lead"
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "APPLICATION" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Family" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "GERDER" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "INTERFACE-TYPE" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IR" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUNT" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGING" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PINS" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TYPE" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "APT1608SURCK "
-			(at 259.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b40d1d6a-8f42-4089-9c80-6149dbaa9ad0")
-		)
-		(pin "2"
-			(uuid "261374bb-1fd5-4d7c-87e2-db3f453db64a")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7599,7 +6982,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "10k"
 			(at 242.57 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7881,7 +7264,7 @@
 			(uuid "6dc9d8f2-839a-4330-9950-2f284d8f11b4")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "R56")
 					(unit 1)
@@ -7955,7 +7338,7 @@
 			(uuid "771b4d79-07b5-46c5-bbfb-c57ceeeedd2a")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR027")
 					(unit 1)
@@ -7998,7 +7381,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "WA-SMSI_9774XXX360:WA-SMSI_9774015360"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 306.07 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8216,7 +7599,7 @@
 			(uuid "854c41eb-f17d-4a6f-8367-e0927fde8aeb")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "MP1")
 					(unit 1)
@@ -8246,7 +7629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "10uF/10V"
 			(at 236.22 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +7640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.1852 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8268,7 +7651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" ""
 			(at 236.22 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8279,7 +7662,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 10UF 50V X5R 0805"
+		(property "Description" ""
 			(at 236.22 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8290,7 +7673,7 @@
 				)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
+		(property "Field5" ""
 			(at 236.22 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8301,7 +7684,7 @@
 				)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Field4" ""
 			(at 236.22 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8312,7 +7695,7 @@
 				)
 			)
 		)
-		(property "Field6" "GRM21BR71A106KA73L"
+		(property "Field6" ""
 			(at 236.22 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8323,7 +7706,7 @@
 				)
 			)
 		)
-		(property "Field7" "Murata"
+		(property "Field7" ""
 			(at 236.22 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8334,7 +7717,7 @@
 				)
 			)
 		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Part Description" ""
 			(at 236.22 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8594,7 +7977,7 @@
 			(uuid "51e1cb3e-bff6-40c6-bd8e-d71a1e08abb6")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "C45")
 					(unit 1)
@@ -8668,9 +8051,270 @@
 			(uuid "277ab909-5d2f-4983-9afc-33d5d696f484")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WA-SMSI_9774XXX360:WA-SMSI_9774XXX360")
+		(at 288.29 95.885 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3bb4435-db39-41e0-89a1-39abdbffc352")
+		(property "Reference" "MP4"
+			(at 292.1 94.6149 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M3 x 1.5mm"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/9774015360R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "THREAD" "M3"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-DIAMETER" "4.2mm"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PIN-LENGTH" "1.5mm"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-THREAD-LENGTH" "-"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774015360R/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774015360R.pdf"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "9774015360R"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PART-NUMBER" "9774015360R"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OUTER-DIAMETER" "6mm"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "STANDOFF, FEMALE ROUND, STEEL, 2.9MM, M3; Standoff Material:Steel; Thread Size - Metric:M3; Thread Size - Imperial:-; Standoff Type:Round Female; Body Length:1.5mm; Product Range:WA-SMSI Series; Overall Length:2.9mm; External Width:6mm; SVHC:Lead (15-Jan-2019)"
+			(at 288.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "0ab3a066-12e8-40e3-aeaa-521f25ac3332")
+		)
+		(instances
+			(project "Main"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
+					(reference "MP4")
 					(unit 1)
 				)
 			)
@@ -8698,9 +8342,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 220.98 223.52 0)
-			(hide yes)
+		(property "Value" "100nF/50V"
+			(at 213.995 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9046,7 +8689,7 @@
 			(uuid "ba670f60-94f6-4be2-bc50-6bea92bf43ad")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "C43")
 					(unit 1)
@@ -9076,9 +8719,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 260.35 223.52 0)
-			(hide yes)
+		(property "Value" "100nF/50V"
+			(at 254.635 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9424,387 +9066,9 @@
 			(uuid "80b33a08-27cb-4185-8676-730eb881ff65")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:R")
-		(at 259.08 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0cab217-5ef9-4d2b-90d2-445e212ca69d")
-		(property "Reference" "R57"
-			(at 260.858 82.6516 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.302 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES 1K OHM 1% 1/10W 0603"
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "9239235"
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "KOA EUROPE GMBH"
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "RK73H1ETTP1001F"
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Description" "Resistor 1K M1005 1% 63mW"
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" "125049511"
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "APPLICATION" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Family" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "GERDER" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "INTERFACE-TYPE" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IR" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUNT" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGING" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PINS" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TYPE" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RMCF0603FT1K00 "
-			(at 259.08 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "833e19cf-60dc-4962-8187-e65b97d55105")
-		)
-		(pin "2"
-			(uuid "5de10e72-2569-481f-b7a9-3ce4f94dc877")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -9876,7 +9140,7 @@
 			(uuid "5076b2bc-a153-4573-ab43-e22f48a1710c")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR078")
 					(unit 1)
@@ -9950,176 +9214,9 @@
 			(uuid "2d7e9203-1bbc-4390-a4c5-d685bb50658d")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "875105242010:875105242010")
-		(at 278.13 215.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e61d7ee6-fbb5-4136-8c45-f39957ffe2bd")
-		(property "Reference" "C51"
-			(at 285.496 218.694 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "875105242010"
-			(at 284.226 221.996 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LIB_875105242010:CAPAE530X550N"
-			(at 181.94 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/875105242010.pdf"
-			(at 81.94 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Wurth Elektronik 100uF 10 V dc Aluminium Polymer Capacitor, WCAP-PSLP Series 2000h 5.5 (Dia.) x 4.85mm"
-			(at 278.13 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "5.5"
-			(at -118.06 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -218.06 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "875105242010"
-			(at -318.06 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "710-875105242010"
-			(at -418.06 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/875105242010?qs=0KOYDY2FL2%252BkWotU1M3qUQ%3D%3D"
-			(at -518.06 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -618.06 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -718.06 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "94e6588c-0f2e-4ee3-b79c-7deb39df1ebf")
-		)
-		(pin "1"
-			(uuid "fa0656f5-fc46-4a79-beb6-9e7ff5ceaeb8")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
-					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -10195,7 +9292,7 @@
 			(uuid "41ff6203-4c7c-4e39-a331-8a0c8ef7df1f")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR085")
 					(unit 1)
@@ -10238,7 +9335,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "WA-SMSI_9774XXX360:WA-SMSI_9774015360"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 344.17 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10456,7 +9553,7 @@
 			(uuid "f18189fe-f538-4d2b-b76f-b63ffcec94e0")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "MP2")
 					(unit 1)
@@ -10534,7 +9631,7 @@
 			(uuid "7e1bb8dc-050c-40e0-b774-3cf0f315cba1")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/c372a5f4-5fe7-4cfd-a223-eb4cbc5942fc"
 					(reference "#PWR083")
 					(unit 1)

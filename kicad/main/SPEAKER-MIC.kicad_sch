@@ -1542,14 +1542,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SPEAKER-MIC_0_HDRx2_DesignLibrary.SchLib_1"
+		(symbol "JLCImport:ZX-ZH1_5-2PWT"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "U"
+				(at 0 8.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1558,8 +1561,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "ZX-ZH1_5-2PWT"
+				(at 0 -8.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1568,18 +1571,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "JLCImport:ZX-ZH1_5-2PWT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1590,7 +1582,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312011606_Megastar-ZX-ZH1-5-2PWT_C19272405.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1601,7 +1593,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*CONN-SMD_2P-P1.00_HX-1.0-2P-WT*"
+			(property "Description" "-25℃~+85℃ 1 1.5mm 1A 1x2P 2 250V 2P 3.8mm 6mm 6mm Auxiliary Solder Pin Beige Brass LCP Surface Mount, Right Angle Tin ZH SMD,P=1.5mm,卧贴 Wire To Board Connector ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1612,21 +1604,82 @@
 					)
 				)
 			)
-			(symbol "SPEAKER-MIC_0_HDRx2_DesignLibrary.SchLib_1_1_0"
-				(rectangle
-					(start -7.62 0)
-					(end 0 -7.62)
+			(property "LCSC" "C19272405"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Megastar"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "ZX-ZH1.5-2PWT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C19272405 CONN-SMD_2P-P1.50_ZX-ZH1.5-2PWT Megastar ZX-ZH1.5-2PWT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ZX-ZH1_5-2PWT_0_1"
+				(circle
+					(center -1.27 2.54)
+					(radius 0.381)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
-						(color 152 0 0 1)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(pin passive line
-					(at -2.54 2.54 270)
+				(polyline
+					(pts
+						(xy 2.032 -3.81) (xy 2.1311 -3.8002) (xy 2.2264 -3.7713) (xy 2.3142 -3.7244) (xy 2.3912 -3.6612)
+						(xy 2.4544 -3.5842) (xy 2.5013 -3.4964) (xy 2.5302 -3.4011) (xy 2.54 -3.302) (xy 2.5302 3.4011)
+						(xy 2.5013 3.4964) (xy 2.4544 3.5842) (xy 2.3912 3.6612) (xy 2.3142 3.7244) (xy 2.2264 3.7713)
+						(xy 2.1311 3.8002) (xy 2.032 3.81) (xy -2.1311 3.8002) (xy -2.2264 3.7713) (xy -2.3142 3.7244)
+						(xy -2.3912 3.6612) (xy -2.4544 3.5842) (xy -2.5013 3.4964) (xy -2.5302 3.4011) (xy -2.54 3.302)
+						(xy -2.5302 -3.4011) (xy -2.5013 -3.4964) (xy -2.4544 -3.5842) (xy -2.3912 -3.6612) (xy -2.3142 -3.7244)
+						(xy -2.2264 -3.7713) (xy -2.1311 -3.8002) (xy -2.032 -3.81) (xy 2.032 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1643,8 +1696,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 2.54 270)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -1661,8 +1714,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 -5.08 0)
+				(pin unspecified line
+					(at 1.27 -6.35 90)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -1679,8 +1732,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 180)
+				(pin unspecified line
+					(at 1.27 6.35 270)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -2291,6 +2344,12 @@
 		(uuid "ff979576-af6b-4b73-93e7-36ed9c6b521c")
 	)
 	(junction
+		(at 450.85 188.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "005d4b70-4d58-4258-b806-da7aee9b1aac")
+	)
+	(junction
 		(at 400.05 193.675)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2303,16 +2362,16 @@
 		(uuid "2d79988f-d64e-462e-806d-0c8cbd92623b")
 	)
 	(junction
+		(at 410.845 198.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3988b979-b79f-4d8c-8b5e-e159055d80e4")
+	)
+	(junction
 		(at 352.425 217.805)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e44113b-999b-4207-a895-5b9944516ca3")
-	)
-	(junction
-		(at 410.845 198.755)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43c7754a-7b58-493a-9c48-138037471984")
 	)
 	(junction
 		(at 346.71 223.52)
@@ -2351,6 +2410,12 @@
 		(uuid "76adea90-74ea-4798-a11d-beff6af0be82")
 	)
 	(junction
+		(at 437.515 196.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77c28a01-ad11-47ed-a3cd-6756795974a7")
+	)
+	(junction
 		(at 376.555 217.805)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2375,22 +2440,10 @@
 		(uuid "96ef0342-f42c-4ee9-b168-26ff0c218046")
 	)
 	(junction
-		(at 437.515 196.215)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4644efd-0d2c-407e-868f-7bfeeb41d096")
-	)
-	(junction
 		(at 166.37 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfa91756-b213-4070-b5fb-2de388d15d63")
-	)
-	(junction
-		(at 456.565 206.375)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbfbece5-6a08-4611-9937-dc9ee693ae04")
 	)
 	(junction
 		(at 346.71 234.95)
@@ -2419,16 +2472,6 @@
 	(no_connect
 		(at 360.045 193.675)
 		(uuid "f8c1214d-923a-4e99-95e2-841b21049d78")
-	)
-	(wire
-		(pts
-			(xy 410.845 198.755) (xy 443.865 198.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08072f78-28ed-4135-a974-921fee5823cf")
 	)
 	(wire
 		(pts
@@ -2472,6 +2515,16 @@
 	)
 	(wire
 		(pts
+			(xy 450.85 186.055) (xy 450.85 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132edb67-b3af-4d05-841d-4b0d0b8c2e24")
+	)
+	(wire
+		(pts
 			(xy 127.635 186.69) (xy 143.51 186.69)
 		)
 		(stroke
@@ -2492,16 +2545,6 @@
 	)
 	(wire
 		(pts
-			(xy 451.485 188.595) (xy 456.565 188.595)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b1c5477-0780-49a9-abf9-8bc0238c7123")
-	)
-	(wire
-		(pts
 			(xy 410.845 217.805) (xy 410.845 216.535)
 		)
 		(stroke
@@ -2509,6 +2552,16 @@
 			(type default)
 		)
 		(uuid "1c8b0889-700e-465b-8e5f-f189464bf2a2")
+	)
+	(wire
+		(pts
+			(xy 450.85 206.375) (xy 473.71 206.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e60f5b-db5d-4ecb-b16c-d4c8174db0e6")
 	)
 	(wire
 		(pts
@@ -2529,6 +2582,16 @@
 			(type default)
 		)
 		(uuid "26bb52b2-30f4-46e8-adf9-6ee766271248")
+	)
+	(wire
+		(pts
+			(xy 473.71 188.595) (xy 450.85 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b924b5-c574-4e12-a6e6-54415dcb420f")
 	)
 	(wire
 		(pts
@@ -2602,16 +2665,6 @@
 	)
 	(wire
 		(pts
-			(xy 451.485 206.375) (xy 456.565 206.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d7fd98b-e90f-4495-80f7-b808b307c1fa")
-	)
-	(wire
-		(pts
 			(xy 143.51 241.3) (xy 140.97 241.3)
 		)
 		(stroke
@@ -2642,6 +2695,16 @@
 	)
 	(wire
 		(pts
+			(xy 450.85 188.595) (xy 450.85 191.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fd2d9d-e83c-471b-b949-56cdeb4fd42f")
+	)
+	(wire
+		(pts
 			(xy 393.065 180.975) (xy 410.845 180.975)
 		)
 		(stroke
@@ -2649,6 +2712,16 @@
 			(type default)
 		)
 		(uuid "4fd0d345-56f7-42ec-9e49-e95607e6b361")
+	)
+	(wire
+		(pts
+			(xy 410.845 198.755) (xy 444.5 198.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512b2649-cd66-4250-be9a-6a3ccd7d1012")
 	)
 	(wire
 		(pts
@@ -2742,6 +2815,16 @@
 	)
 	(wire
 		(pts
+			(xy 437.515 196.215) (xy 444.5 196.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762d4d04-11d1-441d-b05d-8c42849e8317")
+	)
+	(wire
+		(pts
 			(xy 299.72 199.39) (xy 299.72 207.01)
 		)
 		(stroke
@@ -2759,16 +2842,6 @@
 			(type default)
 		)
 		(uuid "779d93b6-7f6b-4943-ac53-a82ae98f9c8f")
-	)
-	(wire
-		(pts
-			(xy 451.485 191.135) (xy 451.485 188.595)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7808389b-0ad9-4bf0-a3c9-6b80584fc8ab")
 	)
 	(wire
 		(pts
@@ -2842,16 +2915,6 @@
 	)
 	(wire
 		(pts
-			(xy 456.565 206.375) (xy 456.565 208.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e73d442-dbe0-4bc1-b1b5-eedb665fd09a")
-	)
-	(wire
-		(pts
 			(xy 393.065 186.055) (xy 410.845 186.055)
 		)
 		(stroke
@@ -2912,23 +2975,13 @@
 	)
 	(wire
 		(pts
-			(xy 456.565 188.595) (xy 456.565 206.375)
+			(xy 450.85 203.835) (xy 450.85 206.375)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab271676-df4f-438a-9e8f-704440b74558")
-	)
-	(wire
-		(pts
-			(xy 437.515 196.215) (xy 443.865 196.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abaf5634-016e-4631-a1ba-e65aa4811f63")
+		(uuid "a68fe84a-03ba-4d18-94f8-8a98f552e45b")
 	)
 	(wire
 		(pts
@@ -2939,6 +2992,16 @@
 			(type default)
 		)
 		(uuid "ac282cdb-d45f-4ae0-a63e-003e23c1f03c")
+	)
+	(wire
+		(pts
+			(xy 473.71 206.375) (xy 473.71 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1ecced-8c55-4461-beaf-1f51761a89b1")
 	)
 	(wire
 		(pts
@@ -3212,16 +3275,6 @@
 	)
 	(wire
 		(pts
-			(xy 451.485 203.835) (xy 451.485 206.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84a17b1-04e4-46f7-a6c1-2976cda8d5f3")
-	)
-	(wire
-		(pts
 			(xy 140.97 229.87) (xy 166.37 229.87)
 		)
 		(stroke
@@ -3482,7 +3535,7 @@
 			(uuid "60b9db01-8baf-40b4-99b0-51a3f5513045")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "U9")
 					(unit 1)
@@ -3682,9 +3735,131 @@
 			(uuid "2a05305b-da4a-46e5-a7c3-169c2e246983")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "ED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:ZX-ZH1_5-2PWT")
+		(at 449.58 197.485 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10d1449f-4d22-4f87-a529-e4d97a98ab7b")
+		(property "Reference" "SPK1"
+			(at 453.39 198.7551 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZX-ZH1_5-2PWT"
+			(at 453.39 196.2151 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:ZX-ZH1_5-2PWT"
+			(at 449.58 197.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312011606_Megastar-ZX-ZH1-5-2PWT_C19272405.pdf"
+			(at 449.58 197.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1.5mm 1A 1x2P 2 250V 2P 3.8mm 6mm 6mm Auxiliary Solder Pin Beige Brass LCP Surface Mount, Right Angle Tin ZH SMD,P=1.5mm,卧贴 Wire To Board Connector ROHS"
+			(at 449.58 197.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19272405"
+			(at 449.58 197.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Megastar"
+			(at 449.58 197.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ZX-ZH1.5-2PWT"
+			(at 449.58 197.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "152c281c-1704-49e6-bcd4-8e85296e2f94")
+		)
+		(pin "1"
+			(uuid "2a840fff-61b0-4281-9bb1-a9d3d8b898ba")
+		)
+		(pin "2"
+			(uuid "80bf25b5-7100-4711-89a2-29840da920ac")
+		)
+		(pin "3"
+			(uuid "2df1ab4d-3e8b-477a-b9f5-2873e7164d5b")
+		)
+		(instances
+			(project "Main"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
+					(reference "SPK1")
 					(unit 1)
 				)
 			)
@@ -3757,7 +3932,7 @@
 			(uuid "a2af6132-7139-47de-b185-60ca3d59b8a8")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR0631")
 					(unit 1)
@@ -3882,7 +4057,7 @@
 			(uuid "63e5c1f5-c615-43c7-9a6d-8e4ebde403ac")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "U10")
 					(unit 1)
@@ -3957,7 +4132,7 @@
 			(uuid "810b855b-34c8-462e-8e6f-9271385de8dc")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR0615")
 					(unit 1)
@@ -4031,7 +4206,7 @@
 			(uuid "7d1e2d3a-0756-40e7-897b-389499c89774")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR060")
 					(unit 1)
@@ -4109,7 +4284,7 @@
 			(uuid "063fee99-2d79-49b6-94ed-380718f8e4a2")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR086")
 					(unit 1)
@@ -4188,7 +4363,7 @@
 			(uuid "8e7f95ad-0345-40b5-a228-d98f32f14793")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "R12")
 					(unit 1)
@@ -4270,7 +4445,7 @@
 			(uuid "73fa3c45-d890-414a-a8b0-35f4021b99da")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "C11")
 					(unit 1)
@@ -4345,7 +4520,7 @@
 			(uuid "b2e090fe-a5e9-4534-a9d4-cc6a7d6a6ab8")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR0630")
 					(unit 1)
@@ -4419,7 +4594,7 @@
 			(uuid "cea290ef-1aae-4257-9dc0-bba7f8b6e4e0")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR048")
 					(unit 1)
@@ -4501,7 +4676,7 @@
 			(uuid "9ce23d0b-7fb8-4ddc-b7e7-128c55d31fcc")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "C10")
 					(unit 1)
@@ -4576,9 +4751,84 @@
 			(uuid "8c5f204d-f93e-48e7-80fc-95be4b6fea91")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR0634")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 450.85 186.055 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a203f00-9420-4bfa-8238-ee6fd8f838e4")
+		(property "Reference" "#PWR0556"
+			(at 450.85 186.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 450.85 179.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 450.85 186.055 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 450.85 186.055 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 450.85 186.055 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "76d353c3-36de-4952-914f-fc7a4579991d")
+		)
+		(instances
+			(project "Main"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
+					(reference "#PWR0556")
 					(unit 1)
 				)
 			)
@@ -4693,7 +4943,7 @@
 			(uuid "52393520-57a3-4654-9214-83481b7e7525")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "Q14")
 					(unit 1)
@@ -4767,83 +5017,9 @@
 			(uuid "6a685a2e-9f6e-4ccd-925f-169b1140ff44")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
-		(at 456.565 208.915 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e06c55f-9732-4a4b-85ed-0e37e0442668")
-		(property "Reference" "#PWR0618"
-			(at 456.565 208.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 456.565 215.265 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 456.565 208.915 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 456.565 208.915 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 456.565 208.915 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "d9f7a744-31b6-4b52-a2b6-847fca25f735")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
-					(reference "#PWR0618")
 					(unit 1)
 				)
 			)
@@ -4921,157 +5097,9 @@
 			(uuid "9b7c235d-878d-4c46-9063-a3b05a5cc37b")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SPEAKER-MIC_0_HDRx2_DesignLibrary.SchLib_1")
-		(lib_id "DesignLibrary:SPEAKER-MIC_0_HDRx2_DesignLibrary.SchLib")
-		(at 446.405 193.675 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a033369-36d5-4d83-8719-58c66e39cdf5")
-		(property "Reference" "J18"
-			(at 461.645 198.755 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SPEAKER2"
-			(at 461.645 201.295 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "oomwoo_altium:CONN-SMD_2P-P1.00_HX-1.0-2P-WT"
-			(at 446.405 193.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 446.405 193.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 446.405 193.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURINGPARTNUMBER" "*"
-			(at 445.135 200.025 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "*"
-			(at 445.135 200.025 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIERPARTNUMBER" "*"
-			(at 445.135 200.025 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER" "*"
-			(at 445.135 200.025 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGERATE" "*"
-			(at 445.135 200.025 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "94e703f2-f2d2-435c-bcb2-b91df858efec")
-		)
-		(pin "2"
-			(uuid "0c845e4d-7cdb-4d9d-9661-8b03bb38ad48")
-		)
-		(pin "3"
-			(uuid "3c842d02-a5db-4d56-811f-53bdfdfda933")
-		)
-		(pin "4"
-			(uuid "6bb56f15-bdfa-4dbd-b6d8-e367352d7d0a")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
-					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -5227,7 +5255,7 @@
 			(uuid "a5ece24a-77fd-4bb5-9967-99dcd6d8eb8d")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "U11")
 					(unit 1)
@@ -5307,7 +5335,7 @@
 			(uuid "4502757f-d773-4849-a393-d3e132069194")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "R8")
 					(unit 1)
@@ -5382,7 +5410,7 @@
 			(uuid "ffcada64-4473-4184-a076-68f4ebbcaece")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR0635")
 					(unit 1)
@@ -5458,7 +5486,7 @@
 			(uuid "47985aa0-1ae4-43ce-8e96-d2022d85962f")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR0632")
 					(unit 1)
@@ -5659,7 +5687,7 @@
 			(uuid "596dd05a-98dc-4416-864c-65225112d6be")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "ED3")
 					(unit 1)
@@ -5735,7 +5763,7 @@
 			(uuid "b43d64e7-38c9-4d83-8015-7f68e8e53417")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR0614")
 					(unit 1)
@@ -5814,7 +5842,7 @@
 			(uuid "3fd8005e-ff31-46ec-b700-12826a28d956")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "R9")
 					(unit 1)
@@ -5896,7 +5924,7 @@
 			(uuid "e9de7044-c998-4b13-8ed5-d527c25b8d60")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "C9")
 					(unit 1)
@@ -5972,7 +6000,7 @@
 			(uuid "195ccf6f-97c3-4c8d-8f2a-6cb71b631e17")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "#PWR0633")
 					(unit 1)
@@ -6054,7 +6082,7 @@
 			(uuid "b52a5e5c-28d4-4dd3-82aa-e2435256bf92")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/7cb3843c-442d-405c-b611-b2c5a11f0906"
 					(reference "C5")
 					(unit 1)

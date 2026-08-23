@@ -859,6 +859,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:GRM31CR61A107MEA8L"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GRM31CR61A107MEA8L"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:GRM31CR61A107MEA8L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203190030_Murata-Electronics-GRM31CR61A107MEA8L_C883598.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100uF 10V X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C883598"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "GRM31CR61A107MEA8L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C1206 C883598 GRM31CR61A107MEA8L Murata Electronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM31CR61A107MEA8L_0_1"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:IRLML6344TRPBF"
 			(pin_names
 				(offset 1.016)
@@ -1524,7 +1718,7 @@
 	)
 	(text "5V MOTOR"
 		(exclude_from_sim no)
-		(at 330.835 173.355 0)
+		(at 301.625 139.7 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1561,6 +1755,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32cc8173-73d9-4db1-b88e-1119a807fa2e")
+	)
+	(junction
+		(at 232.41 158.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47eb960b-903b-471c-97a8-723229f879c0")
 	)
 	(junction
 		(at 272.415 165.735)
@@ -1611,6 +1811,16 @@
 			(type default)
 		)
 		(uuid "1725e5c8-937c-45be-b85c-f7a4f0823e48")
+	)
+	(wire
+		(pts
+			(xy 232.41 158.115) (xy 232.41 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e805ef8-9b04-4e65-87a2-0a309c4d24a8")
 	)
 	(wire
 		(pts
@@ -1684,7 +1894,7 @@
 	)
 	(wire
 		(pts
-			(xy 249.555 158.115) (xy 241.935 158.115)
+			(xy 249.555 158.115) (xy 232.41 158.115)
 		)
 		(stroke
 			(width 0)
@@ -1824,6 +2034,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 170.18) (xy 232.41 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf88af5-15e9-4cc8-a945-907ec9bb3f6c")
+	)
+	(wire
+		(pts
 			(xy 257.175 211.455) (xy 264.795 211.455)
 		)
 		(stroke
@@ -1834,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.475 178.435) (xy 237.391 178.435)
+			(xy 244.475 178.435) (xy 212.09 178.435)
 		)
 		(stroke
 			(width 0)
@@ -1914,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.935 158.115) (xy 241.935 153.035)
+			(xy 232.41 158.115) (xy 232.41 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1924,7 +2144,7 @@
 	)
 	(global_label "VM-5V"
 		(shape input)
-		(at 241.935 153.035 90)
+		(at 232.41 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1934,7 +2154,7 @@
 		)
 		(uuid "7f7b6a44-3dae-4308-8dc8-adb878034027")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.935 143.6393 90)
+			(at 232.41 143.0043 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1959,7 +2179,7 @@
 	)
 	(hierarchical_label "WATER-PUMPU-CTRL"
 		(shape input)
-		(at 237.391 178.435 180)
+		(at 212.09 178.435 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2034,7 +2254,7 @@
 			(uuid "4e9a7271-e83e-498e-a826-46d247f5dbc8")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "#PWR0547")
 					(unit 1)
@@ -2108,9 +2328,123 @@
 			(uuid "b1521897-073a-48d5-afc7-089b168f709d")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "#PWR0548")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:GRM31CR61A107MEA8L")
+		(at 232.41 165.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28edbb9a-0716-471e-9de8-212aa6c0b3dc")
+		(property "Reference" "C8"
+			(at 207.01 164.465 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GRM31CR61A107MEA8L"
+			(at 207.01 167.005 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:GRM31CR61A107MEA8L"
+			(at 232.41 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203190030_Murata-Electronics-GRM31CR61A107MEA8L_C883598.pdf"
+			(at 232.41 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100uF 10V X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 232.41 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C883598"
+			(at 232.41 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 232.41 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "GRM31CR61A107MEA8L"
+			(at 232.41 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5bf44bf6-79a8-4251-8984-9e87baaafab8")
+		)
+		(pin "1"
+			(uuid "4fe0997d-810e-4f40-b4ff-b8094d4bb04a")
+		)
+		(instances
+			(project "Main"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2253,7 +2587,7 @@
 			(uuid "12372a1a-3440-4015-9b9e-233833296cea")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "Q8")
 					(unit 1)
@@ -2327,7 +2661,7 @@
 			(uuid "408e83c0-ca7b-45d9-af0e-e902006c9608")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "#PWR0551")
 					(unit 1)
@@ -2468,7 +2802,7 @@
 			(uuid "05f2dd11-ddb4-41b0-93e8-acb05a4f342d")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "D17")
 					(unit 1)
@@ -2609,7 +2943,7 @@
 			(uuid "c5bb00f7-4c16-4797-b4dd-da4201c86bf4")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "R81")
 					(unit 1)
@@ -2683,7 +3017,7 @@
 			(uuid "816f21c3-3288-442a-b736-0010bc3e5179")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "#PWR0550")
 					(unit 1)
@@ -2824,7 +3158,7 @@
 			(uuid "cbf9e4f8-0260-4ddf-a183-040c87e5de11")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "R27")
 					(unit 1)
@@ -2964,7 +3298,7 @@
 			(uuid "463509ac-220a-4a8f-b2bc-0d4e095af93a")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "C105")
 					(unit 1)
@@ -3038,7 +3372,7 @@
 			(uuid "12951332-b5d5-4787-ad66-f2ea2a01168c")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "#PWR0552")
 					(unit 1)
@@ -3156,7 +3490,7 @@
 			(uuid "239ee762-5333-4738-b627-1ebcbed47a83")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "Q7")
 					(unit 1)
@@ -3297,7 +3631,7 @@
 			(uuid "7a5ad65d-e574-48da-ade2-288883d013ed")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "R25")
 					(unit 1)
@@ -3371,9 +3705,83 @@
 			(uuid "bcef22fa-0af1-498c-9daf-76942f23f41f")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "#PWR0549")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 232.41 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de22e695-2dbf-4007-9bae-72a5c91c5392")
+		(property "Reference" "#PWR0554"
+			(at 232.41 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "fbf051fa-cf19-49a9-8a6e-8eb2ff17c1dc")
+		)
+		(instances
+			(project "Main"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
+					(reference "#PWR0554")
 					(unit 1)
 				)
 			)
@@ -3391,7 +3799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ccb373-ce1e-44d5-9fed-4fd0977e8cb6")
-		(property "Reference" "U2"
+		(property "Reference" "PUMP1"
 			(at 328.295 158.1149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3492,9 +3900,9 @@
 			(uuid "25b71b02-44d7-4fbc-8b0e-94ca34921937")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
-					(reference "U2")
+					(reference "PUMP1")
 					(unit 1)
 				)
 			)
@@ -3633,7 +4041,7 @@
 			(uuid "9b208ffc-e971-4d6b-9833-612982f4d7e6")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/f196a9d8-91b0-4e2f-9339-138330433950"
 					(reference "D6")
 					(unit 1)

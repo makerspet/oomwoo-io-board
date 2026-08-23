@@ -2163,22 +2163,10 @@
 		(uuid "03238385-436a-4b45-b9da-3856334d8a35")
 	)
 	(junction
-		(at 142.24 137.795)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04d4dfcd-9444-4c79-875d-13edd5f230dc")
-	)
-	(junction
 		(at 273.685 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0962eaae-539e-497b-aefb-b048e12fd6d0")
-	)
-	(junction
-		(at 142.24 168.275)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "150116b2-9c41-4b20-b527-52dd0d5236ed")
 	)
 	(junction
 		(at 271.78 137.795)
@@ -2247,16 +2235,16 @@
 		(uuid "6fcf04b3-a3eb-41f0-bc33-5366a661bf1d")
 	)
 	(junction
+		(at 142.24 137.795)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7441ea5e-dfd2-4be0-a7c2-1ca8b52fd650")
+	)
+	(junction
 		(at 142.24 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c90752f-a336-4353-a500-88798f179d3a")
-	)
-	(junction
-		(at 126.365 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d960120-d544-4029-b7c0-b08e8214450d")
 	)
 	(junction
 		(at 123.19 180.975)
@@ -2354,22 +2342,6 @@
 		(color 0 0 0 0)
 		(uuid "f39f0cb5-bed8-4da7-bd4f-e4d7b83366ac")
 	)
-	(junction
-		(at 121.92 147.955)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fac4e250-aac8-4d84-8aba-552e52f4d138")
-	)
-	(wire
-		(pts
-			(xy 121.92 138.43) (xy 121.92 147.955)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011e4a88-ea1d-4836-9dd1-ce49aadbe455")
-	)
 	(wire
 		(pts
 			(xy 427.355 147.32) (xy 431.8 147.32)
@@ -2399,16 +2371,6 @@
 			(type default)
 		)
 		(uuid "09560d41-0c00-4c2a-80cf-e373670ef5dd")
-	)
-	(wire
-		(pts
-			(xy 121.92 130.81) (xy 121.92 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09acf86a-6e05-42d2-91b2-68e93ac8eab1")
 	)
 	(wire
 		(pts
@@ -2462,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 147.955) (xy 131.445 147.955)
+			(xy 112.395 147.955) (xy 131.445 147.955)
 		)
 		(stroke
 			(width 0)
@@ -3122,16 +3084,6 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 147.955) (xy 121.92 147.955)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abef2020-096b-46ec-9a87-ca87b0a547a1")
-	)
-	(wire
-		(pts
 			(xy 156.845 170.815) (xy 156.845 197.485)
 		)
 		(stroke
@@ -3172,6 +3124,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 137.795) (xy 142.24 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d63e08-3ba9-431c-b05a-0f931d97363d")
+	)
+	(wire
+		(pts
 			(xy 273.685 168.275) (xy 273.685 177.8)
 		)
 		(stroke
@@ -3189,6 +3151,16 @@
 			(type default)
 		)
 		(uuid "c9cf9d94-a36b-44a8-a724-92106a8209d9")
+	)
+	(wire
+		(pts
+			(xy 142.24 161.29) (xy 142.24 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca08b0eb-e467-4790-bbe7-a63c675783b3")
 	)
 	(wire
 		(pts
@@ -3229,16 +3201,6 @@
 			(type default)
 		)
 		(uuid "d7d980f5-bb34-481b-aac6-f62bd5687fd4")
-	)
-	(wire
-		(pts
-			(xy 142.24 137.795) (xy 142.24 168.275)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da476731-ef99-4c51-a908-d354caab8e84")
 	)
 	(wire
 		(pts
@@ -3359,16 +3321,6 @@
 			(type default)
 		)
 		(uuid "eebc53ca-455f-4d02-861a-b332523949b9")
-	)
-	(wire
-		(pts
-			(xy 121.92 124.46) (xy 126.365 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efa08932-de61-43bd-b75e-6d9f7552dcf3")
 	)
 	(wire
 		(pts
@@ -3678,7 +3630,7 @@
 			(uuid "c4a578d3-0c71-4784-8721-bf9b16451e06")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "VL-R1")
 					(unit 1)
@@ -3814,7 +3766,7 @@
 			(uuid "7aa84fe5-4d4d-4925-9c9a-224abc58eee0")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "VL-L1")
 					(unit 1)
@@ -3888,7 +3840,7 @@
 			(uuid "7e693493-eaac-4249-9e9e-73334a7db9ec")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR028")
 					(unit 1)
@@ -3962,7 +3914,7 @@
 			(uuid "9f3cdb59-7c22-4304-ac10-add2a6784123")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR0107")
 					(unit 1)
@@ -4036,7 +3988,7 @@
 			(uuid "c47bf951-0302-4f91-82ea-68c1e9055e03")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR0109")
 					(unit 1)
@@ -4077,7 +4029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.176 190.119 90)
 			(hide yes)
 			(show_name no)
@@ -4117,7 +4069,7 @@
 			(uuid "99d6d851-c3d3-4846-af50-cb41a0a12853")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "R2")
 					(unit 1)
@@ -4191,7 +4143,7 @@
 			(uuid "eba55b8f-6173-4209-8470-7aefd8e07ba7")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR0104")
 					(unit 1)
@@ -4309,7 +4261,7 @@
 			(uuid "be100ee1-4293-4475-8830-77ebbbde7272")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "Q19")
 					(unit 1)
@@ -4350,7 +4302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.78 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4390,7 +4342,7 @@
 			(uuid "51508842-a899-4e12-896c-7038d76df621")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "C91")
 					(unit 1)
@@ -4526,7 +4478,7 @@
 			(uuid "63e3bfcf-be04-4bec-9eed-bc74f98fec90")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "C123")
 					(unit 1)
@@ -4600,7 +4552,7 @@
 			(uuid "878fd7a7-508d-4d13-8f87-19ecedd136e7")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR0108")
 					(unit 1)
@@ -4674,7 +4626,7 @@
 			(uuid "a0a69b72-e103-4b80-a135-07609d815d2b")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR082")
 					(unit 1)
@@ -4748,7 +4700,7 @@
 			(uuid "b9017ad5-f0ff-4b84-b107-dcf8095faef2")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR0105")
 					(unit 1)
@@ -4875,7 +4827,7 @@
 			(uuid "190247f2-be73-4c88-abb2-b8c182bb3579")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "IR-F1")
 					(unit 1)
@@ -4916,7 +4868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.381 134.874 90)
 			(hide yes)
 			(show_name no)
@@ -4956,9 +4908,91 @@
 			(uuid "fa52f69a-f85f-4108-ab18-634f26582d25")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.24 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d9a76b3-de2d-490b-80ce-4276c59ce1cb")
+		(property "Reference" "C19"
+			(at 145.415 157.4862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF/10V"
+			(at 145.415 160.0262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 142.24 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d28effc-7e6e-4b68-b46f-80ee49224a2d")
+		)
+		(pin "2"
+			(uuid "883691ca-28bf-4a07-a0a8-33a91608b102")
+		)
+		(instances
+			(project "Main"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4997,7 +5031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.651 171.704 90)
 			(hide yes)
 			(show_name no)
@@ -5037,7 +5071,7 @@
 			(uuid "a1c4d2a8-5bf7-44d9-b06c-6f47db1135ca")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "R62")
 					(unit 1)
@@ -5078,7 +5112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.145 187.325 0)
 			(hide yes)
 			(show_name no)
@@ -5118,7 +5152,7 @@
 			(uuid "6fe7937d-d99c-4e4b-b2e8-0ee83406a41d")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "C90")
 					(unit 1)
@@ -5192,7 +5226,7 @@
 			(uuid "efa3ad06-86e0-430d-a064-60ee81ca7d65")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR090")
 					(unit 1)
@@ -5266,9 +5300,83 @@
 			(uuid "982335db-fec8-4600-b5aa-68ec20ede215")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oomwoo-kicad-altium-import:GND_POWER_GROUND")
+		(at 142.24 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2659ec1-feec-402d-8aae-f65f3e995658")
+		(property "Reference" "#PWR093"
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.685 165.735 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "3c08850f-cabe-4bb0-b04b-bde58842c45d")
+		)
+		(instances
+			(project "Main"
+				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -5307,7 +5415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.001 134.874 90)
 			(hide yes)
 			(show_name no)
@@ -5347,7 +5455,7 @@
 			(uuid "7916021f-6bb3-4264-b9e3-3efcb83edf0c")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "R5")
 					(unit 1)
@@ -5474,90 +5582,9 @@
 			(uuid "74ddf273-fe41-4d6e-b4a6-1c0de5bee8bb")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "IR-F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 121.92 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7057f18-0db5-472f-82b4-35fe8f9da270")
-		(property "Reference" "R36"
-			(at 120.015 137.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 120.015 133.985 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 122.936 134.874 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 121.92 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c83b1da8-335e-45d6-9524-d734d19835b0")
-		)
-		(pin "2"
-			(uuid "023d097b-19a7-44f6-abdf-9f30e58ef18a")
-		)
-		(instances
-			(project "oomwoo-kicad"
-				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -5629,7 +5656,7 @@
 			(uuid "920dd346-9f5a-483f-a031-5da0b257d280")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "#PWR0110")
 					(unit 1)
@@ -5670,7 +5697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.461 134.874 90)
 			(hide yes)
 			(show_name no)
@@ -5710,7 +5737,7 @@
 			(uuid "219e33a5-091a-4b4a-a0c3-442033ef1566")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "R6")
 					(unit 1)
@@ -5751,7 +5778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.206 171.704 90)
 			(hide yes)
 			(show_name no)
@@ -5791,7 +5818,7 @@
 			(uuid "6659f1e2-bfb3-4ef8-a2b8-78b4d81be527")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "R61")
 					(unit 1)
@@ -5833,7 +5860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.24 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -5873,7 +5900,7 @@
 			(uuid "a098cb8d-e049-4e0f-96cd-033d1ad2efbc")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
 					(reference "C6")
 					(unit 1)
@@ -5893,7 +5920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdf5fe78-6dd8-4f35-9acc-9fc7b4f7fdd6")
-		(property "Reference" "U17"
+		(property "Reference" "LIGHT1"
 			(at 440.69 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5994,9 +6021,9 @@
 			(uuid "620475f2-66e2-4467-a397-323ec7b55eb1")
 		)
 		(instances
-			(project "oomwoo-kicad"
+			(project "Main"
 				(path "/dbcfb655-8d45-4808-9a74-2a0eb03372e8/bbba09df-157d-4294-b403-7dc3ed0c5481"
-					(reference "U17")
+					(reference "LIGHT1")
 					(unit 1)
 				)
 			)

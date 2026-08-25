@@ -14,10 +14,11 @@ Raspberry Pi CM4/CM5 socket · STM32G473 MCU · Motor drivers · Sensors · 2x M
 
 STM32G473VCT6 based, accepts a CM4/CM5 Raspberry Pi Compute Module (and other compatible CM4/CM5 third-party compute modules).
 
-Schematic (PDF) for the [OOMWOO](https://github.com/makerspet/oomwoo) open-source robot
-vacuum's controller + I/O board
+Schematic (PDF) for the [OOMWOO](https://github.com/makerspet/oomwoo) open-source robot vacuum's controller + I/O board
 
 Status: early reference schematic. NOT validated. Do NOT fabricate from it as-is.
+
+<img width="1335" height="815" alt="oomwoo_main_pcb_placement" src="https://github.com/user-attachments/assets/967f562d-f45b-44db-834b-56e3c3d44b5e" />
 
 Get [MCU firmware](https://github.com/makerspet/oomwoo-io-firmware/).
 

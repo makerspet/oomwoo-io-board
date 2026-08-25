@@ -7,7 +7,7 @@
 Raspberry Pi CM4/CM5 socket · STM32G473 MCU · Motor drivers · Sensors · 2x MIPI cameras · 4S charging · KiCad
 
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
-![Status](https://img.shields.io/badge/status-placement%20WIP-orange)
+![Status](https://img.shields.io/badge/status-placement-orange)
 [![Part of OOMWOO](https://img.shields.io/badge/part%20of-OOMWOO-5eead4)](https://github.com/makerspet/oomwoo)
 
 </div>

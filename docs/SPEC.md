@@ -39,23 +39,22 @@ BL24131607 suction fan DC 14.4V - JST PH2.0 female 5p (mates m-m fan-to-board ca
 4 -
 5 +
 
-20N704R990F suction fan -  JST PH2.0 female 4p (mates m-m fan-to-board cable)
-[''''] Pinout TBD
+DC 14.4-15V 4S fans:
+- 20N704R990F suction fan
+- 20N704R990F suction fan
+- MSD-D suction fan
+- 20N709U020 suction fan
+  JST PH2.0 female 4p (mates m-m fan-to-board cable)
+  pin 4 VMOT
+  pin 3 GND
+  pin 2 PWM, low == off; drive at 5V?
+  pin 1 TACH open collector
 
-20N704R990F suction fan DC 15V - JST PH2.0 female 4p (mates m-m fan-to-board cable)
-[''''] Pinout TBD
+22N704V160 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (PA?)
 
-MSD-D suction fan - JST PH2.0 female 4p (mates m-m fan-to-board cable)
-[''''] Pinout TBD
+BL27302101 suction fan DC 14.4V - 6-pin 2mm pitch with latch female (PA?)
 
-20N709U020 suction fan - JST PH2.0 female 4p (mates m-m fan-to-board cable)
-[''''] Pinout TBD
-
-22N704V160 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (not PH)
-
-BL27302101 suction fan DC 14.4V - 6-pin 2mm pitch with latch female (not PH)
-
-BL24131616 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (not PH)
+BL24131616 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (PA?)
 
 MSD-C-3 suction fan - 4-pin like PH, but looser vertically
 

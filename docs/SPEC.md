@@ -32,12 +32,13 @@ Roborock S5 Max wheel assembly - JST ZH 1.5mm male 7p (mates board f)
 2 MOT -?
 1 MOT +?
 
-BL24131607 suction fan DC 14.4V - JST PH2.0 female 5p (mates m-m fan-to-board cable)
-1 ID
-2 FG
-3 SP
-4 -
-5 +
+BL24131607 suction fan DC 14.4V
+ JST PH2.0 female 5p (mates m-m fan-to-board cable)
+ pin 5 +  (VMOT)
+ pin 4 -  (GND)
+ pin 3 SP (PWM)
+ pin 2 FG (TACH)
+ pin 1 ID (20K pulldown to GND to detect fan presence, I believe)
 
 DC 14.4-15V 4S fans:
 - 20N704R990F suction fan

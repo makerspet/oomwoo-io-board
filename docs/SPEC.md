@@ -11,7 +11,7 @@ Most motors draw power directly from the 4S battery (not via a DC-DC converter).
 | Drive wheel | 2 | DC 14.4V 19 Ohm, 3.5A stall (TODO check), H-bridge DRV8231, DRV8871 or similar |
 | Suction fan | 1 | BLDC 14.4V 10A (TODO check) high-side load switch P-FET, PWM input to fan, FG feedback to STM32 |
 | LiDAR | 1 | 5V 0.35A max, Mabuchi-style RF-500TB-14350 or similar, low-side load switch N-FET |
-| Main brush | 1 | DC 14.4V 22A?? (TODO check) PRI-390SV-24100, JLS-395PH-2248A, RS-390WM-3107GCF or similar (bridge or FET TBD) |
+| Main brush | 1 | DC 14.4-15V PRI-390SV-24100, JLS-395PH-2248A, RS-390WM-3107GCF or similar (bridge or FET TBD) |
 | Side brush | 1 | DC 14.4V 1.3A stall (TODO check) RC500-KW/14440/DV, PR-500EV-14440 or similar (bridge or FET TBD) |
 | Mop | 2 | GM-RS385Y-24065 or similar, DC 14.4V |
 | Mop lift | 1 | Likely MG90S servo |
@@ -23,16 +23,16 @@ Motor pinouts
 
 ```
 Roborock S5 Max wheel assembly - JST ZH 1.5mm male 7p (mates board f)
-// Also see https://github.com/makerspet/oomwoo/tree/main/contributions/part-specs/Scowt
+  0.14A no load, 1.7A stall at 14.4V
 7 wheel-drop-switch on
 6 wheel-drop-switch com
-5 orange hall 5V VDD?
-4 blue hall signal OUT?
-3 brown hall GND?
-2 MOT -?
-1 MOT +?
+5 orange Hall 3.3-5V
+4 blue Hall signal OUT, open collector
+3 brown Hall GND
+2 MOT-
+1 MOT+
 
-BL24131607 suction fan DC 14.4V
+BL24131607 suction fan DC 14.4V; 15V 1.7A unobstructed, 2.7A intake obstructed
  JST PH2.0 female 5p (mates m-m fan-to-board cable)
  pin 5 +  (VMOT)
  pin 4 -  (GND)
@@ -52,15 +52,13 @@ DC 14.4-15V 4S fans:
   pin 1 TACH open collector
 
 22N704V160 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (PA?)
-
 BL27302101 suction fan DC 14.4V - 6-pin 2mm pitch with latch female (PA?)
-
 BL24131616 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (PA?)
-
 MSD-C-3 suction fan - 4-pin like PH, but looser vertically
-
 MSD-G-V1 suction fan - LHE MX3.0 2x2 (4-pin) 3mm pitch with latch male (aka Molex Micro-Fit 3.0)
 ```
+
+Main brush Roborock S50 S51 S55 XIAOWA C10 0.26A no load, stall 3.5A at 14.4V
 
 ## Compute + Camera
 

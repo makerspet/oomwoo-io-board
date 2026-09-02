@@ -60,6 +60,10 @@ MSD-G-V1 suction fan - LHE MX3.0 2x2 (4-pin) 3mm pitch with latch male (aka Mole
 
 Main brush Roborock S50 S51 S55 XIAOWA C10 0.26A no load, stall 3.5A at 14.4V
 
+## Cliff sensors
+
+JST PAD 2.0mm 8x2 housing, mates JST S16B-PHDSS, JST B16B-PADSS.
+
 ## Compute + Camera
 
 - 2x 15-pin ArduCam-style connectors for OV5647

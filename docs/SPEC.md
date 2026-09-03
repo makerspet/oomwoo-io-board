@@ -24,13 +24,13 @@ Motor pinouts
 ```
 Roborock S5 Max wheel assembly - JST ZH 1.5mm male 7p (mates board f)
   0.14A no load, 1.7A stall at 14.4V
-7 wheel-drop-switch on
-6 wheel-drop-switch com
-5 orange Hall 3.3-5V
-4 blue Hall signal OUT, open collector
-3 brown Hall GND
-2 MOT-
-1 MOT+
+  pin 7 wheel-drop-switch on
+  pin 6 wheel-drop-switch com
+  pin 5 orange Hall 3.3-5V
+  pin 4 blue Hall signal OUT, open collector
+  pin 3 brown Hall GND
+  pin 2 MOT-
+  pin 1 MOT+
 
 BL24131607 suction fan DC 14.4V; 15V 1.7A unobstructed, 2.7A intake obstructed
  JST PH2.0 female 5p (mates m-m fan-to-board cable)
@@ -40,21 +40,34 @@ BL24131607 suction fan DC 14.4V; 15V 1.7A unobstructed, 2.7A intake obstructed
  pin 2 FG (TACH)
  pin 1 ID (20K pulldown to GND to detect fan presence, I believe)
 
-DC 14.4-15V 4S fans:
-- 20N704R990F suction fan
-- 20N704R990F suction fan
-- MSD-D suction fan
-- 20N709U020 suction fan
+DC 14.4-15V 4S suction fans:
+- 20N704R990F
+- MSD-C-3
+- MSD-D
+- 20N709U020
   JST PH2.0 female 4p (mates m-m fan-to-board cable)
   pin 4 VMOT
   pin 3 GND
   pin 2 PWM, low == off; drive at 5V?
   pin 1 TACH open collector
 
-22N704V160 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (PA?)
-BL27302101 suction fan DC 14.4V - 6-pin 2mm pitch with latch female (PA?)
-BL24131616 suction fan DC 14.4V - 5-pin 2mm pitch with latch female (PA?)
-MSD-C-3 suction fan - 4-pin like PH, but looser vertically
+22N704V160 suction fan DC 14.4V - JST PA 2mm 5 pin (needs male)
+
+BL27302101 suction fan DC 14.4V - JST PA 2mm 6-pin (needs male)
+  pin 1 VCC
+  pin 2 VCC
+  pin 3 GND
+  pin 4 GND
+  pin 5 PWM
+  pin 6 FG (TACH)
+
+BL24131616 suction fan DC 14.4V - JST PA 2mm 5 pin  (needs male)
+  pin 5 VM
+  pin 4 GND
+  pin 3 PWM
+  pin 2 FG (TACH)
+  pin 1 ID
+
 MSD-G-V1 suction fan - LHE MX3.0 2x2 (4-pin) 3mm pitch with latch male (aka Molex Micro-Fit 3.0)
 ```
 

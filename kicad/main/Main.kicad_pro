@@ -325,6 +325,18 @@
       [
         "pin_not_driven|3308350|1981200|0c47b8b2-6df9-4801-9f34-103fbb79db57|00000000-0000-0000-0000-000000000000|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/e9095513-3c34-4c9e-b88d-b0637a4ecc78|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/e9095513-3c34-4c9e-b88d-b0637a4ecc78|",
         ""
+      ],
+      [
+        "pin_to_pin|4222750|1936750|5f5e7972-9d3d-450d-b4e2-cc4cad30ce77|998462e6-ff2a-499a-8154-86cb000eaf73|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/35c833ed-33c3-4a72-8fc9-e035e67a6b75|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/35c833ed-33c3-4a72-8fc9-e035e67a6b75|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/35c833ed-33c3-4a72-8fc9-e035e67a6b75",
+        ""
+      ],
+      [
+        "pin_to_pin|4222750|1962150|998462e6-ff2a-499a-8154-86cb000eaf73|a3e79084-9453-4cb2-a816-91d4fb7d3322|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/35c833ed-33c3-4a72-8fc9-e035e67a6b75|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/35c833ed-33c3-4a72-8fc9-e035e67a6b75|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/69859956-756c-40bd-a067-931964e7d42c",
+        ""
+      ],
+      [
+        "power_pin_not_driven|4902200|3263900|95e2418c-9214-49cc-8600-c1fa715fa1ce|00000000-0000-0000-0000-000000000000|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/35c833ed-33c3-4a72-8fc9-e035e67a6b75|/dbcfb655-8d45-4808-9a74-2a0eb03372e8/35c833ed-33c3-4a72-8fc9-e035e67a6b75|",
+        ""
       ]
     ],
     "meta": {
@@ -743,7 +755,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "Manufacturing Files\\BOM\\Main.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -777,22 +789,22 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -804,7 +816,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -874,12 +886,6 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MANUFACTURER PART NUMBER",
           "name": "MANUFACTURER PART NUMBER",
           "show": false
@@ -888,7 +894,7 @@
           "group_by": false,
           "label": "MANUFACTURER PN",
           "name": "MANUFACTURER PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1051,6 +1057,336 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OUTER-DIAMETER",
+          "name": "OUTER-DIAMETER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGING",
+          "name": "PACKAGING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Description",
+          "name": "Part Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART-NUMBER",
+          "name": "PART-NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN-LENGTH",
+          "name": "PIN-LENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PINS",
+          "name": "PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INNER-THREAD-LENGTH",
+          "name": "INNER-THREAD-LENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR",
+          "name": "IR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "THREAD",
+          "name": "THREAD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WORKING-VOLTAGE",
+          "name": "WORKING-VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNT",
+          "name": "MOUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "APPLICATION",
+          "name": "APPLICATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET-URL",
+          "name": "DATASHEET-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digi-Key_PN",
+          "name": "Digi-Key_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Family",
+          "name": "Family",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field8",
+          "name": "Field8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GERDER",
+          "name": "GERDER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INNER-DIAMETER",
+          "name": "INNER-DIAMETER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INTERFACE-TYPE",
+          "name": "INTERFACE-TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DK_Datasheet_Link",
+          "name": "DK_Datasheet_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturing Part Number",
+          "name": "Manufacturing Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DK_Detail_Page",
+          "name": "DK_Detail_Page",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1058,7 +1394,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1101,7 +1437,7 @@
         "uuid": "dbcfb655-8d45-4808-9a74-2a0eb03372e8"
       }
     ],
-    "used_designators": "MOT_R2,C8,C18,C20-22,C36,C38-39,PUMP2,#PWR554-556,#PWR597-598,U2-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1123,7 +1459,7 @@
     ],
     [
       "7f043eef-851b-4fc7-bc1b-c170004bfbd9",
-      "RTC_WATCHDOG"
+      "WATCHDOG"
     ],
     [
       "eb65cbe8-a43a-448e-bb05-c96139672d5e",

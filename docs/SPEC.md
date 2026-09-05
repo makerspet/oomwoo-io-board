@@ -214,4 +214,23 @@ Mystery mini - JST GH 1.25mm 5-pin female (needs m)
 
 Please see the [PCB schematic](https://github.com/makerspet/oomwoo-io-board/tree/main/kicad/PDF) for up-to-date GPIO list.
 
+## Carpet sensors
+
+- Read [sourcing notes](https://makerspet.com/blog/how-to-source-bom-for-oomwoo-open-source-vacuum-robot/#carpet-sensor).
+- 290KHz ultrasonic piezoelectric analog, likely [this one](https://htwsensor.en.made-in-china.com/product/HfMYgjwoZxVh/China-300kHz-Carpet-Material-Recognition-Sensor-for-Robotic-Vacuum-Cleaner-Ultraosinc-Sensor.html)
+
+How to drive
+- ≥12V DC stabilized per spec (not 4S battery directly?)
+- connect to MCU ADC input
+  - use STM32G473VCT6 internal op-amp as echo input (AC via a cap)
+  - clamp amplitude to 3.3V (back-to-back clamp diodes, series resistor)
+  - bias the MCU internal op-amp to Vref/2 using MCU internal DAC
+  - configure ADC pre-amp gain, PGA mode (op-amp bandwidth is 10MHz)
+  - configure op-amp to output signal to internal ADC channel
+- FET half-bridge driven by MCU
+  - drive the sensor for a brief while
+  - tristate both FETs
+  - measure using ADC, calculate return amplitude
+- 2-pin connector likely Molex PicoBlade 1.25mm
+  - calibrate return amplitude when docked
 TODO before layout/fabrication: confirm whether GPIO entries 36 and 46 are intentionally separate bumper inputs or a duplicate label.

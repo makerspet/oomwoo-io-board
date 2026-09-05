@@ -214,6 +214,8 @@ Mystery mini - JST GH 1.25mm 5-pin female (needs m)
 
 Please see the [PCB schematic](https://github.com/makerspet/oomwoo-io-board/tree/main/kicad/PDF) for up-to-date GPIO list.
 
+TODO before layout/fabrication: confirm whether GPIO entries 36 and 46 are intentionally separate bumper inputs or a duplicate label.
+
 ## Carpet sensors
 
 - Read [sourcing notes](https://makerspet.com/blog/how-to-source-bom-for-oomwoo-open-source-vacuum-robot/#carpet-sensor).
@@ -231,6 +233,6 @@ How to drive
   - drive the sensor for a brief while
   - tristate both FETs
   - measure using ADC, calculate return amplitude
-- 2-pin connector likely Molex PicoBlade 1.25mm
   - calibrate return amplitude when docked
-TODO before layout/fabrication: confirm whether GPIO entries 36 and 46 are intentionally separate bumper inputs or a duplicate label.
+- 2-pin connector "1.25mm Y" per spec, exact model unclear
+  - not Molex PicoBlade 1.25mm, not JST GH 1.25mm
